@@ -16,14 +16,16 @@
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/font-awesome.min.css" />
   <link rel="stylesheet" href="css/animate.css" />
-
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/frappe-gantt.css">
+
 
   <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript"
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZXJBVDf7R4JqmSpopVPoduIGWx1IwpBM"></script>
+  <!-- <script type="text/javascript"
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZXJBVDf7R4JqmSpopVPoduIGWx1IwpBM"></script> -->
   <script type="text/javascript" src="js/plugins.js"></script>
+  <script type="text/javascript" src="js/frappe-gantt.js"></script>
 
 </head>
 
@@ -61,7 +63,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#header">APM 2021-1</a>
+            <a class="navbar-brand" href="#header">TecnoBikes (APM 2021-1)</a>
           </div><!-- /.navbar-header -->
 
           <div class="collapse navbar-collapse" id="menu">
@@ -146,7 +148,7 @@
             },
             {
               bigImage: "images/slide-3.jpg",
-              title: "Diagrama de Gantt",
+              title: "Planeación del Proyecto",
               author: "Templatestock"
             }
           ],
@@ -311,9 +313,25 @@
     <section id="planeacion" class="light">
       <header class="title">
         <h2><span>Planeación</span> del Proyecto</h2>
-        <p>Lorem ipsum Dolor et reprehenderit laborum deserunt aliquip incididunt tempor id non. Lorem ipsum Fugiat anim
-          labore cupidatat consequat non in sit dolore anim anim consequat nisi.</p>
       </header>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 animated" data-animate="fadeInLeft">
+
+            <svg id="gantt"></svg>
+
+          </div>
+          <div class="btn-group" role="group">
+            <button id="Day" type="button" class="btn btn-sm btn-light active">Dia</button>
+            <button id="Week" type="button" class="btn btn-sm btn-light">Semana</button>
+            <button id="Month" type="button" class="btn btn-sm btn-light">Mes</button>
+          </div>
+        </div>
+      </div>
+
+      <script type="text/javascript" src="js/gantt_tasks.js"></script>
+
     </section>
 
     <!-- Evaluación económica -->
