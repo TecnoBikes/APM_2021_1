@@ -17,15 +17,14 @@
   <link rel="stylesheet" href="css/font-awesome.min.css" />
   <link rel="stylesheet" href="css/animate.css" />
   <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/frappe-gantt.css">
-
+  <link rel="stylesheet" href="css/dhtmlxgantt.css">
 
   <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!-- <script type="text/javascript"
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZXJBVDf7R4JqmSpopVPoduIGWx1IwpBM"></script> -->
   <script type="text/javascript" src="js/plugins.js"></script>
-  <script type="text/javascript" src="js/frappe-gantt.js"></script>
+  <script type="text/javascript" src="js/dhtmlxgantt.js"></script>
 
 </head>
 
@@ -318,19 +317,22 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 animated" data-animate="fadeInLeft">
+            <div class="btn-group" role="group">
+              <button id="day" type="button" class="btn btn-sm btn-light active">Dia</button>
+              <!-- <button id="week" type="button" class="btn btn-sm btn-light">Semana</button> -->
+              <button id="month" type="button" class="btn btn-sm btn-light">Mes</button>
+            </div>
 
-            <svg id="gantt"></svg>
-
-          </div>
-          <div class="btn-group" role="group">
-            <button id="Day" type="button" class="btn btn-sm btn-light active">Dia</button>
-            <button id="Week" type="button" class="btn btn-sm btn-light">Semana</button>
-            <button id="Month" type="button" class="btn btn-sm btn-light">Mes</button>
+            <script type="text/javascript" src="js/gantt_tasks.js"></script>
+            <div id="gantt_here" style='width:99%; height: 400px;'></div>
+            <script type="text/javascript">
+              gantt.i18n.setLocale("es");
+              gantt.config.readonly = true;
+              gantt.init("gantt_here");
+              gantt.parse(tasks);
+            </script>
           </div>
         </div>
-      </div>
-
-      <script type="text/javascript" src="js/gantt_tasks.js"></script>
 
     </section>
 
