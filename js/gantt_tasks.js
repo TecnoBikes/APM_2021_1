@@ -51,7 +51,7 @@ var tasks = {
     },
     {
       id: 8, 
-      text: "Generación Individual de Layouts en Tecnomatiks Plant Simulation", 
+      text: "Generación Individual de Layouts en Tecnomatix Plant Simulation", 
       start_date: "16-03-2021", 
       duration: 7,
       progress: 1, 
