@@ -67,7 +67,7 @@
 
           <div class="collapse navbar-collapse" id="menu">
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#header">Home</a></li>
+              <li><a href="#about">Home</a></li>
               <li><a href="#producto">Contenido de Producto</a></li>
               <li><a href="#team">Proceso de aprendizaje</a></li>
               <li><a href="#contact">Contact</a></li>
@@ -93,8 +93,8 @@
                   <div class="col-md-12">
 
                     <div class="slider-content">
-                      <h1></h1>
-                      <p>Proyecto</p>
+                      <h1>Trabajo en progreso</h1>
+                      <!-- <p>...</p> -->
                     </div>
 
                   </div> <!-- /.col-md-12 -->
@@ -111,7 +111,7 @@
                 </svg>
               </span>
               <div>
-                <span>Prev Photo</span>
+                <span>Imagen anterior</span>
                 <h3>...</h3>
                 <p>...</p>
                 <img alt="Previous thumb">
@@ -124,7 +124,7 @@
                 </svg>
               </span>
               <div>
-                <span>Next Photo</span>
+                <span>Imagen siguiente</span>
                 <h3>...</h3>
                 <p>...</p>
                 <img alt="Next thumb">
@@ -136,19 +136,19 @@
         <script type="text/javascript">
           var dataHeader = [
             {
-              bigImage: "images/slide-1.jpg",
-              title: "Industria de Manufactura de Bicicletas",
-              author: "Templatestock"
+              bigImage: "images/adelanto_prod.png",
+              title: "Gestión de la producción",
+              author: "TecnoBikes"
             },
             {
-              bigImage: "images/slide-2.jpg",
-              title: "Celdas Robotizadas",
-              author: "Templatestock"
+              bigImage: "images/adelanto_celdas.jpeg",
+              title: "Celdas de Manufactura Robotizadas",
+              author: "TecnoBikes"
             },
             {
-              bigImage: "images/slide-3.jpg",
+              bigImage: "images/adelanto_gestion.png",
               title: "Planeación del Proyecto",
-              author: "Templatestock"
+              author: "TecnoBikes"
             }
           ],
             loaderSVG = new SVGLoader(document.getElementById('loader'), { speedIn: 600, speedOut: 600, easingIn: mina.easeinout });
@@ -164,7 +164,7 @@
 
     <section id="about" class="light">
       <header class="title">
-        <h2>About <span>Us</span></h2>
+        <h2>Tecno<span>Bikes</span></h2>
         <p>Lorem ipsum Esse esse cillum nisi cillum deserunt tempor ut pariatur qui officia. Lorem ipsum Magna eu irure
           sint <strong>occaecat</strong> cupidatat dolore minim irure cillum.</p>
       </header>
@@ -217,7 +217,7 @@
     <section id="producto" class="light">
       <header class="title">
         <h2>Contenido de Producto</h2>
-        <p>El proyecto se trata de ...</p>
+        <p>El contenido de producto se encuentra dividido en las siguientes categorías: </p>
       </header>
 
       <div class="container-fluid">
@@ -314,26 +314,26 @@
         <h2><span>Planeación</span> del Proyecto</h2>
       </header>
 
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 animated" data-animate="fadeInLeft">
-            <div class="btn-group" role="group">
-              <button id="day" type="button" class="btn btn-sm btn-light active">Dia</button>
-              <!-- <button id="week" type="button" class="btn btn-sm btn-light">Semana</button> -->
-              <button id="month" type="button" class="btn btn-sm btn-light">Mes</button>
-            </div>
-
-            <script type="text/javascript" src="js/gantt_tasks.js"></script>
-            <div id="gantt_here" style='width:99%; height: 400px;'></div>
-            <script type="text/javascript">
-              gantt.i18n.setLocale("es");
-              gantt.config.readonly = true;
-              gantt.init("gantt_here");
-              gantt.parse(tasks);
-            </script>
-          </div>
+      <div style="padding-left: 1%; padding-right: 1% ;" data-animate="fadeInLeft">
+        <div class="btn-group" role="group">
+          <button id="day" type="button" class="btn btn-sm btn-light active">Dia</button>
+          <!-- <button id="week" type="button" class="btn btn-sm btn-light">Semana</button> -->
+          <button id="month" type="button" class="btn btn-sm btn-light">Mes</button>
         </div>
 
+        <script type="text/javascript" src="js/gantt_tasks.js"></script>
+        <div id="gantt_here" style='width:99%; height: 400px;'></div>
+        <script type="text/javascript">
+          gantt.i18n.setLocale("es");
+          gantt.config.readonly = true;
+          gantt.config.open_tree_initially = true;
+          gantt.plugins({
+            tooltip: true
+          });
+          gantt.init("gantt_here");
+          gantt.parse(tasks);
+        </script>
+      </div>
     </section>
 
     <!-- Evaluación económica -->
@@ -660,8 +660,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <p>Made BY <i class="fa fa-heart"></i> <a href="http://templatestock.co">Template Stock</a></p>
-            <p><small>Images : unsplash.com</small></p>
+            <p> TecnoBikes - 2021</p>
           </div>
         </div>
       </div>
