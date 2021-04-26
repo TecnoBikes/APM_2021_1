@@ -304,119 +304,165 @@
       <header class="title">
         <h2>Gestión de <span> Producción y Automatización</span></h2>
       </header>
-      <p style="text-align: justify; margin-left: 1%; margin-right: 1%;" >Para el presente proyecto, se propuso la construcción de una línea de manufactura para bicicletas tipo Fixie y MTB.
-        Para lo cual, se realiza el ejercicio académico de tomar y consultar tiempos de ciclo, alistamiento, entre otros parámetros con el fin de realizar una línea de producción hipotética
-        de bicicleta. Con estos valores, se realizan dos simulaciones en el software Tecnomatix Plant Simulation (TPS). En este se aplica el primer pilar de la pre-automatización que es 
-        la distribución de la planta o layout actual. Para el presente caso se identifican 5 lineas de producción. Ensamble de bicicleta, Fabricación marco, fabricación horquilla, fabricación 
-        manubrio y ensamble ruedas. 
-        Presentadas a continuación Una primera iteración se realiza con el uso de objetos que simulan la planta y el flujo del material a lo largo de la línea de producción. En este se realiza
-        una primera detección de cuellos de botella, porcentaje de espera de las estaciones, así como bloqueos de estas por generación de colas. En esta se asume material infinito, lo que nos
-        permite identificar el tiempo teórico de producción de bicicletas por hora.
-        Posterior a eso, mediante las librerías de TPS 16, se realiza la segunda iteración con la generación del Value Streaming Mapping (VSM), que es el flujo de generación de valor. Mediante
-        este se identifican las etapas de generación de valor, el Manufacturing Lead Time (MLT), entre otros Key Performance Indicators.
-      </p>
+
       <div class="container">
-        <ul class="slider">
-          <li id="slideEn1">
-            <img src="images/LineaEnsamble.png">
-          </li>
-          <li id="slideEn2">
-            <img src="images/FabricacionCuadros.png">
-          </li>
-          <li id="slideEn3">
-            <img src="images/FabricacionHorquilla.png">
-          </li>
-          <li id="slideEn4">
-            <img src="images/EnsambleManubrio.png">
-          </li>
-          <li id="slideEn5">
-            <img src="images/EnsambleRuedas.png">
-          </li>
-        </ul>
-
-        <ul class="menu">
-          <li>
-            <a href="#slideEn1">1</a>
-          </li>
-          <li>
-            <a href="#slideEn2">2</a>
-          </li>
-          <li>
-            <a href="#slideEn3">3</a>
-          </li>
-          <li>
-            <a href="#slideEn4">4</a>
-          </li>
-          <li>
-            <a href="#slideEn5">5</a>
-          </li>
-
-        </ul>
-
-    </div>
-
-      <p style="text-align: justify; margin-left: 1%; margin-right: 1%;" > 
-        Presentadas a continuación Una primera iteración se realiza con el uso de objetos que simulan la planta y el flujo del material a lo largo de la línea de producción. En este se realiza
-        una primera detección de cuellos de botella, porcentaje de espera de las estaciones, así como bloqueos de estas por generación de colas. En esta se asume material infinito, lo que nos
-        permite identificar el tiempo teórico de producción de bicicletas por hora.
-        Posterior a eso, mediante las librerías de TPS 16, se realiza la segunda iteración con la generación del Value Streaming Mapping (VSM), que es el flujo de generación de valor. Mediante
-        este se identifican las etapas de generación de valor, el Manufacturing Lead Time (MLT), entre otros Key Performance Indicators.
-      </p>
-      <br>
-        <video src="Layout1.mp4" width="100%" height="720" controls></video>
-      </p>
-      <div class="container">
-        <ul class="slider">
-          <li id="slideGraph1">
-            <img src="images/BloqueEnsamble.png">
-          </li>
-          <li id="slideGraph2">
-            <img src="images/BloqueMarco1.png">
-          </li>
-          <li id="slideGraph3">
-            <img src="images/BloqueMarco2.png">
-          </li>
-          <li id="slideGraph4">
-            <img src="images/BloqueHorq1.png">
-          </li>
-          <li id="slideGraph5">
-            <img src="images/Estadisticas.png">
-          </li>
-        </ul>
-
-        <ul class="menu">
-          <li>
-            <a href="#slideGraph1">1</a>
-          </li>
-          <li>
-            <a href="#slideGraph2">2</a>
-          </li>
-          <li>
-            <a href="#slideGraph3">3</a>
-          </li>
-          <li>
-            <a href="#slideGraph4">4</a>
-          </li>
-          <li>
-            <a href="#slideGraph5">5</a>
-          </li>
-
-        </ul>
-
-    </div>
-
-
-      <div class="container"style="padding-left: 1%; padding-right: 1% ;">
         <div class="row">
-          <div class="col-md-12 animated" data-animate="fadeInLeft">
-            <iframe src="https://docs.google.com/document/d/e/2PACX-1vSlWyW1RdEwKOcH2h9AcP8a_lhX-04km78lsOzqzWg_65CRq360v7H12z1s1WJpCw/pub?embedded=true"
-            width="100%" height="600" scrolling="yes" frameborder="0"></iframe>
-           
-          
-          <br>
-           
-           <video src="VSM.mp4" width="100%" height="720"  controls></video>
-          
+          <div class="col-md-12">
+            <p style="text-align: justify;">Para el presente proyecto, se propuso la construcción de una línea de
+              manufactura para bicicletas tipo Fixie y MTB.
+              Para lo cual, se realiza el ejercicio académico de tomar y consultar tiempos de ciclo, alistamiento, entre
+              otros parámetros con el fin de realizar una línea de producción hipotética
+              de bicicleta. Con estos valores, se realizan dos simulaciones en el software Tecnomatix Plant Simulation
+              (TPS). En este se aplica el primer pilar de la pre-automatización que es
+              la distribución de la planta o layout actual. Para el presente caso se identifican 5 lineas de producción.
+              Ensamble de bicicleta, Fabricación marco, fabricación horquilla, fabricación
+              manubrio y ensamble ruedas.
+              Presentadas a continuación Una primera iteración se realiza con el uso de objetos que simulan la planta y
+              el flujo del material a lo largo de la línea de producción. En este se realiza
+              una primera detección de cuellos de botella, porcentaje de espera de las estaciones, así como bloqueos de
+              estas por generación de colas. En esta se asume material infinito, lo que nos
+              permite identificar el tiempo teórico de producción de bicicletas por hora.
+              Posterior a eso, mediante las librerías de TPS 16, se realiza la segunda iteración con la generación del
+              Value Streaming Mapping (VSM), que es el flujo de generación de valor. Mediante
+              este se identifican las etapas de generación de valor, el Manufacturing Lead Time (MLT), entre otros Key
+              Performance Indicators.
+            </p>
+
+            <div id="carruselProcesoFab" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carruselProcesoFab" data-slide-to="0" class="active"></li>
+                <li data-target="#carruselProcesoFab" data-slide-to="1"></li>
+                <li data-target="#carruselProcesoFab" data-slide-to="2"></li>
+                <li data-target="#carruselProcesoFab" data-slide-to="3"></li>
+                <li data-target="#carruselProcesoFab" data-slide-to="4"></li>
+              </ol>
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img src="images/LineaEnsamble.png" alt="Linea ensamble" style="width:100%; height: 400px;">
+                  <div class="carousel-caption">
+                    <h1>Inserte Titulo</h1>
+                    <h3>descripción</h3>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="images/FabricacionCuadros.png" alt="Fabricación cuadros" style="width:100%; height: 400px;">
+                  <div class="carousel-caption">
+                    <h1>Inserte Titulo</h1>
+                    <h3>descripción</h3>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="images/FabricacionHorquilla.png" alt="Fabricación horquilla"
+                    style="width:100%; height: 400px;">
+                  <div class="carousel-caption">
+                    <h1>Inserte Titulo</h1>
+                    <h3>descripción</h3>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="images/EnsambleManubrio.png" alt="Ensamble manubrio" style="width:100%; height: 400px;">
+                  <div class="carousel-caption">
+                    <h1>Inserte Titulo</h1>
+                    <h3>descripción</h3>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="images/EnsambleRuedas.png" alt="Ensamble ruedas" style="width:100%; height: 400px;">
+                  <div class="carousel-caption">
+                    <h1>Inserte Titulo</h1>
+                    <h3>descripción</h3>
+                  </div>
+                </div>
+              </div>
+              <a class="left carousel-control" href="#carruselProcesoFab" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+              </a>
+              <a class="right carousel-control" href="#carruselProcesoFab" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+              </a>
+            </div>
+
+            <p style="text-align: justify;">
+              Presentadas a continuación Una primera iteración se realiza con el uso de objetos que simulan la planta y
+              el flujo del material a lo largo de la línea de producción. En este se realiza
+              una primera detección de cuellos de botella, porcentaje de espera de las estaciones, así como bloqueos de
+              estas por generación de colas. En esta se asume material infinito, lo que nos
+              permite identificar el tiempo teórico de producción de bicicletas por hora.
+              Posterior a eso, mediante las librerías de TPS 16, se realiza la segunda iteración con la generación del
+              Value Streaming Mapping (VSM), que es el flujo de generación de valor. Mediante
+              este se identifican las etapas de generación de valor, el Manufacturing Lead Time (MLT), entre otros Key
+              Performance Indicators.
+            </p>
+
+            <br>
+            <video src="Layout1.mp4" width="100%" height="720" controls></video>
+
+            <br>
+            <div id="carruselGraficos" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carruselGraficos" data-slide-to="0" class="active"></li>
+                <li data-target="#carruselGraficos" data-slide-to="1"></li>
+                <li data-target="#carruselGraficos" data-slide-to="2"></li>
+                <li data-target="#carruselGraficos" data-slide-to="3"></li>
+                <li data-target="#carruselGraficos" data-slide-to="4"></li>
+              </ol>
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img class="center-block" src="images/BloqueEnsamble.png" alt="BloqueEnsamble" style="height: 400px;">
+                  <div class="carousel-caption">
+                    <h1>Inserte Titulo</h1>
+                    <h3>descripción</h3>
+                  </div>
+                </div>
+                <div class="item">
+                  <img class="center-block" src="images/BloqueMarco1.png" alt="BloqueMarco1" style="height: 400px;">
+                  <div class="carousel-caption">
+                    <h1>Inserte Titulo</h1>
+                    <h3>descripción</h3>
+                  </div>
+                </div>
+                <div class="item">
+                  <img class="center-block" src="images/BloqueMarco2.png" alt="BloqueMarco2" style="height: 400px;">
+                  <div class="carousel-caption">
+                    <h1>Inserte Titulo</h1>
+                    <h3>descripción</h3>
+                  </div>
+                </div>
+                <div class="item">
+                  <img class="center-block" src="images/BloqueHorq1.png" alt="BloqueHorq1" style="height: 400px;">
+                  <div class="carousel-caption">
+                    <h1>Inserte Titulo</h1>
+                    <h3>descripción</h3>
+                  </div>
+                </div>
+                <div class="item">
+                  <img class="center-block" src="images/Estadisticas.png" alt="Estadisticas" style="height: 400px;">
+                  <div class="carousel-caption">
+                    <h1>Inserte Titulo</h1>
+                    <h3>descripción</h3>
+                  </div>
+                </div>
+              </div>
+              <a class="left carousel-control" href="#carruselGraficos" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+              </a>
+              <a class="right carousel-control" href="#carruselGraficos" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Siguiente</span>
+              </a>
+            </div>
+
+            <br>
+            <iframe
+              src="https://docs.google.com/document/d/e/2PACX-1vSlWyW1RdEwKOcH2h9AcP8a_lhX-04km78lsOzqzWg_65CRq360v7H12z1s1WJpCw/pub?embedded=true"
+              width="100%" height="600" scrolling="yes" frameborder="0"></iframe>
+
+            <br>
+            <video src="VSM.mp4" width="100%" height="720" controls></video>
+
           </div>
         </div>
       </div>
