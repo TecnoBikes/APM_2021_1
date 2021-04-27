@@ -317,15 +317,7 @@
               la distribución de la planta o layout actual. Para el presente caso se identifican 5 lineas de producción.
               Ensamble de bicicleta, Fabricación marco, fabricación horquilla, fabricación
               manubrio y ensamble ruedas.
-              Presentadas a continuación Una primera iteración se realiza con el uso de objetos que simulan la planta y
-              el flujo del material a lo largo de la línea de producción. En este se realiza
-              una primera detección de cuellos de botella, porcentaje de espera de las estaciones, así como bloqueos de
-              estas por generación de colas. En esta se asume material infinito, lo que nos
-              permite identificar el tiempo teórico de producción de bicicletas por hora.
-              Posterior a eso, mediante las librerías de TPS 16, se realiza la segunda iteración con la generación del
-              Value Streaming Mapping (VSM), que es el flujo de generación de valor. Mediante
-              este se identifican las etapas de generación de valor, el Manufacturing Lead Time (MLT), entre otros Key
-              Performance Indicators.
+              
             </p>
 
             <div id="carruselProcesoFab" class="carousel slide" data-ride="carousel">
@@ -340,37 +332,36 @@
                 <div class="item active">
                   <img src="images/LineaEnsamble.png" alt="Linea ensamble" style="width:100%; height: 400px;">
                   <div class="carousel-caption">
-                    <h1>Inserte Titulo</h1>
-                    <h3>descripción</h3>
+                    <h1>Ensamble bicicletas</h1>
                   </div>
                 </div>
                 <div class="item">
                   <img src="images/FabricacionCuadros.png" alt="Fabricación cuadros" style="width:100%; height: 400px;">
                   <div class="carousel-caption">
-                    <h1>Inserte Titulo</h1>
-                    <h3>descripción</h3>
+                    <h1>Fabricación de marcos de bicicleta</h1>
+                    
                   </div>
                 </div>
                 <div class="item">
                   <img src="images/FabricacionHorquilla.png" alt="Fabricación horquilla"
                     style="width:100%; height: 400px;">
                   <div class="carousel-caption">
-                    <h1>Inserte Titulo</h1>
-                    <h3>descripción</h3>
+                    <h1>Fabricación horquilla de bicicleta </h1>
+                  
                   </div>
                 </div>
                 <div class="item">
                   <img src="images/EnsambleManubrio.png" alt="Ensamble manubrio" style="width:100%; height: 400px;">
                   <div class="carousel-caption">
-                    <h1>Inserte Titulo</h1>
-                    <h3>descripción</h3>
+                    <h1>Manubrio</h1>
+                   
                   </div>
                 </div>
                 <div class="item">
                   <img src="images/EnsambleRuedas.png" alt="Ensamble ruedas" style="width:100%; height: 400px;">
                   <div class="carousel-caption">
-                    <h1>Inserte Titulo</h1>
-                    <h3>descripción</h3>
+                    <h1>Ensamble ruedas</h1>
+                    
                   </div>
                 </div>
               </div>
@@ -384,8 +375,12 @@
               </a>
             </div>
 
+            <header class="title">
+              <h2>Diagrama en TPS. Primera iteración</h2>
+            </header>
+
             <p style="text-align: justify;">
-              Presentadas a continuación Una primera iteración se realiza con el uso de objetos que simulan la planta y
+              Una primera iteración se realiza con el uso de objetos que simulan la planta y
               el flujo del material a lo largo de la línea de producción. En este se realiza
               una primera detección de cuellos de botella, porcentaje de espera de las estaciones, así como bloqueos de
               estas por generación de colas. En esta se asume material infinito, lo que nos
@@ -454,6 +449,11 @@
                 <span class="sr-only">Siguiente</span>
               </a>
             </div>
+            <p style="text-align: justify;">
+              Como se puede apreciar, se empieza a evidenvciar diferentes estaciones se encuentran estancadas, en especial alquellas aguas arriba
+              de una de las estación que requiere mayor tiempo de ciclo. De igual forma se visualiza una generación de 1.33 bicicletas por hora y 60.32% 
+              de esperas
+            </p>
 
             <br>
             <iframe
@@ -461,11 +461,61 @@
               width="100%" height="600" scrolling="yes" frameborder="0"></iframe>
 
             <br>
+
+            <p style="text-align: justify;">
+              Posterior a eso, mediante las librerías de TPS 16, se realiza la segunda iteración con la generación del Value Streaming Mapping (VSM), 
+              que es el flujo de generación de valor. Mediante este se identifican las etapas de generación de valor, el Manufacturing Lead Time (MLT), 
+              entre otros Key Performance Indicators.
+            </p>
+
+            <header class="title">
+              <h2>Diagrama VSM </h2>
+            </header>
             <video src="VSM.mp4" width="100%" height="720" controls></video>
+
+            <header class="title">
+              <h3>1. Tackt Time </h3>
+            </header>
+            <p style="text-align: justify;">
+              Como se apreciará más adelante, las estaciones de producción de la presente línea de manufactura están desbalanceadas, 
+              por lo cual, no hay un takt time unificado entre ellas, produciendo 1.33 bicicletas cada hora, según lo muestra las primeras simulaciones.
+              Para el presente caso, se propone un takt time hipotético en base a la demanda de bicicletas del año 2019, donde hubo una demanda de 480.000 MTB.
+              Con esto en mente, se hace el ejercicio académico de poder abarcar el 2% de la venta de bicicletas MTB, esto es equivalente a tener una demanda de 
+              9600 bicicletas al año, es decir, con 260 dias disponibles, 37 bicicletas/turno y teniendo un tiempo disponible de trabajo de 7 horas,
+              es decir 420 min/turno, obtenemos un tack time objetivo de 11.35 min.
+            </p>
+
+            <header class="title">
+              <h3>2. Work in process WIP</h3>
+            </header>
+            <p style="text-align: justify;">
+              Como se puede observar en el siguiente archivo en Excel, se realizó el calculo del parámetro WIP, 
+              para este, se conto con el apoyo de la simulación en TPS, el cual nos brinda el calculo del WIP de cada uno de los elementos fabricados.
+               En este se simularon 2 días de producción con los cuales se obtuvo un valor de 2398.
+            </p>
+
+           <header class="title">
+              <h3>3. Tiempo de ciclo Tc y tiempo de set up Tsu </h3>
+            </header>
+            <p style="text-align: justify;">
+              En el caso del tiempo de ciclo de los diferentes procesos, se realizó el proceso académico de consultar videos y algunos documentos sobre trabajos
+              finales el cual permitió obtener los siguientes valores para las diferentes estaciones propuestas en la línea de producción de ciclas
+            </p>
+
+            <header class="title">
+              <h3>4. Tasa de producción Rp</h3>
+            </header>
+            <p style="text-align: justify;">
+              En el caso de este indicador, se evidencia el desbalance de partes producidas, en especial en operaciones de facil producción como es el caso de
+              los dobleces y cortes de tubo.
+            </p>
 
           </div>
         </div>
       </div>
+
+      
+
     </section>
 
     <!-- Planeación del Proyecto -->
