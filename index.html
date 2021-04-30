@@ -317,7 +317,7 @@
               la distribución de la planta o layout actual. Para el presente caso se identifican 5 lineas de producción.
               Ensamble de bicicleta, Fabricación marco, fabricación horquilla, fabricación
               manubrio y ensamble ruedas.
-              
+
             </p>
 
             <div id="carruselProcesoFab" class="carousel slide" data-ride="carousel">
@@ -339,7 +339,7 @@
                   <img src="images/FabricacionCuadros.png" alt="Fabricación cuadros" style="width:100%; height: 400px;">
                   <div class="carousel-caption">
                     <h1>Fabricación de marcos de bicicleta</h1>
-                    
+
                   </div>
                 </div>
                 <div class="item">
@@ -347,21 +347,21 @@
                     style="width:100%; height: 400px;">
                   <div class="carousel-caption">
                     <h1>Fabricación horquilla de bicicleta </h1>
-                  
+
                   </div>
                 </div>
                 <div class="item">
                   <img src="images/EnsambleManubrio.png" alt="Ensamble manubrio" style="width:100%; height: 400px;">
                   <div class="carousel-caption">
                     <h1>Manubrio</h1>
-                   
+
                   </div>
                 </div>
                 <div class="item">
                   <img src="images/EnsambleRuedas.png" alt="Ensamble ruedas" style="width:100%; height: 400px;">
                   <div class="carousel-caption">
                     <h1>Ensamble ruedas</h1>
-                    
+
                   </div>
                 </div>
               </div>
@@ -450,16 +450,20 @@
               </a>
             </div>
             <p style="text-align: justify;">
-              Como se puede apreciar, se empieza a evidenvciar diferentes estaciones se encuentran estancadas, en especial alquellas aguas arriba
-              de una de las estación que requiere mayor tiempo de ciclo. De igual forma se visualiza una generación de 1.33 bicicletas por hora y 60.32% 
+              Como se puede apreciar, se empieza a evidenvciar diferentes estaciones se encuentran estancadas, en
+              especial alquellas aguas arriba
+              de una de las estación que requiere mayor tiempo de ciclo. De igual forma se visualiza una generación de
+              1.33 bicicletas por hora y 60.32%
               de esperas
             </p>
 
             <br>
 
             <p style="text-align: justify;">
-              Posterior a eso, mediante las librerías de TPS 16, se realiza la segunda iteración con la generación del Value Streaming Mapping (VSM), 
-              que es el flujo de generación de valor. Mediante este se identifican las etapas de generación de valor, el Manufacturing Lead Time (MLT), 
+              Posterior a eso, mediante las librerías de TPS 16, se realiza la segunda iteración con la generación del
+              Value Streaming Mapping (VSM),
+              que es el flujo de generación de valor. Mediante este se identifican las etapas de generación de valor, el
+              Manufacturing Lead Time (MLT),
               entre otros Key Performance Indicators.
             </p>
 
@@ -472,11 +476,16 @@
               <h3>1. Tackt Time </h3>
             </header>
             <p style="text-align: justify;">
-              Como se apreciará más adelante, las estaciones de producción de la presente línea de manufactura están desbalanceadas, 
-              por lo cual, no hay un takt time unificado entre ellas, produciendo 1.33 bicicletas cada hora, según lo muestra las primeras simulaciones.
-              Para el presente caso, se propone un takt time hipotético en base a la demanda de bicicletas del año 2019, donde hubo una demanda de 480.000 MTB.
-              Con esto en mente, se hace el ejercicio académico de poder abarcar el 2% de la venta de bicicletas MTB, esto es equivalente a tener una demanda de 
-              9600 bicicletas al año, es decir, con 260 dias disponibles, 37 bicicletas/turno y teniendo un tiempo disponible de trabajo de 7 horas,
+              Como se apreciará más adelante, las estaciones de producción de la presente línea de manufactura están
+              desbalanceadas,
+              por lo cual, no hay un takt time unificado entre ellas, produciendo 1.33 bicicletas cada hora, según lo
+              muestra las primeras simulaciones.
+              Para el presente caso, se propone un takt time hipotético en base a la demanda de bicicletas del año 2019,
+              donde hubo una demanda de 480.000 MTB.
+              Con esto en mente, se hace el ejercicio académico de poder abarcar el 2% de la venta de bicicletas MTB,
+              esto es equivalente a tener una demanda de
+              9600 bicicletas al año, es decir, con 260 dias disponibles, 37 bicicletas/turno y teniendo un tiempo
+              disponible de trabajo de 7 horas,
               es decir 420 min/turno, obtenemos un tack time objetivo de 11.35 min.
             </p>
 
@@ -484,19 +493,23 @@
               <h3>2. Work in process WIP</h3>
             </header>
             <p style="text-align: justify;">
-              Como se puede observar en el siguiente archivo en Excel, se realizó el calculo del parámetro WIP, 
-              para este, se conto con el apoyo de la simulación en TPS, el cual nos brinda el calculo del WIP de cada uno de los elementos fabricados.
-               En este se simularon 2 días de producción con los cuales se obtuvo un valor de 2398.
+              Como se puede observar en el siguiente archivo en Excel, se realizó el calculo del parámetro WIP,
+              para este, se conto con el apoyo de la simulación en TPS, el cual nos brinda el calculo del WIP de cada
+              uno de los elementos fabricados.
+              En este se simularon 2 días de producción con los cuales se obtuvo un valor de 2398.
             </p>
-            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRJkaS6Pg2vMpFRVlpc9gtAS_0RnWFgwefVhUyk4eCIAJgCDa_khUpxF1nbaJkAvQ/pubhtml?gid=433575833&amp;single=true&amp;widget=true&amp;headers=false"
-            width="100%" height="600" scrolling="yes" frameborder="0"></iframe>
+            <iframe
+              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRJkaS6Pg2vMpFRVlpc9gtAS_0RnWFgwefVhUyk4eCIAJgCDa_khUpxF1nbaJkAvQ/pubhtml?gid=433575833&amp;single=true&amp;widget=true&amp;headers=false"
+              width="100%" height="600" scrolling="yes" frameborder="0"></iframe>
 
-           <header class="title">
+            <header class="title">
               <h3>3. Tiempo de ciclo Tc y tiempo de set up Tsu </h3>
             </header>
             <p style="text-align: justify;">
-              En el caso del tiempo de ciclo de los diferentes procesos, se realizó el proceso académico de consultar videos y algunos documentos sobre trabajos
-              finales el cual permitió obtener los siguientes valores para las diferentes estaciones propuestas en la línea de producción de ciclas
+              En el caso del tiempo de ciclo de los diferentes procesos, se realizó el proceso académico de consultar
+              videos y algunos documentos sobre trabajos
+              finales el cual permitió obtener los siguientes valores para las diferentes estaciones propuestas en la
+              línea de producción de ciclas
             </p>
 
             <img class="center-block" src="images/TcYTsu.png" alt="TcYTsu" style="height: 800px;">
@@ -505,47 +518,52 @@
               <h3>4. Tasa de producción Rp</h3>
             </header>
             <p style="text-align: justify;">
-              En el caso de este indicador, se evidencia el desbalance de partes producidas, en especial en operaciones de facil producción como es el caso de
+              En el caso de este indicador, se evidencia el desbalance de partes producidas, en especial en operaciones
+              de facil producción como es el caso de
               los dobleces y cortes de tubo.
             </p>
             <img class="center-block" src="images/Rp.png" alt="Rp" style="height: 800px;">
 
             <h3>5. Capacidad de producción </h3>
-          </header>
-          <p style="text-align: justify;">
-            En el caso de este indicador, se evidencia el desbalance de partes producidas, en especial en operaciones de facil producción como es el caso de
-            los dobleces y cortes de tubo.
-          </p>
-          <img class="center-block" src="images/PC.png" alt="Rp" style="height: 800px;">
+            </header>
+            <p style="text-align: justify;">
+              En el caso de este indicador, se evidencia el desbalance de partes producidas, en especial en operaciones
+              de facil producción como es el caso de
+              los dobleces y cortes de tubo.
+            </p>
+            <img class="center-block" src="images/PC.png" alt="Rp" style="height: 800px;">
 
-          <h3>6. Manufacturing Lead Time (MLT) </h3>
-          </header>
-          <p style="text-align: justify;">
-            El tiempo de manufactura para la presente linea de producción, es de 21 horas y 55 min con una tiempo de agregación de valor de 2 horas y 10 min
-          </p>
-          <img class="center-block" src="images/MLT.png" alt="Rp" style="height: 200px;">
+            <h3>6. Manufacturing Lead Time (MLT) </h3>
+            </header>
+            <p style="text-align: justify;">
+              El tiempo de manufactura para la presente linea de producción, es de 21 horas y 55 min con una tiempo de
+              agregación de valor de 2 horas y 10 min
+            </p>
+            <img class="center-block" src="images/MLT.png" alt="Rp" style="height: 200px;">
 
-          <h3>7. Balanceo de lineas </h3>
-          </header>
-          <p style="text-align: justify;">
-            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTrUkKa-UJ3DUprPmg5SN1ns7s55YaFn3gXVnCe6cDhZ7xQCzF56lzuB16RsfHmiw/pubhtml?gid=635306661&amp;single=true&amp;widget=true&amp;headers=false"
-            width="100%" height="600" scrolling="yes" frameborder="0"></iframe>
+            <h3>7. Balanceo de lineas </h3>
+            </header>
+            <p style="text-align: justify;">
+              <iframe
+                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTrUkKa-UJ3DUprPmg5SN1ns7s55YaFn3gXVnCe6cDhZ7xQCzF56lzuB16RsfHmiw/pubhtml?gid=635306661&amp;single=true&amp;widget=true&amp;headers=false"
+                width="100%" height="600" scrolling="yes" frameborder="0"></iframe>
 
-          </p>
-          
+            </p>
 
-          <h3>8. Diagrama de precedencias </h3>
-          </header>
-          <p style="text-align: justify;">
-            Con el fin de conocer la organización de la linea de manufactura, se realiza un grafico de precedencia presentado acontinuacion
-          </p>
-          <img class="center-block" src="images/Diagrama de presedencia.png" alt="Rp" style="height: 800px;">
+
+            <h3>8. Diagrama de precedencias </h3>
+            </header>
+            <p style="text-align: justify;">
+              Con el fin de conocer la organización de la linea de manufactura, se realiza un grafico de precedencia
+              presentado acontinuacion
+            </p>
+            <img class="center-block" src="images/Diagrama de presedencia.png" alt="Rp" style="height: 800px;">
 
           </div>
         </div>
       </div>
 
-      
+
 
     </section>
 
@@ -581,9 +599,11 @@
     <section id="economica" class="dark">
       <header class="title">
         <h2>Evaluación <span>Económica</span></h2>
-        <p>Haciendo el análisis económico del proyecto e efectivamente rentable, con una producción de 1.4 bicicletas por hora en diez horas laborales. 
-	La línea cuenta completamente con sistemas automatizados y sistemas híbridos de ensamble o montaje. 
-	Termina teniendo un retorno de inversión (TIR) de 3% y un acobertura completa de la inversión inicial en algo más de 18 meses.</p>
+        <p>Haciendo el análisis económico del proyecto e efectivamente rentable, con una producción de 1.4 bicicletas
+          por hora en diez horas laborales.
+          La línea cuenta completamente con sistemas automatizados y sistemas híbridos de ensamble o montaje.
+          Termina teniendo un retorno de inversión (TIR) de 3% y un acobertura completa de la inversión inicial en algo
+          más de 18 meses.</p>
       </header>
       <div class="container">
         <div class="row">
@@ -601,25 +621,73 @@
     <section id="robots" class="light">
       <header class="title">
         <h2>Celda de Manufactura <span>Robotizada</span></h2>
-        <p>EN CONSTRUCCIÓN.</p>
       </header>
+
       <div class="container">
-      	<div class="row">
-	  <div class="col-md-12 animated" data-animate="fadeInLeft">
-            <iframe
-               src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQq6tRwQTCP67w6DwEdXfSgK46WwUA7xyIjg2Nufp2YWcvELKsWoXDs038k1w8sb8UQzr0sbUJSbH50/pubhtml?widget=true&amp;headers=false"
-               width="100%" height="600" scrolling="no" frameborder="0"></iframe>
+        <div class="row">
+          <div class="col-md-12 animated" data-animate="fadeInLeft" style="text-align: justify;">
+            <h2>Resumen Ejecutivo </h2>
+
+            <p>
+              TecnoBikes es una empresa enfocada a la fabricación de bicicletas estilo MTB (Mountain Bike) y Fixie
+              (piñon fijo), lo que caracteriza a TecnoBikes es la automatización e implementación de tecnología de punta
+              en nuestras líneas de fabricación, que permiten tener una alta eficiencia y gran calidad en los productos
+              finales. Entre las tecnologías se destacan: Conexión de máquinas a Internet de las cosas (IoT), Digital
+              Twin para realizar comisionamiento virtual de la planta, Monitoreo en tiempo real por medio de SCADAs en
+              la nube y celdas de manufactura robotizadas. </p>
+
+            <p>
+              Estas tecnologías proporcionan herramientas para realizar análisis en tiempo real de la producción y el
+              estado de la maquinaria, esto junto con la implementación de estrategias de pre- y post-automatización son
+              la propuesta que permitiría a TecnoBikes competir con empresas locales no automatizadas y con grandes
+              importadores, al ofrecer una opción que impulsa la economía nacional promoviendo empleo y una gran
+              calidad. </p>
+
+            <p>
+              Nuestras celdas de manufactura robotizadas se distinguen por la adopción de altos estándares de seguridad
+              para su diseño y la innovación en su planeación para permitir realizar procesos encadenados tales como el
+              proceso de soldado de los marcos de las bicicletas y su respectivo pulido que se realizan en una única
+              celda que posee dos robots los cuales trabajan de manera colaborativa al integrarse estos procesos en una
+              única celda reducimos la cantidad de operarios realizando tareas manuales y eliminamos tiempos de
+              transporte entre una estación y otra para cada proceso. La forma en que funciona esta celda es: un
+              operario coloca el marco pre-armado con unos puntos de soldadura en el conveyor de cadena, y una vez
+              ingresa a la celda, el sensor lo detecta e inicia el programa, el primer robot realiza la soldadura y el
+              segundo robot toma los marcos soldados del conveyor y realiza el pulido.
+
+            </p>
+
           </div>
         </div>
       </div>
-    <p style="text-align: justify;"><br> Conforme la hoja de ruta, los primeros pasos se realizaron a partir del análisis de operaciones llevado a cabo en la sección 
-	    de Gestión de la producción y automatización, en donde definimos cuáles serán las tareas para las que se implementará un celda
-	    de manufactura robotizada.
-	    En éste primer avance, desarrollamos el diseño inicial conforme el análisis de riesgo y las normas de seguridad según se describe 
-	    en el documento anterior, y se realizó un primer modelado en el entorno de RobotStudio incorporando estos elementos en la celda 
-	    junto a los robots seleccionados y un programa base dentro del cuál se estarán detallando las posiciones y movimiento de cada manipulador.
-    </br></p>
-    <img class="center-block" src="images/CMR.PNG" alt="Rp" style="height: 600px;">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 animated" data-animate="fadeInLeft">
+            <h2>Hoja de ruta </h2>
+            <iframe
+              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQq6tRwQTCP67w6DwEdXfSgK46WwUA7xyIjg2Nufp2YWcvELKsWoXDs038k1w8sb8UQzr0sbUJSbH50/pubhtml?widget=true&amp;headers=false"
+              width="100%" height="600" scrolling="no" frameborder="0"></iframe>
+
+              <br>
+            <p style="text-align: justify;"> Conforme la hoja de ruta, los primeros pasos se realizaron a partir del
+              análisis de operaciones llevado a cabo en la sección
+              de Gestión de la producción y automatización, en donde definimos cuáles serán las tareas para las que se
+              implementará un celda
+              de manufactura robotizada.
+              En éste primer avance, desarrollamos el diseño inicial conforme el análisis de riesgo y las normas de
+              seguridad
+              según se describe
+              en el documento anterior, y se realizó un primer modelado en el entorno de RobotStudio incorporando estos
+              elementos en la celda
+              junto a los robots seleccionados y un programa base dentro del cuál se estarán detallando las posiciones y
+              movimiento de cada manipulador.
+              </p>
+              <br>
+            <img class="center-block" src="images/CMR.PNG" alt="Rp" style=" width:100%; height: 600px;">
+
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Digital Factory -->
@@ -650,15 +718,24 @@
     <section id="industria4" class="light">
       <header class="title">
         <h2> <span>Industria 4.0</span> en la Automatización</h2>
-        <p><br>La arquitectura implementada para el desarrollo de este proyecto se desarrolla en 4 niveles que siguen la convención de la pirámide de la automatización. 
-	Empezando desde el nivel de la planta con Sensores y Actuadores donde se usaron programas simuladores como el módulo Mechatronics Concept Designer de Siemens NX para las máquinas participes en el proceso, también se tiene el uso de RobotStudio de la firma ABB para la simulación de las celdas robotizadas.
-	En el siguiente nivel de Control tenemos la simulación de un PLC programado en el entorno de Studio5000, de Rockwell Automation, con esto se lograba el control funcional de las máquinas presentes en el nivel de Actuación.
-	En el piso de SCADA tenemos el uso de Ignition, producto de Inductive Automation, este actúa como intermediario de comunicaciones entre pisos de la pirámide, fundamentalmente por medio decomunicación OPC.  
-	Se destaca Ignition como facilitador de implementación de comunicación a través de la Nube, logrando tener una HMI del proceso alojado en Internet, siendo entonces accesible desde cualquier lugar del mundo. 
-	En el último nivel tenemos el escalón MES (Manufacturing Execution System), donde se tiene la planificación de la producción y ciertos criterios de decisiones de planta, esto posible con la ayudade Tecnomatix-Plant Simulation.    
-	     </br></p>
+        <p><br>La arquitectura implementada para el desarrollo de este proyecto se desarrolla en 4 niveles que siguen la
+          convención de la pirámide de la automatización. 
+          Empezando desde el nivel de la planta con Sensores y Actuadores donde se usaron programas simuladores como el
+          módulo Mechatronics Concept Designer de Siemens NX para las máquinas participes en el proceso, también se
+          tiene el uso de RobotStudio de la firma ABB para la simulación de las celdas robotizadas.
+          En el siguiente nivel de Control tenemos la simulación de un PLC programado en el entorno de Studio5000, de
+          Rockwell Automation, con esto se lograba el control funcional de las máquinas presentes en el nivel de
+          Actuación.
+          En el piso de SCADA tenemos el uso de Ignition, producto de Inductive Automation, este actúa como
+          intermediario de comunicaciones entre pisos de la pirámide, fundamentalmente por medio decomunicación OPC.  
+          Se destaca Ignition como facilitador de implementación de comunicación a través de la Nube, logrando tener una
+          HMI del proceso alojado en Internet, siendo entonces accesible desde cualquier lugar del mundo. 
+          En el último nivel tenemos el escalón MES (Manufacturing Execution System), donde se tiene la planificación de
+          la producción y ciertos criterios de decisiones de planta, esto posible con la ayudade Tecnomatix-Plant
+          Simulation.
+          </br></p>
       </header>
-	    <img class="center-block" src="images/Arquitectura_40.PNG" alt="Arq" style="height: 800px;">
+      <img class="center-block" src="images/Arquitectura_40.PNG" alt="Arq" style="height: 800px;">
 
     </section>
 
