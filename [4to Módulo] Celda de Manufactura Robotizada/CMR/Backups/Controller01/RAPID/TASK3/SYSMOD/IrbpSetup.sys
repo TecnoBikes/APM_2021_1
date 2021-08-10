@@ -1,0 +1,11 @@
+MODULE IrbpSetup(SYSMODULE,READONLY)
+    ! test if interchange is calibrated
+    TASK PERS bool bInterchCalib1:=FALSE;
+    ! Interchange positions
+    TASK PERS num nInterchStn1:=0;
+    TASK PERS num nInterchStn2:=180;
+
+     PROC CalibIntch1()
+         CalibInterch1Proc INTERCH,1,10,nInterchStn1,nInterchStn2,tool0,bInterchCalib1;
+    ENDPROC
+ENDMODULE
