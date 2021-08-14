@@ -29,6 +29,7 @@ body {
   overflow-x:hidden;
   letter-spacing: 0.075em;
   -webkit-font-smoothing : antialiased;
+  position: relative;
 }
 
 h2 span {

@@ -52,31 +52,7 @@
 
     <section id="header">
 
-      <!-- NAVIGATION -->
-      <nav class="navbar navbar-fixed-top navbar-default bottom">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#header">TecnoBikes (APM 2021-1)</a>
-          </div><!-- /.navbar-header -->
-
-          <div class="collapse navbar-collapse" id="menu">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#about">Home</a></li>
-              <li><a href="#producto">Contenido de Producto</a></li>
-              <li><a href="#team">Proceso de aprendizaje</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div> <!-- /.navbar-collapse -->
-        </div> <!-- /.container -->
-      </nav>
-
-      <!-- SLIDER -->
+        <!-- SLIDER -->
       <div class="header-slide">
         <section>
           <div id="loader" class="pageload-overlay" data-opening="M 0,0 0,60 80,60 80,0 z M 80,0 40,30 0,60 40,30 z">
@@ -157,8 +133,28 @@
 
       </div><!-- /.header-slide -->
     </section>
-
     <!-- HEADER END -->
+
+      <!-- NAVIGATION TOP -->
+      <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand mb-0 h1" href="#header">TecnoBikes (APM 2021-1)</a>
+      
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav">
+            <li class="nav-item active"><a class="nav-link" href="#about">Home</a></li>
+            <li class="nav-item active"><a class="nav-link" href="#producto">Contenido de Producto</a></li>
+            <li class="nav-item active"><a class="nav-link" href="#team">Proceso de aprendizaje</a></li>
+            <li class="nav-item active"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div> <!-- /.navbar-collapse -->
+      </nav>
+
+     
 
     <!-- ABOUT -->
 
@@ -337,21 +333,21 @@
                 <li data-target="#carruselProcesoFab" data-slide-to="3"></li>
                 <li data-target="#carruselProcesoFab" data-slide-to="4"></li>
               </ol>
-              <div class="carousel-inner" role="listbox">
-                <div class="item active">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
                   <img src="images/LineaEnsamble.png" alt="Linea ensamble" style="width:100%; height: 400px;">
                   <div class="carousel-caption">
                     <h1>Ensamble bicicletas</h1>
                   </div>
                 </div>
-                <div class="item">
+                <div class="carousel-item">
                   <img src="images/FabricacionCuadros.png" alt="Fabricación cuadros" style="width:100%; height: 400px;">
                   <div class="carousel-caption">
                     <h1>Fabricación de marcos de bicicleta</h1>
 
                   </div>
                 </div>
-                <div class="item">
+                <div class="carousel-item">
                   <img src="images/FabricacionHorquilla.png" alt="Fabricación horquilla"
                     style="width:100%; height: 400px;">
                   <div class="carousel-caption">
@@ -359,14 +355,14 @@
 
                   </div>
                 </div>
-                <div class="item">
+                <div class="carousel-item">
                   <img src="images/EnsambleManubrio.png" alt="Ensamble manubrio" style="width:100%; height: 400px;">
                   <div class="carousel-caption">
                     <h1>Manubrio</h1>
 
                   </div>
                 </div>
-                <div class="item">
+                <div class="carousel-item">
                   <img src="images/EnsambleRuedas.png" alt="Ensamble ruedas" style="width:100%; height: 400px;">
                   <div class="carousel-caption">
                     <h1>Ensamble ruedas</h1>
@@ -374,11 +370,11 @@
                   </div>
                 </div>
               </div>
-              <a class="left carousel-control" href="#carruselProcesoFab" role="button" data-slide="prev">
+              <a class="carousel-control-prev" href="#carruselProcesoFab" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Anterior</span>
               </a>
-              <a class="right carousel-control" href="#carruselProcesoFab" role="button" data-slide="next">
+              <a class="carousel-control-next" href="#carruselProcesoFab" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Siguiente</span>
               </a>
@@ -412,36 +408,36 @@
                 <li data-target="#carruselGraficos" data-slide-to="3"></li>
                 <li data-target="#carruselGraficos" data-slide-to="4"></li>
               </ol>
-              <div class="carousel-inner" role="listbox">
-                <div class="item active">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
                   <img class="center-block" src="images/BloqueEnsamble.png" alt="BloqueEnsamble" style="height: 800px;">
                   <div class="carousel-caption">
                     <!-- <h1>Inserte Titulo</h1>
                     <h3>descripción</h3> -->
                   </div>
                 </div>
-                <div class="item">
+                <div class="carousel-item">
                   <img class="center-block" src="images/BloqueMarco1.png" alt="BloqueMarco1" style="height: 800px;">
                   <div class="carousel-caption">
                     <!-- <h1>Inserte Titulo</h1>
                     <h3>descripción</h3> -->
                   </div>
                 </div>
-                <div class="item">
+                <div class="carousel-item">
                   <img class="center-block" src="images/BloqueMarco2.png" alt="BloqueMarco2" style="height: 800px;">
                   <div class="carousel-caption">
                     <!-- <h1>Inserte Titulo</h1>
                     <h3>descripción</h3> -->
                   </div>
                 </div>
-                <div class="item">
+                <div class="carousel-item">
                   <img class="center-block" src="images/BloqueHorq1.png" alt="BloqueHorq1" style="height: 800px;">
                   <div class="carousel-caption">
                     <!-- <h1>Inserte Titulo</h1>
                     <h3>descripción</h3> -->
                   </div>
                 </div>
-                <div class="item">
+                <div class="carousel-item">
                   <img class="center-block" src="images/Estadisticas.png" alt="Estadisticas" style="height: 800px;">
                   <div class="carousel-caption">
                     <!-- <h1>Inserte Titulo</h1>
@@ -449,11 +445,11 @@
                   </div>
                 </div>
               </div>
-              <a class="left carousel-control" href="#carruselGraficos" role="button" data-slide="prev">
+              <a class="carousel-control-prev" href="#carruselGraficos" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Anterior</span>
               </a>
-              <a class="right carousel-control" href="#carruselGraficos" role="button" data-slide="next">
+              <a class="carousel-control-next" href="#carruselGraficos" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Siguiente</span>
               </a>

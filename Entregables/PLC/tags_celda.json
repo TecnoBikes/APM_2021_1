@@ -1,0 +1,46 @@
+{
+    "name": "NUBE_MQTT_CELDA",
+    "tagType": "Folder",
+    "tags": [
+        {
+            "valueSource": "memory",
+            "enabled": true,
+            "value": false,
+            "dataType": "Boolean",
+            "name": "OUTPUT1",
+            "tagType": "AtomicTag"
+        },
+        {
+            "valueSource": "memory",
+            "enabled": true,
+            "value": false,
+            "dataType": "Boolean",
+            "name": "OUTPUT2",
+            "tagType": "AtomicTag"
+        },
+        {
+            "valueSource": "memory",
+            "enabled": true,
+            "value": false,
+            "dataType": "Boolean",
+            "name": "OUTPUT3",
+            "tagType": "AtomicTag"
+        },
+        {
+            "valueSource": "memory",
+            "enabled": true,
+            "value": false,
+            "dataType": "Boolean",
+            "name": "OUTPUT4",
+            "tagType": "AtomicTag"
+        },
+        {
+            "valueSource": "memory",
+            "enabled": true,
+            "value": false,
+            "dataType": "Boolean",
+            "name": "START2",
+            "tagType": "AtomicTag"
+        }
+    ]
+}
