@@ -1,0 +1,630 @@
+{
+  "name": "NUBE_OPC_PLC",
+  "tagType": "Folder",
+  "tags": [
+    {
+      "name": "NUBE_TROQUELADO",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "S12_TRO",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": 0,
+          "dataType": "Int4",
+          "name": "CNT_VAIN1_TRO",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": 0,
+          "dataType": "Int4",
+          "name": "CNT_TUBO_DIAG_TRO",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "S4_TRO",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "S10_TRO",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": 0,
+          "dataType": "Int4",
+          "name": "CNT_TUBO_SUP_TRO",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "S6_TRO",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": 0,
+          "dataType": "Int4",
+          "name": "CNT_VAIN2_TRO",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "L_VERDE_TRO",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "S2_TRO",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "S5_TRO",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "S9_TRO",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "S7_TRO",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "TROQUELAR",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": 0,
+          "dataType": "Int4",
+          "name": "CNT_PFRENO_TRO",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "S3_TRO",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "S1_TRO",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": 0,
+          "dataType": "Int4",
+          "name": "CNT_TIR2_TRO",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "BTN_TROQUELAR",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "S8_TRO",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "S11_TRO",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": 0,
+          "dataType": "Int4",
+          "name": "CNT_TUBO_VERT_TRO",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": 0,
+          "dataType": "Int4",
+          "name": "CNT_TIR1_TRO",
+          "tagType": "AtomicTag"
+        }
+      ]
+    },
+    {
+      "name": "NUBE_DOBLADORA",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "S1_DOB",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "BTN_DOBLAR",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "RET_CIL_DOB",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": 0,
+          "dataType": "Int4",
+          "name": "CNT_TIR2",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "S5_DOB",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "S2_DOB",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "S6_DOB",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "CNT_PFRENO",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "S8_DOB",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "S4_DOB",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "S3_DOB",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "S7_DOB",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "EXT_CIL_DOB",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": 0,
+          "dataType": "Int4",
+          "name": "CNT_TIR1",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": 0,
+          "dataType": "Int4",
+          "name": "CNT_VAIN2",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": 0,
+          "dataType": "Int4",
+          "name": "CNT_VAIN1",
+          "tagType": "AtomicTag"
+        }
+      ]
+    },
+    {
+      "name": "NUBE_CORTADORA",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": 0,
+          "dataType": "Int4",
+          "name": "CNT_TUB_35_3",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "S3_COR",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "S2_COR",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "S4_COR",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "EXT_CIL_COR",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "S1_COR",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": 0,
+          "dataType": "Int4",
+          "name": "CNT_TUB_20_3",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "L_VERDE_COR",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "END_CORTE",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": 0,
+          "dataType": "Int4",
+          "name": "CNT_TUB_50_3",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": 0,
+          "dataType": "Int4",
+          "name": "CNT_TUB_13_3",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "BTN_CORTAR",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": 0,
+          "dataType": "Int4",
+          "name": "CNT_TUB_40_3",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": 0,
+          "dataType": "Int4",
+          "name": "CNT_TUB_30_3",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "L_AMAR_COR",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "L_ROJA_COR",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": 0,
+          "dataType": "Int4",
+          "name": "CNT_STEP_COR",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "RET_CIL_COR",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": 0,
+          "dataType": "Int4",
+          "name": "CNT_TUB_14_3",
+          "tagType": "AtomicTag"
+        }
+      ]
+    },
+    {
+      "name": "NUBE_TALADRO",
+      "tagType": "Folder",
+      "tags": [
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": 0,
+          "dataType": "Int4",
+          "name": "CNT_TUBO_VERT",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "S1_TAL",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "EXT_CIL_A",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "S3_TAL",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "S2_TAL",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "TAL_START_SIGNAL",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "RET_CIL_C",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "RET_CIL_A",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "TAL_STOP",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "RET_CIL_B",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "S5_TAL",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "EXT_CIL_B",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "S6_TAL",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "EXT_CIL_C",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "S4_TAL",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": false,
+          "dataType": "Boolean",
+          "name": "TAL_START",
+          "tagType": "AtomicTag"
+        },
+        {
+          "valueSource": "memory",
+          "enabled": true,
+          "value": 0,
+          "dataType": "Int4",
+          "name": "CNT_TUBO_DIAG",
+          "tagType": "AtomicTag"
+        }
+      ]
+    }
+  ]
+}
