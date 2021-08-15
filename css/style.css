@@ -1214,10 +1214,11 @@ h2 {
 
 
 #navbar-side {
-  font-size: clamp(0.45rem, calc(0.6vmin + 0.6vmax), 0.75rem);
+  font-size: clamp(0.35rem, calc(0.6vmin + 0.6vmax), 0.65rem);
 }
 
 #nav-side .nav-link {
   position: fixed;
+  padding: .4rem 0.6rem;
 }
 
