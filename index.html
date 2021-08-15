@@ -13,6 +13,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TecnoBikes</title>
 
+  <link rel="stylesheet" href="css/loader.css" />
+
+<script>
+  document.onreadystatechange = function() {
+      if (document.readyState !== "complete") {
+          document.querySelector(
+            "body").style.visibility = "hidden";
+          document.querySelector(
+            "#loader").style.visibility = "visible";
+      } else {
+          document.querySelector(
+            "#loader").style.display = "none";
+          document.querySelector(
+            "body").style.visibility = "visible";
+      }
+  };
+</script>
+
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/font-awesome.min.css" />
   <link rel="stylesheet" href="css/animate.css" />
@@ -30,7 +48,19 @@
 </head>
 
 <body>
-
+  <div id="loader" >
+    <section class="wrapper dark">
+      <div class="spinner">
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+      </div>
+    </section>
+  </div>
   <!-- MAIN CONTENT -->
 
   <div class="container-fluid">
