@@ -29,7 +29,7 @@ body {
   overflow-x:hidden;
   letter-spacing: 0.075em;
   -webkit-font-smoothing : antialiased;
-  position: relative;
+  overflow-y: hidden;
 }
 
 h2 span {
@@ -1206,3 +1206,18 @@ height: 20px;
 font-size: 20px;
 border-radius: 100%;
 }
+
+h2 {
+  padding-top: 50px;
+}
+
+
+
+#navbar-side {
+  font-size: clamp(0.45rem, calc(0.6vmin + 0.6vmax), 0.75rem);
+}
+
+#nav-side .nav-link {
+  position: fixed;
+}
+

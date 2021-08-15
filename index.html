@@ -25,987 +25,963 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZXJBVDf7R4JqmSpopVPoduIGWx1IwpBM"></script> -->
   <script type="text/javascript" src="js/plugins.js"></script>
   <script type="text/javascript" src="js/dhtmlxgantt.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 
 </head>
 
 <body>
-  <div class="svg-wrap">
-    <svg width="64" height="64" viewBox="0 0 64 64">
-      <path id="arrow-left"
-        d="M26.667 10.667q1.104 0 1.885 0.781t0.781 1.885q0 1.125-0.792 1.896l-14.104 14.104h41.563q1.104 0 1.885 0.781t0.781 1.885-0.781 1.885-1.885 0.781h-41.563l14.104 14.104q0.792 0.771 0.792 1.896 0 1.104-0.781 1.885t-1.885 0.781q-1.125 0-1.896-0.771l-18.667-18.667q-0.771-0.813-0.771-1.896t0.771-1.896l18.667-18.667q0.792-0.771 1.896-0.771z">
-      </path>
-    </svg>
-
-    <svg width="64" height="64" viewBox="0 0 64 64">
-      <path id="arrow-right"
-        d="M37.333 10.667q1.125 0 1.896 0.771l18.667 18.667q0.771 0.771 0.771 1.896t-0.771 1.896l-18.667 18.667q-0.771 0.771-1.896 0.771-1.146 0-1.906-0.76t-0.76-1.906q0-1.125 0.771-1.896l14.125-14.104h-41.563q-1.104 0-1.885-0.781t-0.781-1.885 0.781-1.885 1.885-0.781h41.563l-14.125-14.104q-0.771-0.771-0.771-1.896 0-1.146 0.76-1.906t1.906-0.76z">
-      </path>
-    </svg>
-  </div>
-
 
   <!-- MAIN CONTENT -->
 
   <div class="container-fluid">
 
-    <!-- HEADER -->
+    <!-- NAVIGATION TOP -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand mb-0 h1" href="#about">TecnoBikes (APM 2021-1)</a>
 
-    <section id="header">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <!-- SLIDER -->
-      <div class="header-slide">
-        <section>
-          <div id="loader" class="pageload-overlay" data-opening="M 0,0 0,60 80,60 80,0 z M 80,0 40,30 0,60 40,30 z">
-            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 80 60"
-              preserveAspectRatio="none">
-              <path d="M 0,0 0,60 80,60 80,0 Z M 80,0 80,60 0,60 0,0 Z" />
-            </svg>
-          </div> <!-- /.pageload-overlay -->
-
-          <div class="image-slide bg-fixed">
-            <div class="overlay">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-12">
-
-                    <div class="slider-content">
-                      <h1>Trabajo en progreso</h1>
-                      <!-- <p>...</p> -->
-                    </div>
-
-                  </div> <!-- /.col-md-12 -->
-                </div> <!-- /.row -->
-              </div> <!-- /.container -->
-            </div> <!-- /.overlay -->
-          </div> <!-- /.image-slide -->
-
-          <nav class="nav-slide">
-            <a class="prev" href="#prev">
-              <span class="icon-wrap">
-                <svg class="icon" width="32" height="32" viewBox="0 0 64 64">
-                  <use xlink:href="#arrow-left">
-                </svg>
-              </span>
-              <div>
-                <span>Imagen anterior</span>
-                <h3>...</h3>
-                <p>...</p>
-                <img alt="Previous thumb">
-              </div>
-            </a>
-            <a class="next" href="#next">
-              <span class="icon-wrap">
-                <svg class="icon" width="32" height="32" viewBox="0 0 64 64">
-                  <use xlink:href="#arrow-right">
-                </svg>
-              </span>
-              <div>
-                <span>Imagen siguiente</span>
-                <h3>...</h3>
-                <p>...</p>
-                <img alt="Next thumb">
-              </div>
-            </a>
-          </nav>
-        </section>
-
-        <script type="text/javascript">
-          var dataHeader = [
-            {
-              bigImage: "images/adelanto_prod.png",
-              title: "Gestión de la producción",
-              author: "TecnoBikes"
-            },
-            {
-              bigImage: "images/adelanto_celdas.jpeg",
-              title: "Celdas de Manufactura Robotizadas",
-              author: "TecnoBikes"
-            },
-            {
-              bigImage: "images/adelanto_gestion.png",
-              title: "Planeación del Proyecto",
-              author: "TecnoBikes"
-            }
-          ],
-            loaderSVG = new SVGLoader(document.getElementById('loader'), { speedIn: 600, speedOut: 600, easingIn: mina.easeinout });
-          loaderSVG.show()
-        </script>
-
-      </div><!-- /.header-slide -->
-    </section>
-    <!-- HEADER END -->
-
-      <!-- NAVIGATION TOP -->
-      <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand mb-0 h1" href="#header">TecnoBikes (APM 2021-1)</a>
-      
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="menu">
-          <ul class="navbar-nav">
-            <li class="nav-item active"><a class="nav-link" href="#about">Home</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#producto">Contenido de Producto</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#team">Proceso de aprendizaje</a></li>
-            <li class="nav-item active"><a class="nav-link" href="#contact">Contact</a></li>
-          </ul>
-        </div> <!-- /.navbar-collapse -->
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav">
+          <li class="nav-item active"><a class="nav-link" href="#about">Home</a></li>
+          <li class="nav-item active"><a class="nav-link" href="#producto">Contenido de Producto</a></li>
+          <li class="nav-item active"><a class="nav-link" href="#team">Proceso de aprendizaje</a></li>
+          <li class="nav-item active"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div> <!-- /.navbar-collapse -->
+    </nav>
+    
+    <div class="row">
+      <!-- NAVIGATION SIDE -->
+      <nav id="navbar-side" class="navbar navbar-dark bg-light d-none d-md-block col-md-3">
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link" href="#about">Objetivos</a>
+          <a class="nav-link" href="#producto">Contenido de Producto</a>
+          <a class="nav-link ml-4 my-1" href="#gpa">Gestión de Producción y Automatización</a>
+          <a class="nav-link ml-4 my-1" href="#planeacion">Planeación</a>
+          <a class="nav-link ml-4 my-1" href="#economica">Evaluación económica</a>
+          <a class="nav-link ml-4 my-1" href="#robots">Celda de Manufactura Robotizada</a>
+          <a class="nav-link ml-4 my-1" href="#factory">Digital Factory</a>
+          <a class="nav-link ml-4 my-1" href="#plc">Controladores industriales PLC</a>
+          <a class="nav-link ml-4 my-1" href="#actuadores">Actuadores de automatización</a>
+          <a class="nav-link ml-4 my-1" href="#industria4">Industria 4.0 en la Automatización </a>
+          <a class="nav-link ml-4 my-1" href="#scada">SCADA </a>
+          <a class="nav-link ml-4 my-1" href="#indicadoresSec">Indicadores </a>
+          <a class="nav-link" href="#team">Proceso de Aprendizaje</a>
+        </nav>
       </nav>
 
-     
+      <div id="contenDiv" class="col-sm-12 col-md-9" data-spy="scroll" data-target="#navbar-side" data-offset="0"
+      style="height: 90vh; overflow-y: scroll;" >
 
-    <!-- ABOUT -->
+        <!-- ABOUT -->
 
-    <section id="about" class="light">
-      <header class="title">
-        <h2>Tecno<span>Bikes</span></h2>
-        <p> Somos una empresa enfocada a la fabricación de bicicletas estilo MTB (Mountain Bike) y Fixie (piñon fijo),
-          caracterizada por la <strong>automatización</strong> e implementación de tecnología de punta en nuestras
-          líneas de fabricación, que permiten tener una alta eficiencia y gran calidad en los productos finales.</p>
-      </header>
+        <section id="about" class="light">
+          <header class="title">
+            <h2>Tecno<span>Bikes</span></h2>
+            <p> Somos una empresa enfocada a la fabricación de bicicletas estilo MTB (Mountain Bike) y Fixie (piñon
+              fijo),
+              caracterizada por la <strong>automatización</strong> e implementación de tecnología de punta en nuestras
+              líneas de fabricación, que permiten tener una alta eficiencia y gran calidad en los productos finales.</p>
+          </header>
 
-      <div class="container">
-        <div class="row table-row">
-          <div class="col-sm-6 hidden-xs">
-            <div class="section-content">
-              <div class="big-image" style="background-image:url(images/bikes.png)"></div>
+          <div class="container">
+            <div class="row table-row">
+              <div class="col-sm-6 hidden-xs">
+                <div class="section-content">
+                  <div class="big-image" style="background-image:url(images/bikes.png)"></div>
+                </div>
+              </div>
+
+              <div class="col-sm-6">
+                <div class="section-content">
+                  <div class="about-content left animated" data-animate="fadeInLeft">
+                    <div class="about-icon"><i class="fa fa-line-chart"></i></div>
+                    <div class="about-detail">
+                      <h4>Automatización</h4>
+                      <p>Implementación de estrategias de pre- y post-automatización para optimizar las líneas de
+                        producción.</p>
+                    </div>
+                  </div>
+
+                  <div class="about-content left animated" data-animate="fadeInLeft">
+                    <div class="about-icon"><i class="fa fa-desktop"></i></div>
+                    <div class="about-detail">
+                      <h4>Monitoreo en la nube</h4>
+                      <p>Monitoreo y control en tiempo real por medio de SCADA alojados en la nube, que permiten ver en
+                        detalle la operación.</p>
+                    </div>
+                  </div>
+
+                  <div class="about-content left animated" data-animate="fadeInLeft">
+                    <div class="about-icon"><i class="fa fa-lock"></i></div>
+                    <div class="about-detail">
+                      <h4>Celdas de Manufactura</h4>
+                      <p>Robots relevan a operarios de tareas de alto riesgo, mejorando la salud de los operarios y
+                        haciendo
+                        con precisión los procesos.</p>
+                    </div>
+                  </div>
+
+                  <div class="about-content left animated" data-animate="fadeInLeft">
+                    <div class="about-icon"><i class="fa fa-cogs"></i></div>
+                    <div class="about-detail">
+                      <h4>Comisionamiento virtual</h4>
+                      <p>Digital Twin provee herramientas para mejorar la planeación de la planta y su producción.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> <!-- /.row table-row -->
+          </div> <!-- /.container -->
+        </section>
+
+
+        <!-- PORTFOLIO -->
+
+        <section id="producto" class="light">
+          <header class="title">
+            <h2>Contenido de Producto</h2>
+            <p>El contenido de producto se encuentra dividido en las siguientes categorías: </p>
+          </header>
+
+          <div class="container-fluid">
+            <div class="row">
+              <ul id="filters" class="list-inline">
+                <li data-filter="all" class="filter">Todo</li>
+                <li data-filter=".planeacion" class="filter">Planeación</li>
+                <li data-filter=".digital" class="filter">Digital Factory</li>
+                <li data-filter=".industria" class="filter">Controladores y Actuadores Industriales</li>
+                <li data-filter=".robots" class="filter">Celdas Robotizadas</li>
+              </ul>
+            </div>
+
+            <div class="row">
+              <div class="container-portfolio">
+                <!-- PORTFOLIO OBJECT -->
+                <script type="text/javascript">
+                  var portfolio = [
+                    {
+                      category: "planeacion",
+                      image: "images/prod.jpg",
+                      title: " Gestión de <span> Producción y Automatización</span>",
+                      link: "#gpa",
+                      text: "Análisis de KPIs y de aspectos de pre-automatización."
+                    },
+                    {
+                      category: "planeacion",
+                      image: "images/slide-3.jpg",
+                      title: "<span>Planeación</span>  del Proyecto",
+                      link: "#planeacion",
+                      text: "Cronograma del proyecto."
+                    },
+                    {
+                      category: "planeacion",
+                      image: "images/eco.jpg",
+                      title: "Evaluación <span>Económica</span>",
+                      link: "#economica",
+                      text: "Indicadores económicos y oferta comercial."
+                    },
+                    {
+                      category: "industria",
+                      image: "images/constr.png",
+                      title: "Controladores industriales <span>PLC</span>",
+                      link: "#plc",
+                      text: "Modos de operación y lógica programada."
+                    },
+                    {
+                      category: "industria",
+                      image: "images/constr.png",
+                      title: "<span>Actuadores </span> de automatización",
+                      link: "#actuadores",
+                      text: "Selección e implementación de actuadores."
+                    },
+                    {
+                      category: "industria",
+                      image: "images/ind4.jpg",
+                      title: "Industria 4.0 y <span>SCADA</span>",
+                      link: "#industria4",
+                      text: "Supervisión, Control y Adquisición de Datos."
+                    },
+                    {
+                      category: "robots",
+                      image: "images/slide-2.jpg",
+                      title: "Celda de Manufactura <span>Robotizada</span>",
+                      link: "#robots",
+                      text: "Diseño de celda robotizada."
+                    },
+                    {
+                      category: "digital",
+                      image: "images/constr.png",
+                      title: "Digital <span>Factory</span>",
+                      link: "#factory",
+                      text: "Integración de sensores y actuadores virtuales."
+                    },
+                  ];
+                </script>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Gestión de Producción y Automatización -->
+        <section id="gpa" class="dark">
+          <header class="title">
+            <h2>Gestión de <span> Producción y Automatización</span></h2>
+          </header>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <p style="text-align: justify;">Para el presente proyecto, se propuso la construcción de una línea de
+                  manufactura para bicicletas tipo Fixie y MTB.
+                  Para lo cual, se realiza el ejercicio académico de tomar y consultar tiempos de ciclo, alistamiento,
+                  entre
+                  otros parámetros con el fin de realizar una línea de producción hipotética
+                  de bicicleta. Con estos valores, se realizan dos simulaciones en el software Tecnomatix Plant
+                  Simulation
+                  (TPS). En este se aplica el primer pilar de la pre-automatización que es
+                  la distribución de la planta o layout actual. Para el presente caso se identifican 5 lineas de
+                  producción.
+                  Ensamble de bicicleta, Fabricación marco, fabricación horquilla, fabricación
+                  manubrio y ensamble ruedas.
+
+                </p>
+
+                <div id="carruselProcesoFab" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carruselProcesoFab" data-slide-to="0" class="active"></li>
+                    <li data-target="#carruselProcesoFab" data-slide-to="1"></li>
+                    <li data-target="#carruselProcesoFab" data-slide-to="2"></li>
+                    <li data-target="#carruselProcesoFab" data-slide-to="3"></li>
+                    <li data-target="#carruselProcesoFab" data-slide-to="4"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="images/LineaEnsamble.png" alt="Linea ensamble" style="width:100%; height: 400px;">
+                      <div class="carousel-caption">
+                        <h1>Ensamble bicicletas</h1>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/FabricacionCuadros.png" alt="Fabricación cuadros"
+                        style="width:100%; height: 400px;">
+                      <div class="carousel-caption">
+                        <h1>Fabricación de marcos de bicicleta</h1>
+
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/FabricacionHorquilla.png" alt="Fabricación horquilla"
+                        style="width:100%; height: 400px;">
+                      <div class="carousel-caption">
+                        <h1>Fabricación horquilla de bicicleta </h1>
+
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/EnsambleManubrio.png" alt="Ensamble manubrio" style="width:100%; height: 400px;">
+                      <div class="carousel-caption">
+                        <h1>Manubrio</h1>
+
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="images/EnsambleRuedas.png" alt="Ensamble ruedas" style="width:100%; height: 400px;">
+                      <div class="carousel-caption">
+                        <h1>Ensamble ruedas</h1>
+
+                      </div>
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carruselProcesoFab" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carruselProcesoFab" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                  </a>
+                </div>
+
+                <header  class="title">
+                  <h2 id="diagTps" >Diagrama en TPS. Primera iteración</h2>
+                </header>
+
+                <p style="text-align: justify;">
+                  Una primera iteración se realiza con el uso de objetos que simulan la planta y
+                  el flujo del material a lo largo de la línea de producción. En este se realiza
+                  una primera detección de cuellos de botella, porcentaje de espera de las estaciones, así como bloqueos
+                  de
+                  estas por generación de colas. En esta se asume material infinito, lo que nos
+                  permite identificar el tiempo teórico de producción de bicicletas por hora.
+                  Posterior a eso, mediante las librerías de TPS 16, se realiza la segunda iteración con la generación
+                  del
+                  Value Streaming Mapping (VSM), que es el flujo de generación de valor. Mediante
+                  este se identifican las etapas de generación de valor, el Manufacturing Lead Time (MLT), entre otros
+                  Key
+                  Performance Indicators.
+                </p>
+
+                <br>
+                <video src="Layout1.mp4" width="100%" height="720" controls></video>
+
+                <br>
+                <div id="carruselGraficos" class="carousel slide" data-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-target="#carruselGraficos" data-slide-to="0" class="active"></li>
+                    <li data-target="#carruselGraficos" data-slide-to="1"></li>
+                    <li data-target="#carruselGraficos" data-slide-to="2"></li>
+                    <li data-target="#carruselGraficos" data-slide-to="3"></li>
+                    <li data-target="#carruselGraficos" data-slide-to="4"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img class="center-block" src="images/BloqueEnsamble.png" alt="BloqueEnsamble"
+                        style="height: 800px;">
+                      <div class="carousel-caption">
+                        <!-- <h1>Inserte Titulo</h1>
+                    <h3>descripción</h3> -->
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="center-block" src="images/BloqueMarco1.png" alt="BloqueMarco1" style="height: 800px;">
+                      <div class="carousel-caption">
+                        <!-- <h1>Inserte Titulo</h1>
+                    <h3>descripción</h3> -->
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="center-block" src="images/BloqueMarco2.png" alt="BloqueMarco2" style="height: 800px;">
+                      <div class="carousel-caption">
+                        <!-- <h1>Inserte Titulo</h1>
+                    <h3>descripción</h3> -->
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="center-block" src="images/BloqueHorq1.png" alt="BloqueHorq1" style="height: 800px;">
+                      <div class="carousel-caption">
+                        <!-- <h1>Inserte Titulo</h1>
+                    <h3>descripción</h3> -->
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img class="center-block" src="images/Estadisticas.png" alt="Estadisticas" style="height: 800px;">
+                      <div class="carousel-caption">
+                        <!-- <h1>Inserte Titulo</h1>
+                    <h3>descripción</h3> -->
+                      </div>
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carruselGraficos" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carruselGraficos" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Siguiente</span>
+                  </a>
+                </div>
+                <p style="text-align: justify;">
+                  Como se puede apreciar, se empieza a evidenvciar diferentes estaciones se encuentran estancadas, en
+                  especial alquellas aguas arriba
+                  de una de las estación que requiere mayor tiempo de ciclo. De igual forma se visualiza una generación
+                  de
+                  1.33 bicicletas por hora y 60.32%
+                  de esperas
+                </p>
+
+                <br>
+
+                <p style="text-align: justify;">
+                  Posterior a eso, mediante las librerías de TPS 16, se realiza la segunda iteración con la generación
+                  del
+                  Value Streaming Mapping (VSM),
+                  que es el flujo de generación de valor. Mediante este se identifican las etapas de generación de
+                  valor, el
+                  Manufacturing Lead Time (MLT),
+                  entre otros Key Performance Indicators.
+                </p>
+
+                <header class="title">
+                  <h2 id="diagVSM">Diagrama VSM </h2>
+                </header>
+                <video src="VSM.mp4" width="100%" height="720" controls></video>
+
+                <header class="title">
+                  <h3>1. Tackt Time </h3>
+                </header>
+                <p style="text-align: justify;">
+                  Como se apreciará más adelante, las estaciones de producción de la presente línea de manufactura están
+                  desbalanceadas,
+                  por lo cual, no hay un takt time unificado entre ellas, produciendo 1.33 bicicletas cada hora, según
+                  lo
+                  muestra las primeras simulaciones.
+                  Para el presente caso, se propone un takt time hipotético en base a la demanda de bicicletas del año
+                  2019,
+                  donde hubo una demanda de 480.000 MTB.
+                  Con esto en mente, se hace el ejercicio académico de poder abarcar el 2% de la venta de bicicletas
+                  MTB,
+                  esto es equivalente a tener una demanda de
+                  9600 bicicletas al año, es decir, con 260 dias disponibles, 37 bicicletas/turno y teniendo un tiempo
+                  disponible de trabajo de 7 horas,
+                  es decir 420 min/turno, obtenemos un tack time objetivo de 11.35 min.
+                </p>
+
+                <header class="title">
+                  <h3>2. Work in process WIP</h3>
+                </header>
+                <p style="text-align: justify;">
+                  Como se puede observar en el siguiente archivo en Excel, se realizó el calculo del parámetro WIP,
+                  para este, se conto con el apoyo de la simulación en TPS, el cual nos brinda el calculo del WIP de
+                  cada
+                  uno de los elementos fabricados.
+                  En este se simularon 2 días de producción con los cuales se obtuvo un valor de 2398.
+                </p>
+                <iframe
+                  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRJkaS6Pg2vMpFRVlpc9gtAS_0RnWFgwefVhUyk4eCIAJgCDa_khUpxF1nbaJkAvQ/pubhtml?gid=433575833&amp;single=true&amp;widget=true&amp;headers=false"
+                  width="100%" height="600" scrolling="yes" frameborder="0"></iframe>
+
+                <header class="title">
+                  <h3>3. Tiempo de ciclo Tc y tiempo de set up Tsu </h3>
+                </header>
+                <p style="text-align: justify;">
+                  En el caso del tiempo de ciclo de los diferentes procesos, se realizó el proceso académico de
+                  consultar
+                  videos y algunos documentos sobre trabajos
+                  finales el cual permitió obtener los siguientes valores para las diferentes estaciones propuestas en
+                  la
+                  línea de producción de ciclas
+                </p>
+
+                <img src="images/TcYTsu.png" alt="TcYTsu" style="width: 100%; height: 800px;">
+
+                <header class="title">
+                  <h3>4. Tasa de producción Rp</h3>
+                </header>
+                <p style="text-align: justify;">
+                  En el caso de este indicador, se evidencia el desbalance de partes producidas, en especial en
+                  operaciones
+                  de facil producción como es el caso de
+                  los dobleces y cortes de tubo.
+                </p>
+                <img class="center-block" src="images/Rp.png" alt="Rp" style="height: 800px;">
+
+                <h3>5. Capacidad de producción </h3>
+                </header>
+                <p style="text-align: justify;">
+                  En el caso de este indicador, se evidencia el desbalance de partes producidas, en especial en
+                  operaciones
+                  de facil producción como es el caso de
+                  los dobleces y cortes de tubo.
+                </p>
+                <img class="center-block" src="images/PC.png" alt="Rp" style="height: 800px;">
+
+                <h3>6. Manufacturing Lead Time (MLT) </h3>
+                </header>
+                <p style="text-align: justify;">
+                  El tiempo de manufactura para la presente linea de producción, es de 21 horas y 55 min con una tiempo
+                  de
+                  agregación de valor de 2 horas y 10 min
+                </p>
+                <img class="center-block" src="images/MLT.png" alt="Rp" style="height: 200px;">
+
+                <h3>7. Balanceo de lineas </h3>
+                </header>
+                <p style="text-align: justify;">
+                  <iframe
+                    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTrUkKa-UJ3DUprPmg5SN1ns7s55YaFn3gXVnCe6cDhZ7xQCzF56lzuB16RsfHmiw/pubhtml?gid=635306661&amp;single=true&amp;widget=true&amp;headers=false"
+                    width="100%" height="600" scrolling="yes" frameborder="0"></iframe>
+
+                </p>
+
+
+                <h3>8. Diagrama de precedencias </h3>
+                </header>
+                <p style="text-align: justify;">
+                  Con el fin de conocer la organización de la linea de manufactura, se realiza un grafico de precedencia
+                  presentado acontinuacion
+                </p>
+                <img src="images/Diagrama de presedencia.png" alt="Rp" style=" width: 100%; height: 800px;">
+
+              </div>
             </div>
           </div>
 
-          <div class="col-sm-6">
-            <div class="section-content">
-              <div class="about-content left animated" data-animate="fadeInLeft">
-                <div class="about-icon"><i class="fa fa-line-chart"></i></div>
-                <div class="about-detail">
-                  <h4>Automatización</h4>
-                  <p>Implementación de estrategias de pre- y post-automatización para optimizar las líneas de
-                    producción.</p>
-                </div>
-              </div>
 
-              <div class="about-content left animated" data-animate="fadeInLeft">
-                <div class="about-icon"><i class="fa fa-desktop"></i></div>
-                <div class="about-detail">
-                  <h4>Monitoreo en la nube</h4>
-                  <p>Monitoreo y control en tiempo real por medio de SCADA alojados en la nube, que permiten ver en
-                    detalle la operación.</p>
-                </div>
-              </div>
 
-              <div class="about-content left animated" data-animate="fadeInLeft">
-                <div class="about-icon"><i class="fa fa-lock"></i></div>
-                <div class="about-detail">
-                  <h4>Celdas de Manufactura</h4>
-                  <p>Robots relevan a operarios de tareas de alto riesgo, mejorando la salud de los operarios y haciendo
-                    con precisión los procesos.</p>
-                </div>
-              </div>
+        </section>
 
-              <div class="about-content left animated" data-animate="fadeInLeft">
-                <div class="about-icon"><i class="fa fa-cogs"></i></div>
-                <div class="about-detail">
-                  <h4>Comisionamiento virtual</h4>
-                  <p>Digital Twin provee herramientas para mejorar la planeación de la planta y su producción.</p>
-                </div>
-              </div>
+        <!-- Planeación del Proyecto -->
+        <section id="planeacion" class="light">
+          <header class="title">
+            <h2><span>Planeación</span> del Proyecto</h2>
+          </header>
+
+          <div style="padding-left: 1%; padding-right: 1% ;" data-animate="fadeInLeft">
+            <div class="btn-group" role="group">
+              <button id="day" type="button" class="btn btn-sm btn-light active">Dia</button>
+              <!-- <button id="week" type="button" class="btn btn-sm btn-light">Semana</button> -->
+              <button id="month" type="button" class="btn btn-sm btn-light">Mes</button>
             </div>
-          </div>
-        </div> <!-- /.row table-row -->
-      </div> <!-- /.container -->
-    </section>
 
-
-    <!-- PORTFOLIO -->
-
-    <section id="producto" class="light">
-      <header class="title">
-        <h2>Contenido de Producto</h2>
-        <p>El contenido de producto se encuentra dividido en las siguientes categorías: </p>
-      </header>
-
-      <div class="container-fluid">
-        <div class="row">
-          <ul id="filters" class="list-inline">
-            <li data-filter="all" class="filter">Todo</li>
-            <li data-filter=".planeacion" class="filter">Planeación</li>
-            <li data-filter=".digital" class="filter">Digital Factory</li>
-            <li data-filter=".industria" class="filter">Controladores y Actuadores Industriales</li>
-            <li data-filter=".robots" class="filter">Celdas Robotizadas</li>
-          </ul>
-        </div>
-
-        <div class="row">
-          <div class="container-portfolio">
-            <!-- PORTFOLIO OBJECT -->
+            <script type="text/javascript" src="js/gantt_tasks.js"></script>
+            <div id="gantt_here" style='width:99%; height: 400px;'></div>
             <script type="text/javascript">
-              var portfolio = [
-                {
-                  category: "planeacion",
-                  image: "images/prod.jpg",
-                  title: " Gestión de <span> Producción y Automatización</span>",
-                  link: "#gpa",
-                  text: "Análisis de KPIs y de aspectos de pre-automatización."
-                },
-                {
-                  category: "planeacion",
-                  image: "images/slide-3.jpg",
-                  title: "<span>Planeación</span>  del Proyecto",
-                  link: "#planeacion",
-                  text: "Cronograma del proyecto."
-                },
-                {
-                  category: "planeacion",
-                  image: "images/eco.jpg",
-                  title: "Evaluación <span>Económica</span>",
-                  link: "#economica",
-                  text: "Indicadores económicos y oferta comercial."
-                },
-                {
-                  category: "industria",
-                  image: "images/constr.png",
-                  title: "Controladores industriales <span>PLC</span>",
-                  link: "#plc",
-                  text: "Modos de operación y lógica programada."
-                },
-                {
-                  category: "industria",
-                  image: "images/constr.png",
-                  title: "<span>Actuadores </span> de automatización",
-                  link: "#actuadores",
-                  text: "Selección e implementación de actuadores."
-                },
-                {
-                  category: "industria",
-                  image: "images/ind4.jpg",
-                  title: "Industria 4.0 y <span>SCADA</span>",
-                  link: "#industria4",
-                  text: "Supervisión, Control y Adquisición de Datos."
-                },
-                {
-                  category: "robots",
-                  image: "images/slide-2.jpg",
-                  title: "Celda de Manufactura <span>Robotizada</span>",
-                  link: "#robots",
-                  text: "Diseño de celda robotizada."
-                },
-                {
-                  category: "digital",
-                  image: "images/constr.png",
-                  title: "Digital <span>Factory</span>",
-                  link: "#factory",
-                  text: "Integración de sensores y actuadores virtuales."
-                },
-              ];
+              gantt.i18n.setLocale("es");
+              gantt.config.readonly = true;
+              gantt.config.open_tree_initially = true;
+              gantt.plugins({
+                tooltip: true
+              });
+              gantt.init("gantt_here");
+              gantt.parse(tasks);
             </script>
           </div>
-        </div>
-      </div>
-    </section>
+        </section>
 
-    <!-- Gestión de Producción y Automatización -->
-    <section id="gpa" class="dark">
-      <header class="title">
-        <h2>Gestión de <span> Producción y Automatización</span></h2>
-      </header>
-
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <p style="text-align: justify;">Para el presente proyecto, se propuso la construcción de una línea de
-              manufactura para bicicletas tipo Fixie y MTB.
-              Para lo cual, se realiza el ejercicio académico de tomar y consultar tiempos de ciclo, alistamiento, entre
-              otros parámetros con el fin de realizar una línea de producción hipotética
-              de bicicleta. Con estos valores, se realizan dos simulaciones en el software Tecnomatix Plant Simulation
-              (TPS). En este se aplica el primer pilar de la pre-automatización que es
-              la distribución de la planta o layout actual. Para el presente caso se identifican 5 lineas de producción.
-              Ensamble de bicicleta, Fabricación marco, fabricación horquilla, fabricación
-              manubrio y ensamble ruedas.
-
-            </p>
-
-            <div id="carruselProcesoFab" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carruselProcesoFab" data-slide-to="0" class="active"></li>
-                <li data-target="#carruselProcesoFab" data-slide-to="1"></li>
-                <li data-target="#carruselProcesoFab" data-slide-to="2"></li>
-                <li data-target="#carruselProcesoFab" data-slide-to="3"></li>
-                <li data-target="#carruselProcesoFab" data-slide-to="4"></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img src="images/LineaEnsamble.png" alt="Linea ensamble" style="width:100%; height: 400px;">
-                  <div class="carousel-caption">
-                    <h1>Ensamble bicicletas</h1>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img src="images/FabricacionCuadros.png" alt="Fabricación cuadros" style="width:100%; height: 400px;">
-                  <div class="carousel-caption">
-                    <h1>Fabricación de marcos de bicicleta</h1>
-
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img src="images/FabricacionHorquilla.png" alt="Fabricación horquilla"
-                    style="width:100%; height: 400px;">
-                  <div class="carousel-caption">
-                    <h1>Fabricación horquilla de bicicleta </h1>
-
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img src="images/EnsambleManubrio.png" alt="Ensamble manubrio" style="width:100%; height: 400px;">
-                  <div class="carousel-caption">
-                    <h1>Manubrio</h1>
-
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img src="images/EnsambleRuedas.png" alt="Ensamble ruedas" style="width:100%; height: 400px;">
-                  <div class="carousel-caption">
-                    <h1>Ensamble ruedas</h1>
-
-                  </div>
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#carruselProcesoFab" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Anterior</span>
-              </a>
-              <a class="carousel-control-next" href="#carruselProcesoFab" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Siguiente</span>
-              </a>
-            </div>
-
-            <header class="title">
-              <h2>Diagrama en TPS. Primera iteración</h2>
-            </header>
-
-            <p style="text-align: justify;">
-              Una primera iteración se realiza con el uso de objetos que simulan la planta y
-              el flujo del material a lo largo de la línea de producción. En este se realiza
-              una primera detección de cuellos de botella, porcentaje de espera de las estaciones, así como bloqueos de
-              estas por generación de colas. En esta se asume material infinito, lo que nos
-              permite identificar el tiempo teórico de producción de bicicletas por hora.
-              Posterior a eso, mediante las librerías de TPS 16, se realiza la segunda iteración con la generación del
-              Value Streaming Mapping (VSM), que es el flujo de generación de valor. Mediante
-              este se identifican las etapas de generación de valor, el Manufacturing Lead Time (MLT), entre otros Key
-              Performance Indicators.
-            </p>
-
-            <br>
-            <video src="Layout1.mp4" width="100%" height="720" controls></video>
-
-            <br>
-            <div id="carruselGraficos" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carruselGraficos" data-slide-to="0" class="active"></li>
-                <li data-target="#carruselGraficos" data-slide-to="1"></li>
-                <li data-target="#carruselGraficos" data-slide-to="2"></li>
-                <li data-target="#carruselGraficos" data-slide-to="3"></li>
-                <li data-target="#carruselGraficos" data-slide-to="4"></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <img class="center-block" src="images/BloqueEnsamble.png" alt="BloqueEnsamble" style="height: 800px;">
-                  <div class="carousel-caption">
-                    <!-- <h1>Inserte Titulo</h1>
-                    <h3>descripción</h3> -->
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img class="center-block" src="images/BloqueMarco1.png" alt="BloqueMarco1" style="height: 800px;">
-                  <div class="carousel-caption">
-                    <!-- <h1>Inserte Titulo</h1>
-                    <h3>descripción</h3> -->
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img class="center-block" src="images/BloqueMarco2.png" alt="BloqueMarco2" style="height: 800px;">
-                  <div class="carousel-caption">
-                    <!-- <h1>Inserte Titulo</h1>
-                    <h3>descripción</h3> -->
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img class="center-block" src="images/BloqueHorq1.png" alt="BloqueHorq1" style="height: 800px;">
-                  <div class="carousel-caption">
-                    <!-- <h1>Inserte Titulo</h1>
-                    <h3>descripción</h3> -->
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img class="center-block" src="images/Estadisticas.png" alt="Estadisticas" style="height: 800px;">
-                  <div class="carousel-caption">
-                    <!-- <h1>Inserte Titulo</h1>
-                    <h3>descripción</h3> -->
-                  </div>
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#carruselGraficos" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Anterior</span>
-              </a>
-              <a class="carousel-control-next" href="#carruselGraficos" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Siguiente</span>
-              </a>
-            </div>
-            <p style="text-align: justify;">
-              Como se puede apreciar, se empieza a evidenvciar diferentes estaciones se encuentran estancadas, en
-              especial alquellas aguas arriba
-              de una de las estación que requiere mayor tiempo de ciclo. De igual forma se visualiza una generación de
-              1.33 bicicletas por hora y 60.32%
-              de esperas
-            </p>
-
-            <br>
-
-            <p style="text-align: justify;">
-              Posterior a eso, mediante las librerías de TPS 16, se realiza la segunda iteración con la generación del
-              Value Streaming Mapping (VSM),
-              que es el flujo de generación de valor. Mediante este se identifican las etapas de generación de valor, el
-              Manufacturing Lead Time (MLT),
-              entre otros Key Performance Indicators.
-            </p>
-
-            <header class="title">
-              <h2>Diagrama VSM </h2>
-            </header>
-            <video src="VSM.mp4" width="100%" height="720" controls></video>
-
-            <header class="title">
-              <h3>1. Tackt Time </h3>
-            </header>
-            <p style="text-align: justify;">
-              Como se apreciará más adelante, las estaciones de producción de la presente línea de manufactura están
-              desbalanceadas,
-              por lo cual, no hay un takt time unificado entre ellas, produciendo 1.33 bicicletas cada hora, según lo
-              muestra las primeras simulaciones.
-              Para el presente caso, se propone un takt time hipotético en base a la demanda de bicicletas del año 2019,
-              donde hubo una demanda de 480.000 MTB.
-              Con esto en mente, se hace el ejercicio académico de poder abarcar el 2% de la venta de bicicletas MTB,
-              esto es equivalente a tener una demanda de
-              9600 bicicletas al año, es decir, con 260 dias disponibles, 37 bicicletas/turno y teniendo un tiempo
-              disponible de trabajo de 7 horas,
-              es decir 420 min/turno, obtenemos un tack time objetivo de 11.35 min.
-            </p>
-
-            <header class="title">
-              <h3>2. Work in process WIP</h3>
-            </header>
-            <p style="text-align: justify;">
-              Como se puede observar en el siguiente archivo en Excel, se realizó el calculo del parámetro WIP,
-              para este, se conto con el apoyo de la simulación en TPS, el cual nos brinda el calculo del WIP de cada
-              uno de los elementos fabricados.
-              En este se simularon 2 días de producción con los cuales se obtuvo un valor de 2398.
-            </p>
-            <iframe
-              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRJkaS6Pg2vMpFRVlpc9gtAS_0RnWFgwefVhUyk4eCIAJgCDa_khUpxF1nbaJkAvQ/pubhtml?gid=433575833&amp;single=true&amp;widget=true&amp;headers=false"
-              width="100%" height="600" scrolling="yes" frameborder="0"></iframe>
-
-            <header class="title">
-              <h3>3. Tiempo de ciclo Tc y tiempo de set up Tsu </h3>
-            </header>
-            <p style="text-align: justify;">
-              En el caso del tiempo de ciclo de los diferentes procesos, se realizó el proceso académico de consultar
-              videos y algunos documentos sobre trabajos
-              finales el cual permitió obtener los siguientes valores para las diferentes estaciones propuestas en la
-              línea de producción de ciclas
-            </p>
-
-            <img src="images/TcYTsu.png" alt="TcYTsu" style="width: 100%; height: 800px;">
-
-            <header class="title">
-              <h3>4. Tasa de producción Rp</h3>
-            </header>
-            <p style="text-align: justify;">
-              En el caso de este indicador, se evidencia el desbalance de partes producidas, en especial en operaciones
-              de facil producción como es el caso de
-              los dobleces y cortes de tubo.
-            </p>
-            <img class="center-block" src="images/Rp.png" alt="Rp" style="height: 800px;">
-
-            <h3>5. Capacidad de producción </h3>
-            </header>
-            <p style="text-align: justify;">
-              En el caso de este indicador, se evidencia el desbalance de partes producidas, en especial en operaciones
-              de facil producción como es el caso de
-              los dobleces y cortes de tubo.
-            </p>
-            <img class="center-block" src="images/PC.png" alt="Rp" style="height: 800px;">
-
-            <h3>6. Manufacturing Lead Time (MLT) </h3>
-            </header>
-            <p style="text-align: justify;">
-              El tiempo de manufactura para la presente linea de producción, es de 21 horas y 55 min con una tiempo de
-              agregación de valor de 2 horas y 10 min
-            </p>
-            <img class="center-block" src="images/MLT.png" alt="Rp" style="height: 200px;">
-
-            <h3>7. Balanceo de lineas </h3>
-            </header>
-            <p style="text-align: justify;">
-              <iframe
-                src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTrUkKa-UJ3DUprPmg5SN1ns7s55YaFn3gXVnCe6cDhZ7xQCzF56lzuB16RsfHmiw/pubhtml?gid=635306661&amp;single=true&amp;widget=true&amp;headers=false"
-                width="100%" height="600" scrolling="yes" frameborder="0"></iframe>
-
-            </p>
-
-
-            <h3>8. Diagrama de precedencias </h3>
-            </header>
-            <p style="text-align: justify;">
-              Con el fin de conocer la organización de la linea de manufactura, se realiza un grafico de precedencia
-              presentado acontinuacion
-            </p>
-            <img src="images/Diagrama de presedencia.png" alt="Rp" style=" width: 100%; height: 800px;">
-
-          </div>
-        </div>
-      </div>
-
-
-
-    </section>
-
-    <!-- Planeación del Proyecto -->
-    <section id="planeacion" class="light">
-      <header class="title">
-        <h2><span>Planeación</span> del Proyecto</h2>
-      </header>
-
-      <div style="padding-left: 1%; padding-right: 1% ;" data-animate="fadeInLeft">
-        <div class="btn-group" role="group">
-          <button id="day" type="button" class="btn btn-sm btn-light active">Dia</button>
-          <!-- <button id="week" type="button" class="btn btn-sm btn-light">Semana</button> -->
-          <button id="month" type="button" class="btn btn-sm btn-light">Mes</button>
-        </div>
-
-        <script type="text/javascript" src="js/gantt_tasks.js"></script>
-        <div id="gantt_here" style='width:99%; height: 400px;'></div>
-        <script type="text/javascript">
-          gantt.i18n.setLocale("es");
-          gantt.config.readonly = true;
-          gantt.config.open_tree_initially = true;
-          gantt.plugins({
-            tooltip: true
-          });
-          gantt.init("gantt_here");
-          gantt.parse(tasks);
-        </script>
-      </div>
-    </section>
-
-    <!-- Evaluación económica -->
-    <section id="economica" class="dark">
-      <header class="title">
-        <h2>Evaluación <span>Económica</span></h2>
-        <p>Haciendo el análisis económico del proyecto e efectivamente rentable, con una producción de 1.4 bicicletas
-          por hora en diez horas laborales.
-          La línea cuenta completamente con sistemas automatizados y sistemas híbridos de ensamble o montaje.
-          Termina teniendo un retorno de inversión (TIR) de 3% y una cobertura completa de la inversión inicial en algo
-          más de 18 meses.</p>
-      </header>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 animated" data-animate="fadeInLeft">
-            <iframe
-              src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRhyDDFOHx6psHkgO0vRFSnCqr27SJkm57VA9eOSZwfRLEGlDUxccaV9_VnQaoxc5-2dPoq3cc2t6Fb/pubhtml?widget=true&amp;headers=false"
-              width="100%" height="600" scrolling="no" frameborder="0"></iframe>
-          </div>
-        </div>
-      </div>
-
-    </section>
-
-    <!-- Celda de Manufactura Robotizada -->
-    <section id="robots" class="light">
-      <header class="title">
-        <h2>Celda de Manufactura <span>Robotizada</span></h2>
-      </header>
-
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 animated" data-animate="fadeInLeft" style="text-align: justify;">
-            <h2>Resumen Ejecutivo </h2>
-
-            <p>
-              TecnoBikes es una empresa enfocada a la fabricación de bicicletas estilo MTB (Mountain Bike) y Fixie
-              (piñon fijo), lo que caracteriza a TecnoBikes es la automatización e implementación de tecnología de punta
-              en nuestras líneas de fabricación, que permiten tener una alta eficiencia y gran calidad en los productos
-              finales. Entre las tecnologías se destacan: Conexión de máquinas a Internet de las cosas (IoT), Digital
-              Twin para realizar comisionamiento virtual de la planta, Monitoreo en tiempo real por medio de SCADAs en
-              la nube y celdas de manufactura robotizadas. </p>
-
-            <p>
-              Estas tecnologías proporcionan herramientas para realizar análisis en tiempo real de la producción y el
-              estado de la maquinaria, esto junto con la implementación de estrategias de pre- y post-automatización son
-              la propuesta que permitiría a TecnoBikes competir con empresas locales no automatizadas y con grandes
-              importadores, al ofrecer una opción que impulsa la economía nacional promoviendo empleo y una gran
-              calidad. </p>
-
-            <p>
-              Nuestras celdas de manufactura robotizadas se distinguen por la adopción de altos estándares de seguridad
-              para su diseño y la innovación en su planeación para permitir realizar procesos encadenados tales como el
-              proceso de soldado de los marcos de las bicicletas y su respectivo pulido que se realizan en una única
-              celda que posee dos robots los cuales trabajan de manera colaborativa al integrarse estos procesos en una
-              única celda reducimos la cantidad de operarios realizando tareas manuales y eliminamos tiempos de
-              transporte entre una estación y otra para cada proceso. La forma en que funciona esta celda es: un
-              operario coloca el marco pre-armado con unos puntos de soldadura en el conveyor de cadena, y una vez
-              ingresa a la celda, el sensor lo detecta e inicia el programa, el primer robot realiza la soldadura y el
-              segundo robot toma los marcos soldados del conveyor y realiza el pulido.
-
-            </p>
-
-          </div>
-        </div>
-      </div>
-            <hr>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 animated" data-animate="fadeInLeft">
-            <iframe
-              src="https://johnpanche.github.io/APM/"
-              width="100%" height="1200" scrolling="no"></iframe>
-            <hr>
-
-            <img class="center-block" src="images/CMR1.PNG" alt="Rp" style=" width:100%; height: 600px;">
-            <img class="center-block" src="images/CMR2.PNG" alt="Rp" style=" width:100%; height: 600px;">
-	    <hr>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/4afWmFrn_N4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
-            <br>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Digital Factory -->
-    <section id="factory" class="dark">
-      <header class="title">
-        <h2>Digital <span>Factory</span></h2>
-        <h2>En progreso ...</h2>
-      </header>
-    </section>
-
-    <!-- Controladores industriales PLC -->
-    <section id="plc" class="light">
-      <header class="title">
-        <h2>Controladores industriales <span>PLC</span></h2>
-        <h2>En progreso ...</h2>
-      </header>
-    </section>
-
-    <!-- Actuadores de automatización -->
-    <section id="actuadores" class="dark">
-      <header class="title">
-        <h2><span>Actuadores </span> de automatización</h2>
-        <h2>En progreso ...</h2>
-      </header>
-    </section>
-
-    <!-- Industria 4.0 en la Automatización -->
-    <section id="industria4" class="light">
-      <header class="title">
-        <h2> <span>Industria 4.0</span> en la Automatización</h2>
-        <p><br>La arquitectura implementada para el desarrollo de este proyecto se desarrolla en 4 niveles que siguen la
-          convención de la pirámide de la automatización. 
-          Empezando desde el nivel de la planta con Sensores y Actuadores donde se usaron programas simuladores como el
-          módulo Mechatronics Concept Designer de Siemens NX para las máquinas participes en el proceso, también se
-          tiene el uso de RobotStudio de la firma ABB para la simulación de las celdas robotizadas.
-          En el siguiente nivel de Control tenemos la simulación de un PLC programado en el entorno de Studio5000, de
-          Rockwell Automation, con esto se lograba el control funcional de las máquinas presentes en el nivel de
-          Actuación.
-          En el piso de SCADA tenemos el uso de Ignition, producto de Inductive Automation, este actúa como
-          intermediario de comunicaciones entre pisos de la pirámide, fundamentalmente por medio decomunicación OPC.  
-          Se destaca Ignition como facilitador de implementación de comunicación a través de la Nube, logrando tener una
-          HMI del proceso alojado en Internet, siendo entonces accesible desde cualquier lugar del mundo. 
-          En el último nivel tenemos el escalón MES (Manufacturing Execution System), donde se tiene la planificación de
-          la producción y ciertos criterios de decisiones de planta, esto posible con la ayudade Tecnomatix-Plant
-          Simulation.
-          </br></p>
-      </header>
-      <img class="center-block" src="images/Arquitectura_40.PNG" alt="Arq" style="height: 800px;">
-
-    </section>
-
-    <!-- SCADA -->
-    <section id="scada" class="dark">
-      <header class="title">
-        <h2><span>SCADA</span></h2>
-        <h2>En progreso ...</h2>
-      </header>
-    </section>
-
-
-    <section class="separator blue">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 col-sm-6 col-xs-6">
-            <div class="counter animated" data-animate="fadeInUp" data-delay="0">
-              <div class="counter-icon">
-                <i class="fa fa-bicycle"></i>
-              </div>
-              <div class="counter-content">
-                <span class="value" data-from="0" data-to="14"></span>
-                <small>Bicicletas por día</small>
+        <!-- Evaluación económica -->
+        <section id="economica" class="dark">
+          <header class="title">
+            <h2>Evaluación <span>Económica</span></h2>
+            <p>Haciendo el análisis económico del proyecto e efectivamente rentable, con una producción de 1.4
+              bicicletas
+              por hora en diez horas laborales.
+              La línea cuenta completamente con sistemas automatizados y sistemas híbridos de ensamble o montaje.
+              Termina teniendo un retorno de inversión (TIR) de 3% y una cobertura completa de la inversión inicial en
+              algo
+              más de 18 meses.</p>
+          </header>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 animated" data-animate="fadeInLeft">
+                <iframe
+                  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRhyDDFOHx6psHkgO0vRFSnCqr27SJkm57VA9eOSZwfRLEGlDUxccaV9_VnQaoxc5-2dPoq3cc2t6Fb/pubhtml?widget=true&amp;headers=false"
+                  width="100%" height="600" scrolling="no" frameborder="0"></iframe>
               </div>
             </div>
           </div>
 
-          <div class="col-md-3 col-sm-6 col-xs-6">
-            <div class="counter animated" data-animate="fadeInUp" data-delay="500">
-              <div class="counter-icon">
-                <i class="fa fa-cubes"></i>
-              </div>
-              <div class="counter-content">
-                <span class="value" data-from="0" data-to="5"></span>
-                <small>Líneas de producción</small>
+        </section>
+
+        <!-- Celda de Manufactura Robotizada -->
+        <section id="robots" class="light">
+          <header class="title">
+            <h2>Celda de Manufactura <span>Robotizada</span></h2>
+          </header>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 animated" data-animate="fadeInLeft" style="text-align: justify;">
+                <h2 id="resEj">Resumen Ejecutivo </h2>
+
+                <p>
+                  TecnoBikes es una empresa enfocada a la fabricación de bicicletas estilo MTB (Mountain Bike) y Fixie
+                  (piñon fijo), lo que caracteriza a TecnoBikes es la automatización e implementación de tecnología de
+                  punta
+                  en nuestras líneas de fabricación, que permiten tener una alta eficiencia y gran calidad en los
+                  productos
+                  finales. Entre las tecnologías se destacan: Conexión de máquinas a Internet de las cosas (IoT),
+                  Digital
+                  Twin para realizar comisionamiento virtual de la planta, Monitoreo en tiempo real por medio de SCADAs
+                  en
+                  la nube y celdas de manufactura robotizadas. </p>
+
+                <p>
+                  Estas tecnologías proporcionan herramientas para realizar análisis en tiempo real de la producción y
+                  el
+                  estado de la maquinaria, esto junto con la implementación de estrategias de pre- y post-automatización
+                  son
+                  la propuesta que permitiría a TecnoBikes competir con empresas locales no automatizadas y con grandes
+                  importadores, al ofrecer una opción que impulsa la economía nacional promoviendo empleo y una gran
+                  calidad. </p>
+
+                <p>
+                  Nuestras celdas de manufactura robotizadas se distinguen por la adopción de altos estándares de
+                  seguridad
+                  para su diseño y la innovación en su planeación para permitir realizar procesos encadenados tales como
+                  el
+                  proceso de soldado de los marcos de las bicicletas y su respectivo pulido que se realizan en una única
+                  celda que posee dos robots los cuales trabajan de manera colaborativa al integrarse estos procesos en
+                  una
+                  única celda reducimos la cantidad de operarios realizando tareas manuales y eliminamos tiempos de
+                  transporte entre una estación y otra para cada proceso. La forma en que funciona esta celda es: un
+                  operario coloca el marco pre-armado con unos puntos de soldadura en el conveyor de cadena, y una vez
+                  ingresa a la celda, el sensor lo detecta e inicia el programa, el primer robot realiza la soldadura y
+                  el
+                  segundo robot toma los marcos soldados del conveyor y realiza el pulido.
+
+                </p>
+
               </div>
             </div>
           </div>
+          <hr>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 animated" data-animate="fadeInLeft">
+                <h2 id="robDis">Diseño</h2> 
+                <iframe src="https://johnpanche.github.io/APM/" width="100%" height="1200" scrolling="no"></iframe>
+                <hr>
 
-          <div class="col-md-3 col-sm-6 col-xs-6">
-            <div class="counter animated" data-animate="fadeInUp" data-delay="1000">
-              <div class="counter-icon">
-                <i class="fa fa-gears"></i>
-              </div>
-              <div class="counter-content">
-                <span class="value" data-from="0" data-to="2"></span>
-                <small>Robots en una celda de manufactura</small>
-              </div>
-            </div>
-          </div>
+                <img class="center-block" src="images/CMR1.PNG" alt="Rp" style=" width:100%; height: 600px;">
+                <img class="center-block" src="images/CMR2.PNG" alt="Rp" style=" width:100%; height: 600px;">
+                <hr>
 
-          <div class="col-md-3 col-sm-6 col-xs-6">
-            <div class="counter animated" data-animate="fadeInUp" data-delay="1500">
-              <div class="counter-icon">
-                <i class="fa fa-cloud"></i>
-              </div>
-              <div class="counter-content">
-                <span class="value" data-from="0" data-to="1"></span>
-                <small>SCADA en la nube</small>
+                <h2 id="robSim">Simulación</h2> 
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/4afWmFrn_N4"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+                <br>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
+        </section>
 
-    <!-- TEAM -->
-    <section id="team" class="light">
-      <header class="title">
-        <h2>Proceso de <span>Aprendizaje</span></h2>
-        <p>En esta sección se van a detallar los aportes y los procesos de aprendizaje de cada miembro del equipo.</p>
-      </header>
+        <!-- Digital Factory -->
+        <section id="factory" class="dark">
+          <header class="title">
+            <h2>Digital <span>Factory</span></h2>
+            <h2>En progreso ...</h2>
+          </header>
+        </section>
 
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-sm-6 text-center">
-            <div class="wrap animated" data-animate="fadeInDown">
-              <div class="img-team">
-                <img src="images/team-1.png" alt="" class="img-circle">
+        <!-- Controladores industriales PLC -->
+        <section id="plc" class="light">
+          <header class="title">
+            <h2>Controladores industriales <span>PLC</span></h2>
+            <h2>En progreso ...</h2>
+          </header>
+        </section>
+
+        <!-- Actuadores de automatización -->
+        <section id="actuadores" class="dark">
+          <header class="title">
+            <h2><span>Actuadores </span> de automatización</h2>
+            <h2>En progreso ...</h2>
+          </header>
+        </section>
+
+        <!-- Industria 4.0 en la Automatización -->
+        <section id="industria4" class="light">
+          <header class="title">
+            <h2> <span>Industria 4.0</span> en la Automatización</h2>
+            <p><br>La arquitectura implementada para el desarrollo de este proyecto se desarrolla en 4 niveles que
+              siguen la
+              convención de la pirámide de la automatización. 
+              Empezando desde el nivel de la planta con Sensores y Actuadores donde se usaron programas simuladores como
+              el
+              módulo Mechatronics Concept Designer de Siemens NX para las máquinas participes en el proceso, también se
+              tiene el uso de RobotStudio de la firma ABB para la simulación de las celdas robotizadas.
+              En el siguiente nivel de Control tenemos la simulación de un PLC programado en el entorno de Studio5000,
+              de
+              Rockwell Automation, con esto se lograba el control funcional de las máquinas presentes en el nivel de
+              Actuación.
+              En el piso de SCADA tenemos el uso de Ignition, producto de Inductive Automation, este actúa como
+              intermediario de comunicaciones entre pisos de la pirámide, fundamentalmente por medio decomunicación
+              OPC.  
+              Se destaca Ignition como facilitador de implementación de comunicación a través de la Nube, logrando tener
+              una
+              HMI del proceso alojado en Internet, siendo entonces accesible desde cualquier lugar del mundo. 
+              En el último nivel tenemos el escalón MES (Manufacturing Execution System), donde se tiene la
+              planificación de
+              la producción y ciertos criterios de decisiones de planta, esto posible con la ayudade Tecnomatix-Plant
+              Simulation.
+              </br></p>
+          </header>
+          <img class="center-block" src="images/Arquitectura_40.PNG" alt="Arq" style="height: 800px;">
+
+        </section>
+
+        <!-- SCADA -->
+        <section id="scada" class="dark">
+          <header class="title">
+            <h2><span>SCADA</span></h2>
+            <h2>En progreso ...</h2>
+          </header>
+        </section>
+
+
+        <section id="indicadoresSec" class="separator blue">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="counter animated" data-animate="fadeInUp" data-delay="0">
+                  <div class="counter-icon">
+                    <i class="fa fa-bicycle"></i>
+                  </div>
+                  <div class="counter-content">
+                    <span class="value" data-from="0" data-to="14"></span>
+                    <small>Bicicletas por día</small>
+                  </div>
+                </div>
               </div>
-              <h3>Laura Garzon</h3>
-              <h5>Ing. Mecatrónica</h5>
 
-              <p>Lorem ipsum Proident incididunt sint dolor cupidatat pariatur dolore magna pariatur in ea aliqua.</p>
+              <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="counter animated" data-animate="fadeInUp" data-delay="500">
+                  <div class="counter-icon">
+                    <i class="fa fa-cubes"></i>
+                  </div>
+                  <div class="counter-content">
+                    <span class="value" data-from="0" data-to="5"></span>
+                    <small>Líneas de producción</small>
+                  </div>
+                </div>
+              </div>
 
-              <div class="team-social">
-                <ul class="list-inline social-list">
-                  <!-- <li><a href="#" class="fa fa-twitter"></a></li>
+              <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="counter animated" data-animate="fadeInUp" data-delay="1000">
+                  <div class="counter-icon">
+                    <i class="fa fa-gears"></i>
+                  </div>
+                  <div class="counter-content">
+                    <span class="value" data-from="0" data-to="2"></span>
+                    <small>Robots en una celda de manufactura</small>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 col-sm-6 col-xs-6">
+                <div class="counter animated" data-animate="fadeInUp" data-delay="1500">
+                  <div class="counter-icon">
+                    <i class="fa fa-cloud"></i>
+                  </div>
+                  <div class="counter-content">
+                    <span class="value" data-from="0" data-to="1"></span>
+                    <small>SCADA en la nube</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- TEAM -->
+        <section id="team" class="light">
+          <header class="title">
+            <h2>Proceso de <span>Aprendizaje</span></h2>
+            <p>En esta sección se van a detallar los aportes y los procesos de aprendizaje de cada miembro del equipo.
+            </p>
+          </header>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 col-sm-6 text-center">
+                <div class="wrap animated" data-animate="fadeInDown">
+                  <div class="img-team">
+                    <img src="images/team-1.png" alt="" class="img-circle">
+                  </div>
+                  <h3>Laura Garzon</h3>
+                  <h5>Ing. Mecatrónica</h5>
+
+                  <p>Lorem ipsum Proident incididunt sint dolor cupidatat pariatur dolore magna pariatur in ea aliqua.
+                  </p>
+
+                  <div class="team-social">
+                    <ul class="list-inline social-list">
+                      <!-- <li><a href="#" class="fa fa-twitter"></a></li>
                   <li><a href="#" class="fa fa-linkedin"></a></li>
                   <li><a href="#" class="fa fa-facebook"></a></li>
                   <li><a href="#" class="fa fa-google-plus"></a></li> -->
-                </ul>
+                    </ul>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
 
-          <div class="col-md-4 col-sm-6 text-center">
-            <div class="wrap animated" data-animate="fadeInDown">
-              <div class="img-team">
-                <img src="images/team-1.png" alt="" class="img-circle">
-              </div>
-              <h3>Elizabeth Lopez</h3>
-              <h5>Ing. Mecatrónica</h5>
+              <div class="col-md-4 col-sm-6 text-center">
+                <div class="wrap animated" data-animate="fadeInDown">
+                  <div class="img-team">
+                    <img src="images/team-1.png" alt="" class="img-circle">
+                  </div>
+                  <h3>Elizabeth Lopez</h3>
+                  <h5>Ing. Mecatrónica</h5>
 
-              <p>Lorem ipsum Proident incididunt sint dolor cupidatat pariatur dolore magna pariatur in ea aliqua.</p>
+                  <p>Lorem ipsum Proident incididunt sint dolor cupidatat pariatur dolore magna pariatur in ea aliqua.
+                  </p>
 
-              <div class="team-social">
-                <ul class="list-inline social-list">
-                  <!-- <li><a href="#" class="fa fa-twitter"></a></li>
+                  <div class="team-social">
+                    <ul class="list-inline social-list">
+                      <!-- <li><a href="#" class="fa fa-twitter"></a></li>
                   <li><a href="#" class="fa fa-linkedin"></a></li>
                   <li><a href="#" class="fa fa-facebook"></a></li>
                   <li><a href="#" class="fa fa-google-plus"></a></li> -->
-                </ul>
+                    </ul>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
 
-          <div class="col-md-4 col-sm-6 text-center">
-            <div class="wrap animated" data-animate="fadeInDown">
-              <div class="img-team">
-                <img src="images/jspanchee.jpg" alt="" class="img-circle">
-              </div>
-              <h3>John Panche</h3>
-              <h5>Ing. Mecatrónico</h5>
+              <div class="col-md-4 col-sm-6 text-center">
+                <div class="wrap animated" data-animate="fadeInDown">
+                  <div class="img-team">
+                    <img src="images/jspanchee.jpg" alt="" class="img-circle">
+                  </div>
+                  <h3>John Panche</h3>
+                  <h5>Ing. Mecatrónico</h5>
 
-              <p>Trabajo enfocado en el diseño y construcción de la celda de manufactura robotizada, y su respectiva
-                simulación en RobotStudio. </p>
+                  <p>Trabajo enfocado en el diseño y construcción de la celda de manufactura robotizada, y su respectiva
+                    simulación en RobotStudio. </p>
 
-              <div class="team-social">
-                <ul class="list-inline social-list">
-                  <!-- <li><a href="#" class="fa fa-twitter"></a></li>
+                  <div class="team-social">
+                    <ul class="list-inline social-list">
+                      <!-- <li><a href="#" class="fa fa-twitter"></a></li>
                   <li><a href="#" class="fa fa-linkedin"></a></li>
                   <li><a href="#" class="fa fa-facebook"></a></li>
                   <li><a href="#" class="fa fa-google-plus"></a></li> -->
-                </ul>
+                    </ul>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
 
-          <div class="col-md-6 col-sm-6 text-center">
-            <div class="wrap animated" data-animate="fadeInDown">
-              <div class="img-team">
-                <img src="images/team-1.png" alt="" class="img-circle">
-              </div>
-              <h3>Ana Rodriguez</h3>
-              <h5>Ing. Mecatrónica</h5>
+              <div class="col-md-6 col-sm-6 text-center">
+                <div class="wrap animated" data-animate="fadeInDown">
+                  <div class="img-team">
+                    <img src="images/team-1.png" alt="" class="img-circle">
+                  </div>
+                  <h3>Ana Rodriguez</h3>
+                  <h5>Ing. Mecatrónica</h5>
 
-              <p>Lorem ipsum Proident incididunt sint dolor cupidatat pariatur dolore magna pariatur in ea aliqua.</p>
+                  <p>Lorem ipsum Proident incididunt sint dolor cupidatat pariatur dolore magna pariatur in ea aliqua.
+                  </p>
 
-              <div class="team-social">
-                <ul class="list-inline social-list">
-                  <!-- <li><a href="#" class="fa fa-twitter"></a></li>
+                  <div class="team-social">
+                    <ul class="list-inline social-list">
+                      <!-- <li><a href="#" class="fa fa-twitter"></a></li>
                   <li><a href="#" class="fa fa-linkedin"></a></li>
                   <li><a href="#" class="fa fa-facebook"></a></li>
                   <li><a href="#" class="fa fa-google-plus"></a></li> -->
-                </ul>
+                    </ul>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
 
-          <div class="col-md-6 col-sm-6 text-center">
-            <div class="wrap animated" data-animate="fadeInDown">
-              <div class="img-team">
-                <img src="images/team-1.png" alt="" class="img-circle">
-              </div>
-              <h3>Camilo Zorro</h3>
-              <h5>Ing. Mecatrónico</h5>
+              <div class="col-md-6 col-sm-6 text-center">
+                <div class="wrap animated" data-animate="fadeInDown">
+                  <div class="img-team">
+                    <img src="images/team-1.png" alt="" class="img-circle">
+                  </div>
+                  <h3>Camilo Zorro</h3>
+                  <h5>Ing. Mecatrónico</h5>
 
-              <p>Lorem ipsum Proident incididunt sint dolor cupidatat pariatur dolore magna pariatur in ea aliqua.</p>
+                  <p>Lorem ipsum Proident incididunt sint dolor cupidatat pariatur dolore magna pariatur in ea aliqua.
+                  </p>
 
-              <div class="team-social">
-                <ul class="list-inline social-list">
-                  <!-- <li><a href="#" class="fa fa-twitter"></a></li>
+                  <div class="team-social">
+                    <ul class="list-inline social-list">
+                      <!-- <li><a href="#" class="fa fa-twitter"></a></li>
                   <li><a href="#" class="fa fa-linkedin"></a></li>
                   <li><a href="#" class="fa fa-facebook"></a></li>
                   <li><a href="#" class="fa fa-google-plus"></a></li> -->
-                </ul>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- /.container -->
+        </section>
+
+        <!-- INFO -->
+
+        <section id="info" class="dark">
+          <header class="title">
+            <h2>Nuestras <span>Habilidades</span></h2>
+            <!-- <p>Lorem ipsum Nulla in incididunt esse tempor dolore ad voluptate aliquip magna sed in.</p> -->
+          </header>
+
+          <div class="container experties">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="skill">
+                  <ul class="skill-bar list-unstyled">
+                    <li><span class="percentage" data-value="50%"></span><em>Automatización</em></li>
+                    <li><span class="percentage" data-value="75%"></span><em>Control</em></li>
+                    <li><span class="percentage" data-value="52%"></span><em>Inteligencia Artificial </em></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="skill">
+                  <ul class="skill-bar list-unstyled">
+                    <li><span class="percentage" data-value="63%"></span><em>Diseño Mecanico</em></li>
+                    <li><span class="percentage" data-value="80%"></span><em>Electrónica</em></li>
+                    <li><span class="percentage" data-value="65%"></span><em>Desarrollo de Software</em></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div> <!-- /.container -->
+        </section>
+
+
+        <!-- FOOTER CONTACT -->
+
+        <section id="contact" class="dark">
+          <header class="title">
+            <h2>Contact <span>Us</span></h2>
+            <p>Lorem ipsum Esse esse cillum nisi cillum deserunt tempor ut pariatur qui officia. Lorem ipsum Magna eu
+              irure
+              sint occaecat cupidatat dolore minim irure cillum.</p>
+          </header>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 animated" data-animate="fadeInLeft">
+                <form action="#">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <input type="text" class="form-control" placeholder="Your Name">
+                    </div>
+                    <div class="col-md-6">
+                      <input type="email" class="form-control" placeholder="Your Email">
+                    </div>
+                    <div class="col-md-12">
+                      <textarea class="form-control" rows="3" placeholder="Tell Us Everything"></textarea>
+                    </div>
+                    <div class="col-md-12">
+                      <button class="btn btn-default submit">Send Message</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+              <div class="col-md-4 animated" data-animate="fadeInRight">
+                <address>
+                  <span><i class="fa fa-map-marker fa-lg"></i> 84 State Road 123 City, State 24813</span>
+                  <span><i class="fa fa-phone fa-lg"></i> (123) xxx - xxx</span>
+                  <span><i class="fa fa-envelope-o fa-lg"></i> <a
+                      href="mailto:contact@example.com">contact&#64;example.com</a></span>
+                  <span><i class="fa fa-globe fa-lg"></i> <a
+                      href="http://support.example.com">support.example.com</a></span>
+                </address>
+              </div>
+
+            </div>
+          </div>
+        </section>
+
+        <section id="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <p> TecnoBikes - 2021</p>
               </div>
             </div>
           </div>
-        </div>
-      </div> <!-- /.container -->
-    </section>
-
-    <!-- INFO -->
-
-    <section id="info" class="dark">
-      <header class="title">
-        <h2>Nuestras <span>Habilidades</span></h2>
-        <!-- <p>Lorem ipsum Nulla in incididunt esse tempor dolore ad voluptate aliquip magna sed in.</p> -->
-      </header>
-
-      <div class="container experties">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="skill">
-              <ul class="skill-bar list-unstyled">
-                <li><span class="percentage" data-value="50%"></span><em>Automatización</em></li>
-                <li><span class="percentage" data-value="75%"></span><em>Control</em></li>
-                <li><span class="percentage" data-value="52%"></span><em>Inteligencia Artificial </em></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="col-md-6">
-            <div class="skill">
-              <ul class="skill-bar list-unstyled">
-                <li><span class="percentage" data-value="63%"></span><em>Diseño Mecanico</em></li>
-                <li><span class="percentage" data-value="80%"></span><em>Electrónica</em></li>
-                <li><span class="percentage" data-value="65%"></span><em>Desarrollo de Software</em></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div> <!-- /.container -->
-    </section>
-
-
-    <!-- FOOTER CONTACT -->
-
-    <section id="contact" class="dark">
-      <header class="title">
-        <h2>Contact <span>Us</span></h2>
-        <p>Lorem ipsum Esse esse cillum nisi cillum deserunt tempor ut pariatur qui officia. Lorem ipsum Magna eu irure
-          sint occaecat cupidatat dolore minim irure cillum.</p>
-      </header>
-
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 animated" data-animate="fadeInLeft">
-            <form action="#">
-              <div class="row">
-                <div class="col-md-6">
-                  <input type="text" class="form-control" placeholder="Your Name">
-                </div>
-                <div class="col-md-6">
-                  <input type="email" class="form-control" placeholder="Your Email">
-                </div>
-                <div class="col-md-12">
-                  <textarea class="form-control" rows="3" placeholder="Tell Us Everything"></textarea>
-                </div>
-                <div class="col-md-12">
-                  <button class="btn btn-default submit">Send Message</button>
-                </div>
-              </div>
-            </form>
-          </div>
-
-          <div class="col-md-4 animated" data-animate="fadeInRight">
-            <address>
-              <span><i class="fa fa-map-marker fa-lg"></i> 84 State Road 123 City, State 24813</span>
-              <span><i class="fa fa-phone fa-lg"></i> (123) xxx - xxx</span>
-              <span><i class="fa fa-envelope-o fa-lg"></i> <a
-                  href="mailto:contact@example.com">contact&#64;example.com</a></span>
-              <span><i class="fa fa-globe fa-lg"></i> <a
-                  href="http://support.example.com">support.example.com</a></span>
-            </address>
-          </div>
-
-        </div>
+        </section>
       </div>
-    </section>
 
-    <section id="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <p> TecnoBikes - 2021</p>
-          </div>
-        </div>
-      </div>
-    </section>
+
+
+    </div>
+
 
   </div><!-- /.container-fluid -->
 
-  <!-- SCRIPT -->
-  <script type="text/javascript" src="js/main.js"></script>
+
 </body>
 
 </html>
