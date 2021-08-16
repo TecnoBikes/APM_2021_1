@@ -241,8 +241,8 @@ var tasks = {
       id: 34, 
       text: "Entrega Final", 
       start_date: "03-06-2021", 
-      duration: 49,
-      progress: 0.8, 
+      duration: 74,
+      progress: 0.95, 
       parent: 30
     },
     {
