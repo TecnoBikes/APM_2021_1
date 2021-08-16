@@ -1,6 +1,6 @@
 var tasks = {
   data: [
-    { id: 1, text: "Documentación y planteamiento", start_date: "01-03-2021", duration: 27 },
+    { id: 1, text: "Documentación y planteamiento", start_date: "01-03-2021", duration: 32 },
     {
       id: 2, 
       text: "Recopilación de información de partes de bicicleta", 
@@ -73,166 +73,203 @@ var tasks = {
       progress: 1, 
       parent: 1
     },
-    { id: 11, text: "Diseño y desarrollo", start_date: "27-03-2021", duration:82 },
     {
-      id: 12, 
+      id: 11, 
+      text: "Aprendizaje de uso de Github", 
+      start_date: "28-03-2021", 
+      duration: 5,
+      progress: 1, 
+      parent: 1
+    },
+    { id: 12, text: "Diseño y desarrollo", start_date: "27-03-2021", duration:131 },
+    {
+      id: 13, 
       text: "Evaluación económica de los procesos seleccionados", 
       start_date: "27-03-2021", 
       duration: 22,
-      progress: 0.9, 
-      parent: 11
-    },
-    {
-      id: 13, 
-      text: "Análisis de Celda de Manufactura Robotizada", 
-      start_date: "14-04-2021", 
-      duration: 17,
-      progress: 0.2, 
-      parent: 11
+      progress: 1, 
+      parent: 12
     },
     {
       id: 14, 
-      text: "Generación de ruta de diseño", 
+      text: "Análisis de Celda de Manufactura Robotizada", 
       start_date: "14-04-2021", 
-      duration: 9,
-      progress: 0.9, 
-      parent: 13
+      duration: 25,
+      progress: 1, 
+      parent: 12
     },
     {
       id: 15, 
-      text: "Implementación de ruta de diseño", 
-      start_date: "22-04-2021", 
-      duration: 9,
-      progress: 0.5, 
-      parent: 13
+      text: "Generación de ruta de diseño", 
+      start_date: "14-04-2021", 
+      duration: 10,
+      progress: 1, 
+      parent: 14
     },
     {
       id: 16, 
-      text: "Condicionamiento del gemelo digital", 
-      start_date: "26-04-2021", 
-      duration: 15,
-      progress: 0.1, 
-      parent: 11
+      text: "Implementación de ruta de diseño", 
+      start_date: "22-04-2021", 
+      duration: 17,
+      progress: 1, 
+      parent: 14
     },
     {
       id: 17, 
-      text: "Implementación de Controladores Industriales (PLC)", 
-      start_date: "05-05-2021", 
-      duration: 20,
-      progress: 0.1, 
-      parent: 11
+      text: "Condicionamiento del gemelo digital", 
+      start_date: "30-04-2021", 
+      duration: 25,
+      progress: 1, 
+      parent: 12
     },
     {
       id: 18, 
-      text: "Selección e implementación de actuadores ", 
-      start_date: "24-05-2021", 
-      duration: 10,
-      progress: 0.1, 
-      parent: 11
+      text: "Implementación de Controladores Industriales (PLC)", 
+      start_date: "25-05-2021", 
+      duration: 25,
+      progress: 1, 
+      parent: 12
     },
     {
       id: 19, 
-      text: "Implementación SCADA", 
-      start_date: "02-06-2021", 
-      duration: 16,
-      progress: 0.1, 
-      parent: 11
+      text: "Selección e implementación de actuadores ", 
+      start_date: "10-06-2021", 
+      duration: 20,
+      progress: 1, 
+      parent: 12
     },
-    { id: 20, text: "Validación y verificación ", start_date: "17-06-2021", duration:14 },
+    {
+      id: 20, 
+      text: "Selección de máquinas y procesos que implementen actuadores", 
+      start_date: "10-06-2021", 
+      duration: 7,
+      progress: 1, 
+      parent: 19
+    },
     {
       id: 21, 
-      text: "Verificación de sistemas", 
-      start_date: "17-06-2021", 
-      duration: 4,
-      progress: 0.1, 
-      parent: 20
+      text: "Planteamiento de secuencias y parámetros para la selección los actuadores y sensores.", 
+      start_date: "15-06-2021", 
+      duration: 16,
+      progress: 1, 
+      parent: 19
     },
     {
       id: 22, 
-      text: "Compras e Insumos", 
-      start_date: "21-06-2021", 
-      duration: 10,
-      progress: 0.1, 
-      parent: 20
+      text: "Implementación SCADA", 
+      start_date: "01-07-2021", 
+      duration: 35,
+      progress: 1, 
+      parent: 12
     },
     {
       id: 23, 
-      text: "Cotización de equipos", 
-      start_date: "21-06-2021", 
-      duration: 5,
-      progress: 0.1, 
+      text: "Establecimiento de comunicación entre plataformas (Ignition-NX-RobotStudio) ", 
+      start_date: "01-07-2021", 
+      duration: 15,
+      progress: 1, 
       parent: 22
     },
     {
       id: 24, 
-      text: "Compras y adquisición de equipos", 
-      start_date: "26-06-2021", 
-      duration: 5,
-      progress: 0.1, 
+      text: "Desarrollo de las GUI para el desarrollo de las imterfaces HMI", 
+      start_date: "14-07-2021", 
+      duration: 22,
+      progress: 1, 
       parent: 22
     },
-    { id: 25, text: "Avances y entregas", start_date: "01-04-2021", duration:84 },
+    
+    { id: 25, text: "Validación y verificación ", start_date: "05-08-2021", duration:41 },
     {
       id: 26, 
-      text: "Entrega Intermedia", 
-      start_date: "01-04-2021", 
-      duration: 33,
-      progress: 0.8, 
+      text: "Verificación de sistemas por simulación", 
+      start_date: "05-08-2021", 
+      duration: 11,
+      progress: 1, 
       parent: 25
     },
     {
       id: 27, 
-      text: "Preparación de Entregables", 
-      start_date: "12-04-2021", 
-      duration: 19,
-      progress: 0.8, 
-      parent: 26
-    },
-    {
-      id: 28, 
-      text: "Publicación en Github", 
-      start_date: "01-04-2021", 
-      duration: 27,
-      progress: 0.8, 
-      parent: 26
-    },
-    {
-      id: 29, 
-      text: "Entrega Final", 
-      start_date: "03-06-2021", 
-      duration: 19,
+      text: "Cotización de equipos", 
+      start_date: "17-08-2021", 
+      duration: 14,
       progress: 0.1, 
       parent: 25
     },
     {
-      id: 30, 
-      text: "Desarrollo de Informe Ejecutivo", 
-      start_date: "03-06-2021", 
-      duration: 15,
+      id: 28, 
+      text: "Compras e Insumos", 
+      start_date: "27-08-2021", 
+      duration: 17,
       progress: 0.1, 
-      parent: 29
+      parent: 25
     },
     {
-      id: 31, 
-      text: "Publicación de documentación", 
-      start_date: "10-06-2021", 
-      duration: 11,
+      id: 29, 
+      text: "Adquisición de equipos  y licencias", 
+      start_date: "27-08-2021", 
+      duration: 19,
       progress: 0.1, 
-      parent: 29
+      parent: 25
+    },
+    { id: 30, text: "Avances y entregas", start_date: "01-04-2021", duration:137 },
+    {
+      id: 31, 
+      text: "Entrega Intermedia", 
+      start_date: "01-04-2021", 
+      duration: 33,
+      progress: 0.8, 
+      parent: 30
     },
     {
       id: 32, 
-      text: "Organización de entregables", 
-      start_date: "05-06-2021", 
+      text: "Preparación de Entregables", 
+      start_date: "12-04-2021", 
+      duration: 19,
+      progress: 0.8, 
+      parent: 31
+    },
+    {
+      id: 33, 
+      text: "Publicación en Github", 
+      start_date: "01-04-2021", 
+      duration: 27,
+      progress: 0.8, 
+      parent: 31
+    },
+    {
+      id: 34, 
+      text: "Entrega Final", 
+      start_date: "03-06-2021", 
+      duration: 49,
+      progress: 0.8, 
+      parent: 30
+    },
+    {
+      id: 35, 
+      text: "Desarrollo de Informe Ejecutivo", 
+      start_date: "03-06-2021", 
+      duration: 47,
+      progress: 1, 
+      parent: 34
+    },
+    {
+      id: 36, 
+      text: "Publicación de documentación", 
+      start_date: "01-08-2021", 
       duration: 15,
-      progress: 0.1, 
-      parent: 29
+      progress: 1, 
+      parent: 34
+    },
+    {
+      id: 37, 
+      text: "Organización de entregables", 
+      start_date: "18-07-2021", 
+      duration: 27,
+      progress: 1, 
+      parent: 34
     }
 
-  ],
-  links: [
-    { id: 1, source: 4, target: 6, type: 0 },
-    { id: 2, source: 8, target: 9, type: 0 }
   ]
 }
 
