@@ -218,7 +218,7 @@ var tasks = {
       text: "Entrega Intermedia", 
       start_date: "01-04-2021", 
       duration: 33,
-      progress: 0.8, 
+      progress: 1, 
       parent: 30
     },
     {
@@ -226,7 +226,7 @@ var tasks = {
       text: "Preparación de Entregables", 
       start_date: "12-04-2021", 
       duration: 19,
-      progress: 0.8, 
+      progress: 1, 
       parent: 31
     },
     {
@@ -234,7 +234,7 @@ var tasks = {
       text: "Publicación en Github", 
       start_date: "01-04-2021", 
       duration: 27,
-      progress: 0.8, 
+      progress: 1, 
       parent: 31
     },
     {
