@@ -697,25 +697,62 @@
         <section id="actuadores" class="dark">
           <header class="title">
             <h2><span>Actuadores </span> de automatización</h2>
-            <h3>Formulación del Problema</h3>
-            <p> En la solución de automatización planteada se cuenta con 4 máquinas que hacen uso de actuadores 
-            para ejecutar las secuencias que permiten reallizar las siguientes tareas:
-              <div align = 'justify'>
-                <li type="circle"><b>Cortadora:</b>Movimiento longitudinal para hacer el corte de los husos.</li>
-                <li type="circle"><b>Dobladora:</b>Movimiento de un mecanismo conectado a un cilindro el cual 
-                  permite mover el dado de la dobladora para hacer los dobleces</li>
-                <li type="circle"><b>Troqueladora:</b>Movimiento longitudinal para el proceso de troquelado</li>
-                <li type="circle"><b>Taladrado:</b>Trayectoria que siga un rectángulo de 64mmx100mm para el 
-                proceso de Taladrado</li> 
-              </div>
-            </p>
-            <h3>Selección de tarea</h3>
-            <p>Para el desarrollo del proceso de selección de actuadores en detalle se escogió el proceso de 
-              Taladrado. Para la secuencia a desarrollar hay que tener en cuenta que la distancia entre agujeros 
-              es de 64 mm en una dirección y 100 mm en la otra dirección. La fuerza de taladrado es de 300 N 
-              y el recorrido de perforación es de 80 mm
-            </p>
           </header>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h3>Formulación del Problema</h3>
+                <p> En la solución de automatización planteada se cuenta con 4 máquinas que hacen uso de actuadores
+                  para ejecutar las secuencias que permiten reallizar las siguientes tareas:
+                <div>
+                  <li type="circle"><b>Cortadora:</b>Movimiento longitudinal para hacer el corte de los husos.</li>
+                  <li type="circle"><b>Dobladora:</b>Movimiento de un mecanismo conectado a un cilindro el cual
+                    permite mover el dado de la dobladora para hacer los dobleces</li>
+                  <li type="circle"><b>Troqueladora:</b>Movimiento longitudinal para el proceso de troquelado</li>
+                  <li type="circle"><b>Taladrado:</b>Trayectoria que siga un rectángulo de 64mmx100mm para el
+                    proceso de Taladrado</li>
+                </div>
+                </p>
+                <h3>Selección de tarea</h3>
+                <p>Para el desarrollo del proceso de selección de actuadores en detalle se escogió el proceso de
+                  Taladrado. Para la secuencia a desarrollar hay que tener en cuenta que la distancia entre agujeros
+                  es de 64 mm en una dirección y 100 mm en la otra dirección. La fuerza de taladrado es de 300 N
+                  y el recorrido de perforación es de 80 mm
+                </p>
+        
+                <h3>Selección de componentes</h3>
+        
+                <h3>Diagramas de circuitos</h3>
+        
+                <figure class="figure bg-light">
+                  <img src="images/grafcetTaladro.png" class="figure-img img-fluid rounded" alt="Circuito Neumatico">
+                  <figcaption class="figure-caption">Rutina general del taladro.</figcaption>
+                </figure>
+        
+                <h3>Diagramas de estado</h3>
+
+                <figure class="figure bg-light">
+                  <img src="images/grafcetTaladrar.png" class="figure-img img-fluid rounded" alt="Circuito Neumatico">
+                  <figcaption class="figure-caption">Subrutina taladrar.</figcaption>
+                </figure>
+
+                <h3>Programa de control</h3>
+        
+                <figure class="figure bg-light">
+                  <img src="images/ladderTaladro.PNG" class="figure-img img-fluid rounded" alt="Circuito Neumatico">
+                  <figcaption class="figure-caption">Lógica programa en Ladder de la rutina general del taladro.</figcaption>
+                </figure>
+        
+                <figure class="figure bg-light">
+                  <img src="images/ladderTaladrar.PNG" class="figure-img img-fluid rounded" alt="Circuito Neumatico">
+                  <figcaption class="figure-caption">Lógica programa en Ladder de la subrutina taladrar.</figcaption>
+                </figure>
+
+
+                <h3>Simulación</h3>
+              </div>
+            </div>
+          </div>
         </section>
 
 <!-- Industria 4.0 en la Automatización -->
