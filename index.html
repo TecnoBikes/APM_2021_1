@@ -741,26 +741,40 @@
                 <img class="center-block" src="images/Taladrado.PNG" alt="Rp" style=" width:100%; height: 600px;">
                 <h3>Selección de Actuadores</h3>
                 <div align = 'left'><h4>Selección de Cilindros</h4></div>
-                <p> El proceso de selección de cilindros se puede detallar a continuación              
-                </p>
+                <p> El proceso de selección de cilindros se puede detallar a continuación</p>
               </header>
               <div class="container">
                 <div class="row">
                   <div class="col-md-12 animated" data-animate="fadeInLeft">
-                    <iframe
-                      src="https://drive.google.com/file/d/132xB288tcA-Fc6wgp0M-fTCT3uBPfhQG/view?usp=sharing;headers=false"
-                      width="100%" height="600" scrolling="yes" frameborder="0"></iframe>
-                  </div>
+                    <iframe src="https://drive.google.com/file/d/132xB288tcA-Fc6wgp0M-fTCT3uBPfhQG/preview" width="700" height="600" allow="autoplay"></iframe>
                 </div>
               </div>
+
                 <h3>Diagramas de circuitos</h3>
+                <p>Con base al esquema neumático se definieron las entradas y salidas necesarias para el control 
+                  eléctrico del sistema, y se añadieron detalles como las señales adicionales de START/STOP y 
+                  parada de emergencia. Se definieron dos etapas de funcionamiento: la etapa de control y la
+                  de potencia. La etapa de control se caracteriza por ser la que incluye al PLC, y el funcionamiento
+                  a 24 voltios DC. Para el correcto montaje del PLC se antepone una fuente, la cual convierte de 
+                  110V AC a 24V DC, se escoge un SITOP de Siemens para que se mantenga coherencia con el
+                  PLC S7-1200, también de Siemens, el cual tiene un módulo incluido de entradas y salidas que 
+                  sirven en DC. El PLC recibe desde los finales de carrera, los switches y pulsadores una 
+                  señal de 24 V con la que alimenta al programa con las posiciones de los cilindros y posibles
+                  causalidades. Así mismo tiene una cantidad de bits definidos para excitar los relés que habilitan
+                  el sistema con A1 o detienen el proceso con A2.
+                  </p>
+                <figure class="figure bg-light">
+                  <img src="images/PLCv2.png" class="figure-img img-fluid rounded" alt="Circuito Neumatico">
+                  <figcaption class="figure-caption">Circuito Eléctrico de Conexión al PLC.</figcaption>
+                </figure>
+                
         
+                <h3>Diagramas de estado</h3>
+
                 <figure class="figure bg-light">
                   <img src="images/grafcetTaladro.png" class="figure-img img-fluid rounded" alt="Circuito Neumatico">
                   <figcaption class="figure-caption">Rutina general del taladro.</figcaption>
                 </figure>
-        
-                <h3>Diagramas de estado</h3>
 
                 <figure class="figure bg-light">
                   <img src="images/grafcetTaladrar.png" class="figure-img img-fluid rounded" alt="Circuito Neumatico">
