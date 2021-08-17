@@ -183,84 +183,6 @@
             <h2>Contenido de Producto</h2>
             <p>El contenido de producto se encuentra dividido en las siguientes categorías: </p>
           </header>
-
-          <div class="container-fluid">
-            <div class="row">
-              <ul id="filters" class="list-inline">
-                <li data-filter="all" class="filter">Todo</li>
-                <li data-filter=".planeacion" class="filter">Planeación</li>
-                <li data-filter=".digital" class="filter">Digital Factory</li>
-                <li data-filter=".industria" class="filter">Controladores y Actuadores Industriales</li>
-                <li data-filter=".robots" class="filter">Celdas Robotizadas</li>
-              </ul>
-            </div>
-
-            <div class="row">
-              <div class="container-portfolio">
-                <!-- PORTFOLIO OBJECT -->
-                <script type="text/javascript">
-                  var portfolio = [
-                    {
-                      category: "planeacion",
-                      image: "images/prod.jpg",
-                      title: " Gestión de <span> Producción y Automatización</span>",
-                      link: "#gpa",
-                      text: "Análisis de KPIs y de aspectos de pre-automatización."
-                    },
-                    {
-                      category: "planeacion",
-                      image: "images/slide-3.jpg",
-                      title: "<span>Planeación</span>  del Proyecto",
-                      link: "#planeacion",
-                      text: "Cronograma del proyecto."
-                    },
-                    {
-                      category: "planeacion",
-                      image: "images/eco.jpg",
-                      title: "Evaluación <span>Económica</span>",
-                      link: "#economica",
-                      text: "Indicadores económicos y oferta comercial."
-                    },
-                    {
-                      category: "industria",
-                      image: "images/constr.png",
-                      title: "Controladores industriales <span>PLC</span>",
-                      link: "#plc",
-                      text: "Modos de operación y lógica programada."
-                    },
-                    {
-                      category: "industria",
-                      image: "images/constr.png",
-                      title: "<span>Actuadores </span> de automatización",
-                      link: "#actuadores",
-                      text: "Selección e implementación de actuadores."
-                    },
-                    {
-                      category: "industria",
-                      image: "images/ind4.jpg",
-                      title: "Industria 4.0 y <span>SCADA</span>",
-                      link: "#industria4",
-                      text: "Supervisión, Control y Adquisición de Datos."
-                    },
-                    {
-                      category: "robots",
-                      image: "images/slide-2.jpg",
-                      title: "Celda de Manufactura <span>Robotizada</span>",
-                      link: "#robots",
-                      text: "Diseño de celda robotizada."
-                    },
-                    {
-                      category: "digital",
-                      image: "images/constr.png",
-                      title: "Digital <span>Factory</span>",
-                      link: "#factory",
-                      text: "Integración de sensores y actuadores virtuales."
-                    },
-                  ];
-                </script>
-              </div>
-            </div>
-          </div>
         </section>
 
 <!-- Gestión de Producción y Automatización -->
@@ -682,14 +604,7 @@
         <section id="factory" class="dark">
           <header class="title">
             <h2>Digital <span>Factory</span></h2>
-
-            <p>Para el desarollo del gemelo digital de neustra fabrica</p>
           </header>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/DGFrpQO2SrE" 
-          title="YouTube video player" frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen></iframe>
-
 
           <div class="container">
             <div class="row">
@@ -704,8 +619,19 @@
         <section id="plc" class="light">
           <header class="title">
             <h2>Controladores industriales <span>PLC</span></h2>
-            <h2>En progreso ...</h2>
           </header>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+
+                <figure class="figure bg-light">
+                  <img src="images/ladderTaladrar.PNG" class="figure-img img-fluid rounded" alt="Circuito Neumatico">
+                  <figcaption class="figure-caption">Lógica programa en Ladder de la subrutina taladrar.</figcaption>
+                </figure>
+        
+              </div>
+            </div>
+          </div>
         </section>
 
 <!-- Actuadores de automatización -->
@@ -794,7 +720,9 @@
                 <h3>Simulación</h3>
                 <iframe src="https://drive.google.com/file/d/1sxW5DEfjbJkcc9ZsS9xvEBtcigZgVcIe/preview" width="100%" height="720p" allow="autoplay"></iframe>
               </div>
-            </section>
+            </div>
+          </div>
+        </section>
 
 <!-- Industria 4.0 en la Automatización -->
         <section id="industria4" class="light">
@@ -1015,7 +943,7 @@
               <h3>Ana Rodriguez</h3>
               <h5>Ing. Mecatrónica</h5>
 
-                  <p>Trabajo enfocado en PLC, SCADA, despliegue en la nube, y desarrollo web.
+                  <p> Interés en inteligencia artificial, desarrollo de software y control.
                   </p>
 
                   <div class="team-social">
@@ -1297,9 +1225,9 @@
                   </ul>
                   <h4>Ana M. Rodríguez R.</h4>
                   <ul >
-                    <li> ... </li>
-                    <li> ... </li>
-                    <li> ... </li>
+                    <li> Implementé la lógica de los controladores y su respectiva verificación por simulación. </li>
+                    <li> Realicé el despliegue del SCADA Nube, su configuración y las conexiones necesarias con los nodos locales.</li>
+                    <li> Colaboré en la integración de módulos avanzados en el SCADA (informe, historico de tags) y en el desarrollo de la página. </li>
                   </ul>
                   <h4>Camilo A. Zorro M.</h4>
                   <ul >
@@ -1375,7 +1303,6 @@
                     <li> Es importante que al momento de realizar interfaces o SCADA, no importa el nivel, primero se diseñen mockups, sencillos y preferiblemente colaborativos si se va a trabajar en proyectos, debido a que con el diseño inicial se puede plantear un diseño mínimo antes de ir generando sobre la marcha, un enfoque en para este proyecto no funcionó.
                       </li>
                     <li> Familiarizarse con las herramientas de diseño previo a la aplicación de ellas proveerá un manejo rápido y eficiente a la hora de usarlas.  </li>
-                    <li> ... </li>
                   </ul>
                   <h4>John S. Panche E.</h4>
                   <ul >
@@ -1385,9 +1312,8 @@
                   </ul>
                   <h4>Ana M. Rodríguez R.</h4>
                   <ul >
-                    <li> ... </li>
-                    <li> ... </li>
-                    <li> ... </li>
+                    <li> En los casos de comunicaciones OPC UA de ser posible es mejor conectarse directamente con el servidor OPC UA que viene incluido en Ignition, de esta manera se evita tener que duplicar tags en el local y en la nube. </li>
+                    <li> Plantear desde el comienzo patrones para el nombramiento de tags que permitan su parametrización, ayuda a la creación de pantallas HMI reusables y expandibles por otros modulos.</li>
                   </ul>
                   <h4>Camilo A. Zorro M.</h4>
                   <ul >
