@@ -1222,3 +1222,13 @@ h2 {
   padding: .4rem 0.6rem;
 }
 
+#recomendaciones ul li {
+  list-style: disc;
+  padding: 0.1rem;
+}
+
+#pAprendizaje ul li {
+  list-style: disc;
+  padding: 0.1rem;
+}
+
