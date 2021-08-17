@@ -1,0 +1,1222 @@
+﻿STEP to UG
+! INFO-     NX STEP AP203 - V1899
+! INFO-      
+! INFO-     Start of Translation: 13-JUL-2021  1:24:42 AM
+! INFO-      
+! STATUS-   Converting Part: Z:\Modulos\Actuadores\Modelo Piezas\drilling 4\Assembly12.stp
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      Unknown
+! SUMMARY-  Imp_Level        2;1
+! SUMMARY-  File_Name        Z:\Modulos\Actuadores\Modelo Piezas\drilling 4\Assembly12.stp
+! SUMMARY-  Date             2021-07-13T01:23:41-05:00
+! SUMMARY-  Author           Camilo Andres Zorro
+! SUMMARY-  Organization     Unknown
+! SUMMARY-  Pre_Version      ST-DEVELOPER v18
+! SUMMARY-  Orig_System      Autodesk Inventor 2020
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-  Schema_ID        automotive_design
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_face ..............................................:   2551
+! SUMMARY-  application_context ........................................:      1
+! SUMMARY-  axis2_placement_3d .........................................:   5116
+! SUMMARY-  b_spline_curve_with_knots ..................................:    850
+! SUMMARY-  b_spline_curve_with_knots_and_rational_b_spline_curve ......:    118
+! SUMMARY-  b_spline_surface_with_knots ................................:     13
+! SUMMARY-  b_spline_surface_with_knots_and_rational_b_spline_surface ..:     83
+! SUMMARY-  cartesian_point ............................................:  39769
+! SUMMARY-  circle .....................................................:   2502
+! SUMMARY-  closed_shell ...............................................:     49
+! SUMMARY-  conical_surface ............................................:    309
+! SUMMARY-  context_dependent_shape_representation .....................:     60
+! SUMMARY-  conversion_based_unit_and_length_unit ......................:      1
+! SUMMARY-  cylindrical_surface ........................................:    711
+! SUMMARY-  dimensional_exponents ......................................:      1
+! SUMMARY-  direction ..................................................:  13650
+! SUMMARY-  edge_curve .................................................:   6932
+! SUMMARY-  edge_loop ..................................................:   2898
+! SUMMARY-  ellipse ....................................................:     46
+! SUMMARY-  face_bound .................................................:    347
+! SUMMARY-  face_outer_bound ...........................................:   2551
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:     53
+! SUMMARY-  item_defined_transformation ................................:     60
+! SUMMARY-  length_measure_with_unit ...................................:      1
+! SUMMARY-  length_unit_and_si_unit ....................................:      2
+! SUMMARY-  line .......................................................:   3418
+! SUMMARY-  manifold_solid_brep ........................................:     49
+! SUMMARY-  next_assembly_usage_occurrence .............................:     60
+! SUMMARY-  oriented_edge ..............................................:  13864
+! SUMMARY-  plane ......................................................:   1278
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:      1
+! SUMMARY-  product ....................................................:     52
+! SUMMARY-  product_context ............................................:      1
+! SUMMARY-  product_definition .........................................:     52
+! SUMMARY-  product_definition_context .................................:      1
+! SUMMARY-  product_definition_formation ...............................:     52
+! SUMMARY-  product_definition_shape ...................................:    112
+! SUMMARY-  product_related_product_category ...........................:     52
+! SUMMARY-  representation_relationship_with_transformation_and_shape ..:     60
+! SUMMARY-  shape_representation .......................................:     52
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:      1
+! SUMMARY-  spherical_surface ..........................................:     21
+! SUMMARY-  toroidal_surface ...........................................:    136
+! SUMMARY-  trimmed_curve ..............................................:      1
+! SUMMARY-  uncertainty_measure_with_unit ..............................:     53
+! SUMMARY-  vector .....................................................:   3418
+! SUMMARY-  vertex_point ...............................................:   4686
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                         106094
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 13-JUL-2021 1:24:43 AM
+! STATUS-    
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:48 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\palanca
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:48 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\SoportesCilindrosHydra
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:48 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\03046018_02
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:48 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\03046018_01
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:48 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\70993301_03
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:49 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\70993301_02
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:49 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\70993301_01
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:49 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\70993618_03
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:49 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\70993618_02
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:49 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\70993618_01
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:50 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Part235
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:50 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\PiezaAgujero1234
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:50 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\BaseMaquina
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:50 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Mesa2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:50 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Mesa1
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:50 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Pulley
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:50 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Belt Cover
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:50 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Belt Frame
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:51 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\foret
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:51 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\mâchoire
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:51 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\vis
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:51 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\ecrou de manoeuvre
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:51 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\flasque vis
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:51 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\corps mobile
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:51 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\ecrou fixe
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:52 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\bague de manoeuvre
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:52 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\vis de bague
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:52 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\cone
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:52 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\hex nut gradec_iso(ISO - 4034 - M12 - N)
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:52 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\M12 Stud
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:52 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Support Part
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:52 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Casing
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:52 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Head Body
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Arc/Circle ..................:     2
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:52 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Swivel Knob
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:52 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Swivel Arm
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:53 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Turning Shaft
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:53 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\roulement_61806-2rs1_2_05
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:53 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\roulement_61806-2rs1_2_04
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:53 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\roulement_61806-2rs1_2_03
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:53 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\roulement_61806-2rs1_2_02
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:53 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\roulement_61806-2rs1_2_01
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:53 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Vise Tray
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:53 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Holder
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:53 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Worm Gear Box
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:54 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Pillar
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:54 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Big Bushing
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:54 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Bottom Tray
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:54 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\roulement_61806-2rs1_2
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     5
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              5
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:54 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\corp mobile
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:54 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\corp fixe
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     4
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              4
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:54 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\mandrin de percage
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     7
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              7
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:24:54 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Assembly12.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    41
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             41
+! INFO-      
+! INFO-     Total number of solids input for this translation       :        49
+! INFO-      
+! INFO-     Number of solids created without body validation faults :        49
+! INFO-      
+! INFO-     Number of solids created with body validation fault(s)  :         0
+! INFO-      
+! INFO-     Number of solids ending up as sheet bodies              :         0
+! INFO-      
+! INFO-     End of Translation: 13-JUL-2021  1:24:55 AM
+! INFO-      
+STEP to UG
+! INFO-     NX STEP AP203 - V1899
+! INFO-      
+! INFO-     Start of Translation: 13-JUL-2021  1:31:42 AM
+! INFO-      
+! STATUS-   Converting Part: Z:\Modulos\Actuadores\Modelo Piezas\drilling 4\Assembly12.stp
+! SUMMARY-   
+! SUMMARY-    STEP Header Information
+! SUMMARY-   
+! SUMMARY-  Description      Unknown
+! SUMMARY-  Imp_Level        2;1
+! SUMMARY-  File_Name        Z:\Modulos\Actuadores\Modelo Piezas\drilling 4\Assembly12.stp
+! SUMMARY-  Date             2021-07-13T01:31:19-05:00
+! SUMMARY-  Author           Camilo Andres Zorro
+! SUMMARY-  Organization     Unknown
+! SUMMARY-  Pre_Version      ST-DEVELOPER v18
+! SUMMARY-  Orig_System      Autodesk Inventor 2020
+! SUMMARY-  Authorization    Unknown
+! SUMMARY-  Schema_ID        automotive_design
+! SUMMARY-   
+! SUMMARY-    Summary of STEP Entities
+! SUMMARY-   
+! SUMMARY-  Entity Type                                                   Count
+! SUMMARY-  -----------                                                   ------
+! SUMMARY-  advanced_face ..............................................:   2551
+! SUMMARY-  application_context ........................................:      1
+! SUMMARY-  axis2_placement_3d .........................................:   5116
+! SUMMARY-  b_spline_curve_with_knots ..................................:    850
+! SUMMARY-  b_spline_curve_with_knots_and_rational_b_spline_curve ......:    118
+! SUMMARY-  b_spline_surface_with_knots ................................:     13
+! SUMMARY-  b_spline_surface_with_knots_and_rational_b_spline_surface ..:     83
+! SUMMARY-  cartesian_point ............................................:  39769
+! SUMMARY-  circle .....................................................:   2502
+! SUMMARY-  closed_shell ...............................................:     49
+! SUMMARY-  conical_surface ............................................:    309
+! SUMMARY-  context_dependent_shape_representation .....................:     60
+! SUMMARY-  conversion_based_unit_and_length_unit ......................:      1
+! SUMMARY-  cylindrical_surface ........................................:    711
+! SUMMARY-  dimensional_exponents ......................................:      1
+! SUMMARY-  direction ..................................................:  13650
+! SUMMARY-  edge_curve .................................................:   6932
+! SUMMARY-  edge_loop ..................................................:   2898
+! SUMMARY-  ellipse ....................................................:     46
+! SUMMARY-  face_bound .................................................:    347
+! SUMMARY-  face_outer_bound ...........................................:   2551
+! SUMMARY-  geometric_representation_context_and_global_uncertainty_a ..:     53
+! SUMMARY-  item_defined_transformation ................................:     60
+! SUMMARY-  length_measure_with_unit ...................................:      1
+! SUMMARY-  length_unit_and_si_unit ....................................:      2
+! SUMMARY-  line .......................................................:   3418
+! SUMMARY-  manifold_solid_brep ........................................:     49
+! SUMMARY-  next_assembly_usage_occurrence .............................:     60
+! SUMMARY-  oriented_edge ..............................................:  13864
+! SUMMARY-  plane ......................................................:   1278
+! SUMMARY-  plane_angle_unit_and_si_unit ...............................:      1
+! SUMMARY-  product ....................................................:     52
+! SUMMARY-  product_context ............................................:      1
+! SUMMARY-  product_definition .........................................:     52
+! SUMMARY-  product_definition_context .................................:      1
+! SUMMARY-  product_definition_formation ...............................:     52
+! SUMMARY-  product_definition_shape ...................................:    112
+! SUMMARY-  product_related_product_category ...........................:     52
+! SUMMARY-  representation_relationship_with_transformation_and_shape ..:     60
+! SUMMARY-  shape_representation .......................................:     52
+! SUMMARY-  si_unit_and_solid_angle_unit ...............................:      1
+! SUMMARY-  spherical_surface ..........................................:     21
+! SUMMARY-  toroidal_surface ...........................................:    136
+! SUMMARY-  trimmed_curve ..............................................:      1
+! SUMMARY-  uncertainty_measure_with_unit ..............................:     53
+! SUMMARY-  vector .....................................................:   3418
+! SUMMARY-  vertex_point ...............................................:   4686
+! SUMMARY-                                                               -------
+! SUMMARY-  Total                                                         106094
+! STATUS-    
+! STATUS-   Converting to Output Form (Phase 2 of 3): 13-JUL-2021 1:31:43 AM
+! STATUS-    
+! STATUS-    
+! STATUS-   Generating UG geometry and placing them in parts
+! STATUS-    
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:48 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\palanca108419
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:49 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\SoportesCilindrosHydra108418
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:49 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\03046018_02108417
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:49 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\03046018_01108416
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:49 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\70993301_03108415
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:49 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\70993301_02108414
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:49 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\70993301_01108413
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:50 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\70993618_03108412
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:50 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\70993618_02108411
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:50 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\70993618_01108410
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:50 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Part235108409
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:51 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\PiezaAgujero1234108408
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:51 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\BaseMaquina108407
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:51 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Mesa2108406
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:51 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Mesa1108405
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:51 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Pulley108404
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:51 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Belt Cover108403
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:51 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Belt Frame108402
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:51 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\foret108401
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:51 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\mâchoire108400
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:52 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\vis108399
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:52 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\ecrou de manoeuvre108398
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:52 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\flasque vis108397
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:52 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\corps mobile108396
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:52 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\ecrou fixe108394
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:52 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\bague de manoeuvre108393
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:52 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\vis de bague108392
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:53 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\cone108391
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:53 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\hex nut gradec_iso(ISO - 4034 - M12 - N)108388
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:53 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\M12 Stud108387
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:53 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Support Part108386
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:53 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Casing108385
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:53 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Head Body108384
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Arc/Circle ..................:     2
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:53 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Swivel Knob108383
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:53 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Swivel Arm108382
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:53 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Turning Shaft108381
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:54 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\roulement_61806-2rs1_2_05108380
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:54 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\roulement_61806-2rs1_2_04108379
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:54 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\roulement_61806-2rs1_2_03108378
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:54 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\roulement_61806-2rs1_2_02108377
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:54 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\roulement_61806-2rs1_2_01108376
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:54 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Vise Tray108374
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:54 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Holder108373
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:54 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Worm Gear Box108372
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:55 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Pillar108371
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:55 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Big Bushing108370
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     1
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              1
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:55 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Bottom Tray108369
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Solid .......................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:55 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\roulement_61806-2rs1_2108375
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     5
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              5
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:55 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\corp mobile108395
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     3
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              3
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:55 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\corp fixe108390
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     4
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              4
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:55 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\mandrin de percage108389
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:     7
+! SUMMARY-                                 -----
+! SUMMARY-  Total                              7
+! STATUS-   Creating the UG part (Phase 3 of 3): 13-JUL-2021  1:31:55 AM
+! INFO-     Filing Part ..: Z:\APM\siemens\NX1899\UGII\Assembly12.prt
+! SUMMARY-   
+! SUMMARY-  Summary of Unigraphics Part Entities
+! SUMMARY-   
+! SUMMARY-  Entities Processed             Count
+! SUMMARY-  ------------------             -----
+! SUMMARY-  Component ...................:    41
+! SUMMARY-                                 -----
+! SUMMARY-  Total                             41
+! INFO-      
+! INFO-     Total number of solids input for this translation       :        49
+! INFO-      
+! INFO-     Number of solids created without body validation faults :        49
+! INFO-      
+! INFO-     Number of solids created with body validation fault(s)  :         0
+! INFO-      
+! INFO-     Number of solids ending up as sheet bodies              :         0
+! INFO-      
+! INFO-     End of Translation: 13-JUL-2021  1:31:56 AM
+! INFO-      
