@@ -655,22 +655,49 @@
                 </div>
                 </p>
                 <h3>Selección de tarea</h3>
-                <p>Para el desarrollo del proceso de selección de actuadores en detalle se escogió el proceso de
-                  Taladrado. Para la secuencia a desarrollar hay que tener en cuenta que la distancia entre agujeros
-                  es de 64 mm en una dirección y 100 mm en la otra dirección. La fuerza de taladrado es de 300 N
-                  y el recorrido de perforación es de 80 mm
+                <p>Para el desarrollo del proceso de selección de actuadores en detalle se escogió el proceso de 
+                  <b>Taladrado</b>. Para el problema propuesto los tubos vertical y diagonal deben ser provistos 
+                  con dos agujeros cada uno. Los tubos están posicionados de tal forma que el talabro sigue un 
+                  recorrido rectangular. Para la secuencia a desarrollar hay que tener en cuenta que la distancia
+                  entre agujeros es de 64 mm en una dirección y 100 mm en la otra dirección. La fuerza de taladrado 
+                  es de 300N, los tubos suman una masa de 2,1 kg, la mesa de desplazamiento tiene una masa de 30kg.
                 </p>
-        
+                <img class="center-block" src="images/Taladrado.PNG" alt="Rp" style=" width:100%; height: 600px;">
                 <h3>Selección de componentes</h3>
-        
+                <p> El proceso de selección de cilindros se puede detallar a continuación</p>
+              
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12 animated" data-animate="fadeInLeft">
+                    <iframe src="https://drive.google.com/file/d/132xB288tcA-Fc6wgp0M-fTCT3uBPfhQG/preview" width="700" height="600" allow="autoplay"></iframe>
+                </div>
+              </div>
+
                 <h3>Diagramas de circuitos</h3>
+                <p>Con base al esquema neumático se definieron las entradas y salidas necesarias para el control 
+                  eléctrico del sistema, y se añadieron detalles como las señales adicionales de START/STOP y 
+                  parada de emergencia. Se definieron dos etapas de funcionamiento: la etapa de control y la
+                  de potencia. La etapa de control se caracteriza por ser la que incluye al PLC, y el funcionamiento
+                  a 24 voltios DC. Para el correcto montaje del PLC se antepone una fuente, la cual convierte de 
+                  110V AC a 24V DC, se escoge un SITOP de Siemens para que se mantenga coherencia con el
+                  PLC S7-1200, también de Siemens, el cual tiene un módulo incluido de entradas y salidas que 
+                  sirven en DC. El PLC recibe desde los finales de carrera, los switches y pulsadores una 
+                  señal de 24 V con la que alimenta al programa con las posiciones de los cilindros y posibles
+                  causalidades. Así mismo tiene una cantidad de bits definidos para excitar los relés que habilitan
+                  el sistema con A1 o detienen el proceso con A2.
+                  </p>
+                <figure class="figure bg-light">
+                  <img src="images/PLCv2.png" class="figure-img img-fluid rounded" alt="Circuito Neumatico">
+                  <figcaption class="figure-caption">Circuito Eléctrico de Conexión al PLC.</figcaption>
+                </figure>
+                
         
+                <h3>Diagramas de estado</h3>
+
                 <figure class="figure bg-light">
                   <img src="images/grafcetTaladro.png" class="figure-img img-fluid rounded" alt="Circuito Neumatico">
                   <figcaption class="figure-caption">Rutina general del taladro.</figcaption>
                 </figure>
-        
-                <h3>Diagramas de estado</h3>
 
                 <figure class="figure bg-light">
                   <img src="images/grafcetTaladrar.png" class="figure-img img-fluid rounded" alt="Circuito Neumatico">
@@ -691,7 +718,6 @@
 
 
                 <h3>Simulación</h3>
-
                 <iframe src="https://drive.google.com/file/d/1sxW5DEfjbJkcc9ZsS9xvEBtcigZgVcIe/preview" width="100%" height="720p" allow="autoplay"></iframe>
               </div>
             </div>
