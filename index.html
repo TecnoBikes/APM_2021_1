@@ -15,21 +15,21 @@
 
   <link rel="stylesheet" href="css/loader.css" />
 
-<script>
-  document.onreadystatechange = function() {
+  <script>
+    document.onreadystatechange = function() {
       if (document.readyState !== "complete") {
-          document.querySelector(
-            "body").style.visibility = "hidden";
-          document.querySelector(
-            "#loader").style.visibility = "visible";
+        document.querySelector(
+          "body").style.visibility = "hidden";
+        document.querySelector(
+          "#loader").style.visibility = "visible";
       } else {
-          document.querySelector(
-            "#loader").style.display = "none";
-          document.querySelector(
-            "body").style.visibility = "visible";
+        document.querySelector(
+          "#loader").style.display = "none";
+        document.querySelector(
+          "body").style.visibility = "visible";
       }
-  };
-</script>
+    };
+  </script>
 
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/font-awesome.min.css" />
@@ -83,7 +83,7 @@
         </ul>
       </div> <!-- /.navbar-collapse -->
     </nav>
-    
+
     <div class="row">
       <!-- NAVIGATION SIDE -->
       <nav id="navbar-side" class="navbar navbar-dark bg-light d-none d-md-block col-md-3 border-right">
@@ -111,7 +111,7 @@
       </nav>
 
       <div id="contenDiv" class="col-sm-12 col-md-9" data-spy="scroll" data-target="#navbar-side" data-offset="0"
-      style="height: 90vh; overflow-y: scroll;" >
+        style="height: 90vh; overflow-y: scroll;" >
 
         <!-- ABOUT -->
 
@@ -185,7 +185,7 @@
           </header>
         </section>
 
-<!-- Gestión de Producción y Automatización -->
+        <!-- Gestión de Producción y Automatización -->
         <section id="gpa" class="dark">
           <header class="title">
             <h2>Gestión de <span> Producción y Automatización</span></h2>
@@ -473,7 +473,7 @@
 
         </section>
 
-<!-- Planeación del Proyecto -->
+        <!-- Planeación del Proyecto -->
         <section id="planeacion" class="light">
           <header class="title">
             <h2><span>Planeación</span> del Proyecto</h2>
@@ -501,7 +501,7 @@
           </div>
         </section>
 
-<!-- Evaluación económica -->
+        <!-- Evaluación económica -->
         <section id="economica" class="dark">
           <header class="title">
             <h2>Evaluación <span>Económica</span></h2>
@@ -525,7 +525,7 @@
 
         </section>
 
-<!-- Celda de Manufactura Robotizada -->
+        <!-- Celda de Manufactura Robotizada -->
         <section id="robots" class="light">
           <header class="title">
             <h2>Celda de Manufactura <span>Robotizada</span></h2>
@@ -581,7 +581,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-12 animated" data-animate="fadeInLeft">
-                <h2 id="robDis">Diseño</h2> 
+                <h2 id="robDis">Diseño</h2>
                 <iframe src="https://johnpanche.github.io/APM/" width="100%" height="1200" scrolling="auto"></iframe>
                 <hr>
 
@@ -589,7 +589,7 @@
                 <img class="center-block" src="images/CMR2.PNG" alt="Rp" style=" width:100%; height: 600px;">
                 <hr>
 
-                <h2 id="robSim">Simulación</h2> 
+                <h2 id="robSim">Simulación</h2>
                 <iframe width="100%" height="720p" src="https://www.youtube.com/embed/ICljfNXcvvU"
                   title="YouTube video player" frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -600,7 +600,7 @@
           </div>
         </section>
 
-<!-- Digital Factory -->
+        <!-- Digital Factory -->
         <section id="factory" class="dark">
           <header class="title">
             <h2>Digital <span>Factory</span></h2>
@@ -609,13 +609,16 @@
           <div class="container">
             <div class="row">
               <div class="col-md-12">
-          <iframe width="100%" height="720p" src="https://www.youtube.com/embed/DGFrpQO2SrE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="100%" height="720p" src="https://www.youtube.com/embed/DGFrpQO2SrE"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
               </div>
             </div>
           </div>
         </section>
 
-<!-- Controladores industriales PLC -->
+        <!-- Controladores industriales PLC -->
         <section id="plc" class="light">
           <header class="title">
             <h2>Controladores industriales <span>PLC</span></h2>
@@ -623,18 +626,105 @@
           <div class="container">
             <div class="row">
               <div class="col-md-12">
+                <h3>Problema de control secuencial</h3>
+                <p> Se quiere desarrollar el control secuencial de las siguientes tareas:
+                  <ul>
+                  <li style="list-style-type: circle;"><b>Troqueladora:</b>Se encarga de realizar la boca de pescado en diferentes elementos para la bicicleta, como los son: tirantes, vainas, puente de freno y tubos superior.</li>
+                  <li style="list-style-type: circle;"><b>Taladrado:</b>Se encarga de realizar las perforaciones del tubo superior y diagonal.</li>
+                  </ul>
+                </p>
+                <p>Estas tareas tienen en común que:
+                  <li style="list-style-type: circle;">Son procesos repetivivos.</li>
+                  <li style="list-style-type: circle;">Son tareas cortas, que pueden procesar grandes cantidades de material en poco tiempo </li>
+                  </ul>
+                Estas razones las hace buenas candidatas para ser comandados desde un PLC.</p>
+
+                <h3>Modos de operación</h3>
+
+                <iframe src="https://docs.google.com/document/d/e/2PACX-1vS3qfjwtkNuF4C3kKCLPzWpEg3GZrE5Ispy1kgeD3BG6Q8Msvh0BHhSHbCBOA-lgQ/pub?embedded=true" width="700"
+                height="600" allow="autoplay"></iframe>
+        
+
+                <h3>Etapas y transiciones </h3>
+                <p> Las etapas se puede consultar en la sección de actuadores industriales. 
+                </p>
+
+                <h3>Señales</h3>
+
+                <h4>Taladro</h4>
+
+                <table class="table table-striped table-hover">
+                <thead  class="thead-dark"><th>TAG</th><th>SEÑAL/DESCRIPCIÓN</th><th>TIPO</th></tr></thead><tbody>
+                 <tr><td>EXT_CIL_A</td><td>extender cilindro A</td><td>Entrada</td></tr>
+                 <tr><td>EXT_CIL_B</td><td>extender cilindro B</td><td>Entrada</td></tr>
+                 <tr><td>EXT_CIL_C</td><td>extender cilindro C</td><td>Entrada</td></tr>
+                 <tr><td>RET_CIL_A</td><td>retraer cilindro A</td><td>Entrada</td></tr>
+                 <tr><td>RET_CIL_B</td><td>retraer cilindro B</td><td>Entrada</td></tr>
+                 <tr><td>RET_CIL_C</td><td>retraer cilindro C</td><td>Entrada</td></tr>
+                 <tr><td>S1_TAL</td><td>Sensor final de carrera cilindro A</td><td>Salida</td></tr>
+                 <tr><td>S2_TAL</td><td>Sensor inicio de carrera cilindro A</td><td>Salida</td></tr>
+                 <tr><td>S3_TAL</td><td>Sensor final de carrera cilindro B</td><td>Salida</td></tr>
+                 <tr><td>S4_TAL</td><td>Sensor inicio de carrera cilindro B</td><td>Salida</td></tr>
+                 <tr><td>S5_TAL</td><td>Sensor final de carrera cilindro C</td><td>Salida</td></tr>
+                 <tr><td>S6_TAL</td><td>Sensor inicio de carrera cilindro C</td><td>Salida</td></tr>
+                 <tr><td>CNT_TUBO_DIAG</td><td>Número de tubos diagonal taladrados</td><td>Contador</td></tr>
+                 <tr><td>CNT_TUBO_VERT</td><td>Número de tubos verticales taladrados</td><td>Contador</td></tr>
+                </tbody></table>
+
+
+                <h4>Troqueladora</h4>
+
+                <table class="table table-striped table-hover">
+                  <thead class="thead-dark"><tr ><th>TAG</th><th>SEÑAL/DESCRIPCIÓN</th><th>TIPO</th></tr></thead><tbody>
+                   <tr><td>EXT_CIL_A</td><td>extender cilindro A</td><td>Entrada</td></tr>
+                   <tr><td>EXT_CIL_B</td><td>extender cilindro B</td><td>Entrada</td></tr>
+                   <tr><td>S1_TRO</td><td>Sensor final de carrera cilindro</td><td>Salida</td></tr>
+                   <tr><td>S2_TRO</td><td>Sensor inicio de carrera cilindro</td><td>Salida</td></tr>
+                   <tr><td>S3_TRO</td><td>Sensor de pieza lista en posición de trabajo</td><td>Salida</td></tr>
+                   <tr><td>S4_TRO</td><td>Sensor de pieza lista en posición de trabajo</td><td>Salida</td></tr>
+                   <tr><td>S5_TRO</td><td>Sensor de material listo para procesar</td><td>Salida</td></tr>
+                   <tr><td>S6_TRO</td><td>Sensor de material listo para procesar</td><td>Salida</td></tr>
+                   <tr><td>S7_TRO</td><td>Sensor de material listo para procesar</td><td>Salida</td></tr>
+                   <tr><td>S8_TRO</td><td>Sensor de material listo para procesar</td><td>Salida</td></tr>
+                   <tr><td>S9_TRO</td><td>Sensor de material listo para procesar</td><td>Salida</td></tr>
+                   <tr><td>S10_TRO</td><td>Sensor de material listo para procesar</td><td>Salida</td></tr>
+                   <tr><td>S11_TRO</td><td>Sensor de material listo para procesar</td><td>Salida</td></tr>
+                   <tr><td>S12_TRO</td><td>Sensor de material listo para procesar</td><td>Salida</td></tr>
+                   <tr><td>CNT_TIR1_TRO</td><td>Número de tirante 1 troquelados</td><td>Contador</td></tr>
+                   <tr><td>CNT_TIR2_TRO</td><td>Número de tirante 2 troquelados</td><td>Contador</td></tr>
+                   <tr><td>CNT_VAIN1_TRO</td><td>Número de vaina 1 troquelados</td><td>Contador</td></tr>
+                   <tr><td>CNT_VAIN2_TRO</td><td>Número de vaina 2 troquelados</td><td>Contador</td></tr>
+                   <tr><td>CNT_PFRENO_TRO</td><td>Número de puente de freno 1 troquelados</td><td>Contador</td></tr>
+                   <tr><td>CNT_TUB_SUP_TRO</td><td>Número de tubo superior  troquelados</td><td>Contador</td></tr>
+                   <tr><td>CNT_TUBO_DIAG_TRO</td><td>Número de tubo diagonal troquelados</td><td>Contador</td></tr>
+                   <tr><td>CNT_TUBO_VERT_TRO</td><td>Número de tubo vertical  troquelados</td><td>Contador</td></tr>
+                  </tbody></table>
+
+                <h3>Programa de control</h3>
+
+                <h4>Troqueladora</h4>
 
                 <figure class="figure bg-light">
-                  <img src="images/ladderTaladrar.PNG" class="figure-img img-fluid rounded" alt="Circuito Neumatico">
-                  <figcaption class="figure-caption">Lógica programa en Ladder de la subrutina taladrar.</figcaption>
+                  <iframe src="https://drive.google.com/file/d/1bs9uwMufa5cZ0QSm2sxrTc0B35o62s4-/preview" width="700" height="600" allow="autoplay"></iframe>
+                  <figcaption class="figure-caption">Lógica programa en Ladder de la rutina general del troqueladora.
+                  </figcaption>
                 </figure>
-        
+
+                <figure class="figure bg-light">
+                  <iframe src="https://drive.google.com/file/d/1-HJGzxjpT3COI6YPHZp1A1gaHKU5mENH/preview" width="700" height="600" allow="autoplay"></iframe>
+                  <figcaption class="figure-caption">Lógica programa en Ladder de la subrutina troquelar.</figcaption>
+                </figure>
+
+                <h4>Taladro</h4>
+                <p> Se puede consultar en la sección de actuadores industriales. 
+                </p>
+
               </div>
             </div>
           </div>
         </section>
 
-<!-- Actuadores de automatización -->
+        <!-- Actuadores de automatización -->
         <section id="actuadores" class="dark">
           <header class="title">
             <h2><span>Actuadores </span> de automatización</h2>
@@ -655,76 +745,78 @@
                 </div>
                 </p>
                 <h3>Selección de tarea</h3>
-                <p>Para el desarrollo del proceso de selección de actuadores en detalle se escogió el proceso de 
-                  <b>Taladrado</b>. Para el problema propuesto los tubos vertical y diagonal deben ser provistos 
-                  con dos agujeros cada uno. Los tubos están posicionados de tal forma que el talabro sigue un 
+                <p>Para el desarrollo del proceso de selección de actuadores en detalle se escogió el proceso de
+                  <b>Taladrado</b>. Para el problema propuesto los tubos vertical y diagonal deben ser provistos
+                  con dos agujeros cada uno. Los tubos están posicionados de tal forma que el talabro sigue un
                   recorrido rectangular. Para la secuencia a desarrollar hay que tener en cuenta que la distancia
-                  entre agujeros es de 64 mm en una dirección y 100 mm en la otra dirección. La fuerza de taladrado 
+                  entre agujeros es de 64 mm en una dirección y 100 mm en la otra dirección. La fuerza de taladrado
                   es de 300N, los tubos suman una masa de 2,1 kg, la mesa de desplazamiento tiene una masa de 30kg.
                 </p>
                 <img class="center-block" src="images/Taladrado.PNG" alt="Rp" style=" width:100%; height: 600px;">
                 <h3>Selección de Componentes</h3>
                 <p> El proceso de selección de cilindros se puede detallar a continuación</p>
-              
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-12 animated" data-animate="fadeInLeft">
-                    <iframe src="https://drive.google.com/file/d/132xB288tcA-Fc6wgp0M-fTCT3uBPfhQG/preview" width="700" height="600" allow="autoplay"></iframe>
+
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12 animated" data-animate="fadeInLeft">
+                      <iframe src="https://drive.google.com/file/d/132xB288tcA-Fc6wgp0M-fTCT3uBPfhQG/preview"
+                        width="700" height="600" allow="autoplay"></iframe>
+                    </div>
+                  </div>
+
+                  <h3>Diagramas de circuitos</h3>
+                  <p>Con base al esquema neumático se definieron las entradas y salidas necesarias para el control 
+                    eléctrico del sistema, y se añadieron detalles como las señales adicionales de START/STOP y 
+                    parada de emergencia. Se definieron dos etapas de funcionamiento: la etapa de control y la
+                    de potencia. La etapa de control se caracteriza por ser la que incluye al PLC, y el funcionamiento
+                    a 24 voltios DC. Para el correcto montaje del PLC se antepone una fuente, la cual convierte de 
+                    110V AC a 24V DC, se escoge un SITOP de Siemens para que se mantenga coherencia con el
+                    PLC S7-1200, también de Siemens, el cual tiene un módulo incluido de entradas y salidas que 
+                    sirven en DC. El PLC recibe desde los finales de carrera, los switches y pulsadores una 
+                    señal de 24 V con la que alimenta al programa con las posiciones de los cilindros y posibles
+                    causalidades. Así mismo tiene una cantidad de bits definidos para excitar los relés que habilitan
+                    el sistema con A1 o detienen el proceso con A2.
+                    </p>
+                  <figure class="figure bg-light">
+                    <img src="images/PLCv2.png" class="figure-img img-fluid rounded" alt="Circuito Neumatico">
+                    <figcaption class="figure-caption">Circuito Eléctrico de Conexión al PLC.</figcaption>
+                  </figure>
+
+
+                  <h3>Diagramas de estado</h3>
+
+                  <figure class="figure bg-light">
+                    <img src="images/grafcetTaladro.png" class="figure-img img-fluid rounded" alt="Circuito Neumatico">
+                    <figcaption class="figure-caption">Rutina general del taladro.</figcaption>
+                  </figure>
+
+                  <figure class="figure bg-light">
+                    <img src="images/grafcetTaladrar.png" class="figure-img img-fluid rounded" alt="Circuito Neumatico">
+                    <figcaption class="figure-caption">Subrutina taladrar.</figcaption>
+                  </figure>
+
+                  <h3>Programa de control</h3>
+
+                  <figure class="figure bg-light">
+                    <iframe src="https://drive.google.com/file/d/1fqlTJAJS6OYOA6H1snBWikorHShtXDX_/preview" width="640" height="700" allow="autoplay"></iframe>
+                    <figcaption class="figure-caption">Lógica programa en Ladder de la rutina general del taladro.
+                    </figcaption>
+                  </figure>
+
+                  <figure class="figure bg-light">
+                    <iframe src="https://drive.google.com/file/d/1x6088-stDE_mLJjDeS1ILKftisO71gxE/preview" width="600" height="480" allow="autoplay"></iframe>
+                    <figcaption class="figure-caption">Lógica programa en Ladder de la subrutina taladrar.</figcaption>
+                  </figure>
+
+                  <h3>Simulación</h3>
+                  <iframe src="https://drive.google.com/file/d/1sxW5DEfjbJkcc9ZsS9xvEBtcigZgVcIe/preview" width="100%"
+                    height="720p" allow="autoplay"></iframe>
                 </div>
               </div>
-
-                <h3>Diagramas de circuitos</h3>
-                <p>Con base al esquema neumático se definieron las entradas y salidas necesarias para el control 
-                  eléctrico del sistema, y se añadieron detalles como las señales adicionales de START/STOP y 
-                  parada de emergencia. Se definieron dos etapas de funcionamiento: la etapa de control y la
-                  de potencia. La etapa de control se caracteriza por ser la que incluye al PLC, y el funcionamiento
-                  a 24 voltios DC. Para el correcto montaje del PLC se antepone una fuente, la cual convierte de 
-                  110V AC a 24V DC, se escoge un SITOP de Siemens para que se mantenga coherencia con el
-                  PLC S7-1200, también de Siemens, el cual tiene un módulo incluido de entradas y salidas que 
-                  sirven en DC. El PLC recibe desde los finales de carrera, los switches y pulsadores una 
-                  señal de 24 V con la que alimenta al programa con las posiciones de los cilindros y posibles
-                  causalidades. Así mismo tiene una cantidad de bits definidos para excitar los relés que habilitan
-                  el sistema con A1 o detienen el proceso con A2.
-                  </p>
-                <figure class="figure bg-light">
-                  <img src="images/PLCv2.png" class="figure-img img-fluid rounded" alt="Circuito Neumatico">
-                  <figcaption class="figure-caption">Circuito Eléctrico de Conexión al PLC.</figcaption>
-                </figure>
-                
-        
-                <h3>Diagramas de estado</h3>
-
-                <figure class="figure bg-light">
-                  <img src="images/grafcetTaladro.png" class="figure-img img-fluid rounded" alt="Circuito Neumatico">
-                  <figcaption class="figure-caption">Rutina general del taladro.</figcaption>
-                </figure>
-
-                <figure class="figure bg-light">
-                  <img src="images/grafcetTaladrar.png" class="figure-img img-fluid rounded" alt="Circuito Neumatico">
-                  <figcaption class="figure-caption">Subrutina taladrar.</figcaption>
-                </figure>
-
-                <h3>Programa de control</h3>
-        
-                <figure class="figure bg-light">
-                  <img src="images/ladderTaladro.PNG" class="figure-img img-fluid rounded" alt="Circuito Neumatico">
-                  <figcaption class="figure-caption">Lógica programa en Ladder de la rutina general del taladro.</figcaption>
-                </figure>
-        
-                <figure class="figure bg-light">
-                  <img src="images/ladderTaladrar.PNG" class="figure-img img-fluid rounded" alt="Circuito Neumatico">
-                  <figcaption class="figure-caption">Lógica programa en Ladder de la subrutina taladrar.</figcaption>
-                </figure>
-
-
-                <h3>Simulación</h3>
-                <iframe src="https://drive.google.com/file/d/1sxW5DEfjbJkcc9ZsS9xvEBtcigZgVcIe/preview" width="100%" height="720p" allow="autoplay"></iframe>
-              </div>
             </div>
-          </div>
         </section>
 
-<!-- Industria 4.0 en la Automatización -->
+        <!-- Industria 4.0 en la Automatización -->
         <section id="industria4" class="light">
           <header class="title">
             <h2> <span>Industria 4.0</span> en la Automatización</h2>
@@ -780,13 +872,14 @@
 			  
 		   </p>
 
-		  <iframe src="https://drive.google.com/file/d/1F9qE3CUiWuzBtd8McqLngw-DaRYNGJDo/preview" width="100%" height="720p" ></iframe>
+                <iframe src="https://drive.google.com/file/d/1F9qE3CUiWuzBtd8McqLngw-DaRYNGJDo/preview" width="100%"
+                  height="720p"></iframe>
               </div>
             </div>
-      </div>
+          </div>
         </section>
 
-<!-- INDICADORES-->
+        <!-- INDICADORES-->
         <section id="indicadoresSec" class="separator blue">
           <div class="container">
             <div class="row">
@@ -841,62 +934,41 @@
           </div>
         </section>
 
-<!-- VIDEO SUSTENTACIÓN FINAL -->
+        <!-- VIDEO SUSTENTACIÓN FINAL -->
         <section id="final" class="dark">
           <header class="title">
             <h2><span>Video Sustentación Final</span></h2>
           </header>
-        
+
           <div class="container">
             <div class="row">
               <div class="col-md-12">
-                <iframe src="https://drive.google.com/file/d/19O0cv2xwp3xtD5vv252HKM3-ZOMdL2lz/preview" width="100%" height="680p" allow="autoplay"></iframe>
+                <iframe src="https://drive.google.com/file/d/19O0cv2xwp3xtD5vv252HKM3-ZOMdL2lz/preview" width="100%"
+                  height="680p" allow="autoplay"></iframe>
               </div>
             </div>
           </div>
         </section>
 
-<!-- TEAM -->
-    <section id="team" class="light">
+        <!-- TEAM -->
+        <section id="team" class="light">
 
-  <!-- ESTUDIANTES-->
-      <div class="container" id="estud">
-        <header class="title">
-          <h2>Equipo de <span>Estudiantes</span></h2>
-        </header>
-        <div class="row">
-<!-- INFO LAURA GARZÓN-->
-          <div class="col-md-4 col-sm-6 text-center">
-            <div class="wrap animated" >
-              <div class="img-team">
-                <img src="images/Foto_lvgg.jpeg" alt="" class="img-circle">
-              </div>
-              <h3>Laura V. Garzón G.</h3>
-              <h5>Ing. Mecatrónica</h5>
-
-              <p>Interés en las áreas de Inteligencia Artificial, Machine Learning y desarrollo web.</p>
-
-                  <div class="team-social">
-                    <ul class="list-inline social-list">
-                      <!-- <li><a href="#" class="fa fa-twitter"></a></li>
-                  <li><a href="#" class="fa fa-linkedin"></a></li>
-                  <li><a href="#" class="fa fa-facebook"></a></li>
-                  <li><a href="#" class="fa fa-google-plus"></a></li> -->
-                    </ul>
+          <!-- ESTUDIANTES-->
+          <div class="container" id="estud">
+            <header class="title">
+              <h2>Equipo de <span>Estudiantes</span></h2>
+            </header>
+            <div class="row">
+              <!-- INFO LAURA GARZÓN-->
+              <div class="col-md-4 col-sm-6 text-center">
+                <div class="wrap animated">
+                  <div class="img-team">
+                    <img src="images/Foto_lvgg.jpeg" alt="" class="img-circle">
                   </div>
-                </div>
-              </div>
- 
-<!-- INFO ELIZABETH LOPEZ-->
-          <div class="col-md-4 col-sm-6 text-center">
-            <div class="wrap animated" >
-              <div class="img-team">
-                <img src="images/Foto_ealp.PNG" alt="" class="img-circle">
-              </div>
-              <h3>Elizabeth A. Lopez P.</h3>
-              <h5>Ing. Mecatrónica</h5>
+                  <h3>Laura V. Garzón G.</h3>
+                  <h5>Ing. Mecatrónica</h5>
 
-              <p>Interés en las aplicaciones industriales de la mecatrónica, el aprendizaje de PLC y HMI enfocado a la manufactura.</p>
+                  <p>Interés en las áreas de Inteligencia Artificial, Machine Learning y desarrollo web.</p>
 
                   <div class="team-social">
                     <ul class="list-inline social-list">
@@ -909,14 +981,37 @@
                 </div>
               </div>
 
-<!-- INFO JOHN PANCHE-->
-          <div class="col-md-4 col-sm-6 text-center">
-            <div class="wrap animated" >
-              <div class="img-team">
-                <img src="images/jspanchee.jpg" alt="" class="img-circle">
+              <!-- INFO ELIZABETH LOPEZ-->
+              <div class="col-md-4 col-sm-6 text-center">
+                <div class="wrap animated">
+                  <div class="img-team">
+                    <img src="images/Foto_ealp.PNG" alt="" class="img-circle">
+                  </div>
+                  <h3>Elizabeth A. Lopez P.</h3>
+                  <h5>Ing. Mecatrónica</h5>
+
+                  <p>Interés en las aplicaciones industriales de la mecatrónica, el aprendizaje de PLC y HMI enfocado a
+                    la manufactura.</p>
+
+                  <div class="team-social">
+                    <ul class="list-inline social-list">
+                      <!-- <li><a href="#" class="fa fa-twitter"></a></li>
+                  <li><a href="#" class="fa fa-linkedin"></a></li>
+                  <li><a href="#" class="fa fa-facebook"></a></li>
+                  <li><a href="#" class="fa fa-google-plus"></a></li> -->
+                    </ul>
+                  </div>
+                </div>
               </div>
-              <h3>John Panche</h3>
-              <h5>Ing. Mecatrónico</h5>
+
+              <!-- INFO JOHN PANCHE-->
+              <div class="col-md-4 col-sm-6 text-center">
+                <div class="wrap animated">
+                  <div class="img-team">
+                    <img src="images/jspanchee.jpg" alt="" class="img-circle">
+                  </div>
+                  <h3>John Panche</h3>
+                  <h5>Ing. Mecatrónico</h5>
 
                   <p>Trabajo enfocado en el diseño y construcción de la celda de manufactura robotizada, y su respectiva
                     simulación en RobotStudio. </p>
@@ -932,14 +1027,15 @@
                 </div>
               </div>
 
-<!-- INFO ANA RODRIGUEZ-->
-          <div class="col-md-6 col-sm-6 text-center">
-            <div class="wrap animated" >
-              <div class="img-team">
-                <img src="https://drive.google.com/uc?export=view&id=1_HYh8DAvI9H8vTfMXRAa6EwCRokAW6tn" alt="" class="img-circle">
-              </div>
-              <h3>Ana Rodriguez</h3>
-              <h5>Ing. Mecatrónica</h5>
+              <!-- INFO ANA RODRIGUEZ-->
+              <div class="col-md-6 col-sm-6 text-center">
+                <div class="wrap animated">
+                  <div class="img-team">
+                    <img src="https://drive.google.com/uc?export=view&id=1_HYh8DAvI9H8vTfMXRAa6EwCRokAW6tn" alt=""
+                      class="img-circle">
+                  </div>
+                  <h3>Ana Rodriguez</h3>
+                  <h5>Ing. Mecatrónica</h5>
 
                   <p> Interés en inteligencia artificial, desarrollo de software y control.
                   </p>
@@ -955,16 +1051,16 @@
                 </div>
               </div>
 
-<!-- INFO CAMILO ZORRO-->
-          <div class="col-md-6 col-sm-6 text-center">
-            <div class="wrap animated" >
-              <div class="img-team">
-                <img src="images/Foto_cazm.PNG" alt="" class="img-circle">
-              </div>
-              <h3>Camilo A. Zorro M.</h3>
-              <h5>Ing. Mecatrónico</h5>
+              <!-- INFO CAMILO ZORRO-->
+              <div class="col-md-6 col-sm-6 text-center">
+                <div class="wrap animated">
+                  <div class="img-team">
+                    <img src="images/Foto_cazm.PNG" alt="" class="img-circle">
+                  </div>
+                  <h3>Camilo A. Zorro M.</h3>
+                  <h5>Ing. Mecatrónico</h5>
 
-              <p>Trabajo enfocado en la Gestión de Producción y Automatización, sensores y actuadores.</p>
+                  <p>Trabajo enfocado en la Gestión de Producción y Automatización, sensores y actuadores.</p>
 
                   <div class="team-social">
                     <ul class="list-inline social-list">
@@ -978,141 +1074,145 @@
               </div>
             </div>
           </div> <!-- /.container -->
-       
 
-  <!-- PROFESORES-->
+
+          <!-- PROFESORES-->
           <div class="container" id="prof">
             <header class="title">
               <h2>Equipo de <span>Profesores</span></h2>
             </header>
-            <div class="row">    
-        
-<!-- INFO PROFE UBALDO-->
+            <div class="row">
+
+              <!-- INFO PROFE UBALDO-->
               <div class="col-md-4 col-sm-6 text-center">
-                <div class="wrap animated" >
+                <div class="wrap animated">
                   <div class="img-team">
                     <img src="images/Foto_P_Ubaldo.PNG" alt="" class="img-circle">
                   </div>
                   <h3>Prof. Ubaldo García Zaragoza </h3>
                   <h5>Ing.</h5>
-    
+
                   <p>Apoyo en los módulos de Gestión de Producción, Planeación del Proyecto y Digital Factory.</p>
-    
-                      <div class="team-social">
-                        <ul class="list-inline social-list">
-                      <li><a href="https://www.linkedin.com/in/ubaldo-garcia-zaragoza-ab681727/" class="fa fa-linkedin"></a></li>                       
-                        </ul>
-                      </div>
+
+                  <div class="team-social">
+                    <ul class="list-inline social-list">
+                      <li><a href="https://www.linkedin.com/in/ubaldo-garcia-zaragoza-ab681727/"
+                          class="fa fa-linkedin"></a></li>
+                    </ul>
+                  </div>
                 </div>
               </div>
 
-<!-- INFO PROFE EDUARDO-->
+              <!-- INFO PROFE EDUARDO-->
               <div class="col-md-4 col-sm-6 text-center">
-                <div class="wrap animated" >
+                <div class="wrap animated">
                   <div class="img-team">
                     <img src="images/Foto_P_Eduardo.PNG" alt="" class="img-circle">
                   </div>
                   <h3>Prof. Eduardo Barrera Gualdron. </h3>
                   <h5>Ing. Ms.</h5>
-    
-                  <p>Apoyo en los módulos de Automatización e Industria 4.0 y elementos para la evaluación económica del proyecto.</p>
-    
-                      <div class="team-social">
-                        <ul class="list-inline social-list">
+
+                  <p>Apoyo en los módulos de Automatización e Industria 4.0 y elementos para la evaluación económica del
+                    proyecto.</p>
+
+                  <div class="team-social">
+                    <ul class="list-inline social-list">
                       <li><a href="https://www.linkedin.com/in/ebarrerag/" class="fa fa-linkedin"></a></li>
-                        </ul>
-                      </div>
+                    </ul>
+                  </div>
                 </div>
               </div>
-    
-<!-- INFO PROF RICARDO -->
+
+              <!-- INFO PROF RICARDO -->
               <div class="col-md-4 col-sm-6 text-center">
-                <div class="wrap animated" >
+                <div class="wrap animated">
                   <div class="img-team">
                     <img src="images/Foto_P_Ricardo.PNG" alt="" class="img-circle">
                   </div>
                   <h3>Prof. Ricardo E. Ramirez Heredia</h3>
                   <h5>Ing. Ms. Dr.-Ing.
                   </h5>
-    
+
                   <p>Apoyo en el módulo d actuadores de Automatización. </p>
-    
-                      <div class="team-social">
-                        <ul class="list-inline social-list">
-                        </ul>
-                      </div>
+
+                  <div class="team-social">
+                    <ul class="list-inline social-list">
+                    </ul>
+                  </div>
                 </div>
               </div>
 
             </div>
 
             <div class="row">
-<!-- INFO PROFE PEDRO-->
+              <!-- INFO PROFE PEDRO-->
               <div class="col-md-4 col-sm-6 text-center">
-                <div class="wrap animated" >
+                <div class="wrap animated">
                   <div class="img-team">
                     <img src="images/Foto_P_Pedro.PNG" alt="" class="img-circle">
                   </div>
                   <h3>Prof. Pedro F. Cárdenas Herrera</h3>
                   <h5>Ing. Ms. Dr.</h5>
-    
-                      <p>Apoyo en el módulo de Celdas Robotizadas.</p>
-    
-                      <div class="team-social">
-                        <ul class="list-inline social-list">
-                      <li><a href="https://www.linkedin.com/in/pedro-fabian-cardenas-herrera-72397037/" class="fa fa-linkedin"></a></li>
-                        </ul>
-                      </div>
+
+                  <p>Apoyo en el módulo de Celdas Robotizadas.</p>
+
+                  <div class="team-social">
+                    <ul class="list-inline social-list">
+                      <li><a href="https://www.linkedin.com/in/pedro-fabian-cardenas-herrera-72397037/"
+                          class="fa fa-linkedin"></a></li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-    
-<!-- INFO PROF VICTOR-->
+
+              <!-- INFO PROF VICTOR-->
               <div class="col-md-4 col-sm-6 text-center">
-                <div class="wrap animated" >
+                <div class="wrap animated">
                   <div class="img-team">
                     <img src="images/Foto_P_Victor.PNG" alt="" class="img-circle">
                   </div>
                   <h3>Prof. Victor Hugo Grisales. </h3>
                   <h5>Ing. Ms. Ph.D.</h5>
-    
+
                   <p>Apoyo en los módulos de control con PLCs y SCADA.</p>
-    
-                      <div class="team-social">
-                        <ul class="list-inline social-list">
+
+                  <div class="team-social">
+                    <ul class="list-inline social-list">
                       <li><a href="https://www.linkedin.com/in/vhgrisalesp/" class="fa fa-linkedin"></a></li>
-                        </ul>
-                      </div>
+                    </ul>
+                  </div>
                 </div>
               </div>
 
-<!-- INFO PROF CARLOS-->
+              <!-- INFO PROF CARLOS-->
               <div class="col-md-4 col-sm-6 text-center">
-                <div class="wrap animated" >
+                <div class="wrap animated">
                   <div class="img-team">
                     <img src="images/Foto_P_Carlos.PNG" alt="" class="img-circle">
                   </div>
                   <h3>Prof. Carlos Julio Cortés</h3>
                   <h4>(Invitado)</h4>
                   <h5>Ing. Ms. Dr.-Ing.</h5>
-    
+
                   <p>Apoyo en el módulo de Gestión de Producción.</p>
-    
-                      <div class="team-social">
-                        <ul class="list-inline social-list">
-                      <li><a href="https://www.linkedin.com/in/carlos-julio-cort%C3%A9s-rodr%C3%ADguez-91666298/" class="fa fa-linkedin"></a></li>
-                        </ul>
-                      </div>
+
+                  <div class="team-social">
+                    <ul class="list-inline social-list">
+                      <li><a href="https://www.linkedin.com/in/carlos-julio-cort%C3%A9s-rodr%C3%ADguez-91666298/"
+                          class="fa fa-linkedin"></a></li>
+                    </ul>
+                  </div>
                 </div>
               </div>
 
             </div>
-          </div> <!-- /.container -->        
-       
-    </section>
+          </div> <!-- /.container -->
 
-        
-<!-- Gestión de Proyecto -->
-<!--Dinámica de las reuniones, Manejo de tiempos y recursos, Discusiones y verificación de avance de proyecto,
+        </section>
+
+
+        <!-- Gestión de Proyecto -->
+        <!--Dinámica de las reuniones, Manejo de tiempos y recursos, Discusiones y verificación de avance de proyecto,
     Interacción con el equipo docente facilitador. -->
         <section id="gProyecto" class="dark">
           <header class="title">
@@ -1121,231 +1221,232 @@
           <div class="container">
             <div class="row">
               <div class="col-md-12">
-            <h3>Dinámica de las reuniones</h3>
-            <p>Desde el día lunes 1 de Marzo, cuando se definieron los equipos de trabajo para la asignatura de APM se creó 
-               un grupo de WhatsApp para tener un medio de comunicación directa con el equipo. Por este medio se llegó
-               a un consenso para la realización de las reuniones semanales en las que se desarrollarían las actividades
-               relacionadas con la ejecución del proyecto integrador del curso. Por decisión unanime se llegaron a los
-               siguientes acuerdos para las reuniones de equipo:
-               <div align = 'left'>
-                <li><b>Frecuencia:</b> 2 veces por Semana</li>                
-                <li><b>Horario: </b>Martes-2:30p.m. y Jueves-4:00p.m.</li>                
-                <li><b>Duración:</b> Variable de acuerdo a la intensidad de actividades en curso. Duración mínima de 
-                15 minutos y duración máxima de 2 horas</li>
-                <li><b>Plataforma:</b>Google Meet</li>
-                <li><b>Dinámica:</b>En las reuniones de Google Meet primero se realizaba una charla informal 
-                  para conocer un poco más a los integrantes del equipo, así como su estado en ese momento. Posteriormente
-                  se hacía una discusión de los contenidos vistos en los módulos para definir las tareas necesarias
-                  para el desarrollo del proyecto o de las actividades particulares del algún módulo. Si habían tareas 
-                  para revisar se hacía la socialización del desarrollo, resultados y problemas utilizando las diferentes 
-                  funcionalidades que ofrece Google Meet como "Compartir Pantalla".
-                </li>
-                <li><b>Medio alternativo para informe de imprevistos:</b>WhatsApp</li>
-               </div>
-            </p>
-            <h3>Interacción con los docente facilitadores</h3>
-            <p>A la hora de pedir asesoría o consulta durante el curso, se utilizaron diversos medios de comunicación con 
-              los docentes. Cuando se necesitó una reunión urgente, esta se agendó con el profesor Eduardo Gualdron por 
-              medio de WhatsApp ya que esta red social nos permitía una comunicación direta y efectiva con el profesor. 
-              También nos comunicamos con los docentes Victor Hugo Grisales y Ubaldo García por medio del correo 
-              electronico institucional para resolver otras inquietudes relacionadas con conceptos de los módulos 
-              que impartieron, así como también preguntas relacionadas con el flujo de la asignatura como los cambios de 
-              fechas debido a la anormalidad académica causado por el paro nacional. 
-            </p>
-              </div>
-            </div>
-          </div>
-
-        </section>
-
-<!-- Trabajo Colaborativo -->
-<!-- Roles de los participantes, Evidencias de realización de trabajo en equipo, 
-     Análisis de la colaboración dentro del grupo y con el equipo docente facilitador. -->
-        <section id="tColaborativo" class="light">
-          <header class="title">
-            <h2><span>Trabajo Colaborativo</span></h2>
-          </header>
-
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-            <p>Las actividades realizadas por cada miembro del equipo se distribuyen de la siguiente manera:</p>
-            <div align = 'left'>
-              <li type="circle"><b>Laura V. Garzón G.</b> Trabajo enfocado en la planeación del proyecto y el 
-                desarrollo de interfaces HMI.</li>
-              <li type="circle"><b>Elizabeth A. López P.</b> Trabajo enfocado en la evaluación económica del
-                 proyecto y SCADA.</li>
-              <li type="circle"><b>John Panche</b> Trabajo enfocado en el diseño y construcción de la celda de 
-                manufactura robotizada, y su respectiva simulación en RobotStudio.</li>
-              <li type="circle"><b>Ana Rodriguez</b> Trabajo enfocado en PLC, SCADA, despliegue en la nube, y 
-                desarrollo web.</li>
-              <li type="circle"><b>Camilo A. Zorro M.</b> Trabajo enfocado en la Gestión de Producción y 
-                Automatización, sensores y actuadores.</li>             
-            </div>
-              </div>
-            </div>
-          </div>
-
-        </section>
-
-<!-- Proceso de Aprendizaje -->
-        <section id="pAprendizaje" class="dark">
-          <header class="title">
-            <h2>Proceso de <span>Aprendizaje</span></h2>
-          </header>
-
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-
-                <p>En esta sección se van a detallar los aportes y los procesos de aprendizaje de cada miembro del equipo.</p>
-                <div>
-
-                  <h4> Laura V. Garzón G. </h4>
-                  <ul >
-                    <li> Realicé el trabajo enfocado en los módulos de planeacion del proyecto, selección de actuadores
-                      y desarrollo de interfaces HMI en SCADA. </li>
-                    <li> Apoye con actividdes de organización de documentos e información para entregas del curso. </li>
-                    <li> Profundicé temáticas relacionadas con conexión en la nube a través de iniciativas académicas
-                      como la ofrecida por IBM. </li>
-                  </ul>
-                  <h4>Elizabeth A. López P.</h4>
-                  <ul >
-                    <li> Hice trabajo enfocado a módulos de SCADA, evaluación económica y estudio teórico del las tecnologías 4.0. </li>
-                    <li> Realicé deberes logísticos y mantenimiento de agendas de trabajo para las reuniones. </li>
-                    <li> Profundicé en los bueno hábitos de programación en Ladder y SCADA/HMI (gracias al hadbook y las clases de igual manera). </li>
-                  </ul>
-                  <h4>John S. Panche E.</h4>
-                  <ul >
-                    <li> Realicé el trabajo enfocado en el diseño, programación y simulación de la celda de manufactura robotizada junto con los entregables respectivos. </li>
-                    <li> Apoyé en actividades de elaboración de plantillas, imágenes, vídeos e información complementaria de los entregables del curso. </li>
-                    <li> Colaboré en la recopilación de modelos CAD complementarios al módulo de Digital Factory en NX. </li>
-	 	  </ul>
-                  <h4>Ana M. Rodríguez R.</h4>
-                  <ul >
-                    <li> Implementé la lógica de los controladores y su respectiva verificación por simulación. </li>
-                    <li> Realicé el despliegue del SCADA Nube, su configuración y las conexiones necesarias con los nodos locales.</li>
-                    <li> Colaboré en la integración de módulos avanzados en el SCADA (informe, historico de tags) y en el desarrollo de la página. </li>
-                  </ul>
-                  <h4>Camilo A. Zorro M.</h4>
-                  <ul >
-                    <li> ... </li>
-                    <li> ... </li>
-                    <li> ... </li>
-                  </ul>
-              </div>
-            </div>
-          </div>
-
-          
-        </section>
-
-        <!-- INFO -->
-
-        <section id="info" class="dark">
-          <header class="title">
-            <h2>Nuestras <span>Habilidades</span></h2>
-            <!-- <p>Lorem ipsum Nulla in incididunt esse tempor dolore ad voluptate aliquip magna sed in.</p> -->
-          </header>
-
-          <div class="container experties">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="skill">
-                  <ul class="skill-bar list-unstyled">
-                    <li><span class="percentage" data-value="50%"></span><em>Automatización</em></li>
-                    <li><span class="percentage" data-value="75%"></span><em>Control</em></li>
-                    <li><span class="percentage" data-value="52%"></span><em>Inteligencia Artificial </em></li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="col-md-6">
-                <div class="skill">
-                  <ul class="skill-bar list-unstyled">
-                    <li><span class="percentage" data-value="63%"></span><em>Diseño Mecanico</em></li>
-                    <li><span class="percentage" data-value="80%"></span><em>Electrónica</em></li>
-                    <li><span class="percentage" data-value="65%"></span><em>Desarrollo de Software</em></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div> <!-- /.container -->
-        </section>
-
-<!-- RECOMENDACIONES -->
-        <section id="recomendaciones" class="light">
-          <header class="title">
-            <h2><span>Recomendaciones</span></h2>
-          </header>
-
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12">
-
-                <p>Las recomendaciones de los miembros del equipo son:</p>
-                <div>
-
-                  <h4> Laura V. Garzón G. </h4>
-                  <ul >
-                    <li> Para futuros cursos relacionados con el desarrollo de un proyecto en ingeniería es importante
-                      hacer un poco más de énfasis en las metodologías de trabajo que se ven actualmente en el ambiente
-                      laboral como por ejemplo Scrum.
+                <h3>Dinámica de las reuniones</h3>
+                <p>Desde el día lunes 1 de Marzo, cuando se definieron los equipos de trabajo para la asignatura de APM se creó 
+                   un grupo de WhatsApp para tener un medio de comunicación directa con el equipo. Por este medio se llegó
+                   a un consenso para la realización de las reuniones semanales en las que se desarrollarían las actividades
+                   relacionadas con la ejecución del proyecto integrador del curso. Por decisión unanime se llegaron a los
+                   siguientes acuerdos para las reuniones de equipo:
+                   <div align = 'left'>
+                    <li><b>Frecuencia:</b> 2 veces por Semana</li>                
+                    <li><b>Horario: </b>Martes-2:30p.m. y Jueves-4:00p.m.</li>                
+                    <li><b>Duración:</b> Variable de acuerdo a la intensidad de actividades en curso. Duración mínima de 
+                    15 minutos y duración máxima de 2 horas</li>
+                    <li><b>Plataforma:</b>Google Meet</li>
+                    <li><b>Dinámica:</b>En las reuniones de Google Meet primero se realizaba una charla informal 
+                      para conocer un poco más a los integrantes del equipo, así como su estado en ese momento. Posteriormente
+                      se hacía una discusión de los contenidos vistos en los módulos para definir las tareas necesarias
+                      para el desarrollo del proyecto o de las actividades particulares del algún módulo. Si habían tareas 
+                      para revisar se hacía la socialización del desarrollo, resultados y problemas utilizando las diferentes 
+                      funcionalidades que ofrece Google Meet como "Compartir Pantalla".
                     </li>
-                    <li> Desde el inicio del curso es importante aprender a usar las herramientas necesarias para el desarrollo
-                      de la actividades así como también las herramientas para los entregables de las mismas como lo es Github </li>
-                    <li> ... </li>
-                  </ul>
-                  <h4>Elizabeth A. López P.</h4>
-                  <ul >
-                    <li> Es importante que al momento de realizar interfaces o SCADA, no importa el nivel, primero se diseñen mockups, sencillos y preferiblemente colaborativos si se va a trabajar en proyectos, debido a que con el diseño inicial se puede plantear un diseño mínimo antes de ir generando sobre la marcha, un enfoque en para este proyecto no funcionó.
-                      </li>
-                    <li> Familiarizarse con las herramientas de diseño previo a la aplicación de ellas proveerá un manejo rápido y eficiente a la hora de usarlas.  </li>
-                  </ul>
-                  <h4>John S. Panche E.</h4>
-                  <ul >
-                    <li> Para el diseño de Celdas de Manufactura Robotizadas, es recomendable seguir una hoja de ruta a modo de guía para tener la seguridad de contar con toda la información necesaria por parte del cliente y el proceso actual antes de comenzar a plantear un diseño preliminar. Mucha de la información que puede parecer de poca importancia a primera vista y obviarse, puede terminar significando grandes cambios en el diseño completo de la celda. </li>
-                    <li> El uso de herramientas de software para el diseño y simulación como lo es el entorno de RobotStudio resultan de gran utilidad para lograr un primer acercamiento a la implementación real de la celda de trabajo, sin embargo, se debe ser consciente que las definiciones de puntos y trayectorias pueden depender de múltiples variables, y esta simulación sólo nos dará una aproximación al comportamiento del manipulador en una determinada tarea, siempre dependiente del nivel de detalle con que se haya construido la solución. </li>
-                  </ul>
-                  <h4>Ana M. Rodríguez R.</h4>
-                  <ul >
-                    <li> En los casos de comunicaciones OPC UA de ser posible es mejor conectarse directamente con el servidor OPC UA que viene incluido en Ignition, de esta manera se evita tener que duplicar tags en el local y en la nube. </li>
-                    <li> Plantear desde el comienzo patrones para el nombramiento de tags que permitan su parametrización, ayuda a la creación de pantallas HMI reusables y expandibles por otros modulos.</li>
-                  </ul>
-                  <h4>Camilo A. Zorro M.</h4>
-                  <ul >
-                    <li> ... </li>
-                    <li> ... </li>
-                    <li> ... </li>
-                  </ul>
+                    <li><b>Medio alternativo para informe de imprevistos:</b>WhatsApp</li>
+                   </div>
+                </p>
+                <h3>Interacción con los docente facilitadores</h3>
+                <p>A la hora de pedir asesoría o consulta durante el curso, se utilizaron diversos medios de comunicación con 
+                  los docentes. Cuando se necesitó una reunión urgente, esta se agendó con el profesor Eduardo Gualdron por 
+                  medio de WhatsApp ya que esta red social nos permitía una comunicación direta y efectiva con el profesor. 
+                  También nos comunicamos con los docentes Victor Hugo Grisales y Ubaldo García por medio del correo 
+                  electronico institucional para resolver otras inquietudes relacionadas con conceptos de los módulos 
+                  que impartieron, así como también preguntas relacionadas con el flujo de la asignatura como los cambios de 
+                  fechas debido a la anormalidad académica causado por el paro nacional. 
+                </p>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-
-        </section>
-
-
-        <!-- FOOTER CONTACT -->
-
-        <section id="footer">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12 text-center">
-                <p> TecnoBikes - 2021</p>
+    
+            </section>
+    
+    <!-- Trabajo Colaborativo -->
+    <!-- Roles de los participantes, Evidencias de realización de trabajo en equipo, 
+         Análisis de la colaboración dentro del grupo y con el equipo docente facilitador. -->
+            <section id="tColaborativo" class="light">
+              <header class="title">
+                <h2><span>Trabajo Colaborativo</span></h2>
+              </header>
+    
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+                <p>Las actividades realizadas por cada miembro del equipo se distribuyen de la siguiente manera:</p>
+                <div align = 'left'>
+                  <li type="circle"><b>Laura V. Garzón G.</b> Trabajo enfocado en la planeación del proyecto y el 
+                    desarrollo de interfaces HMI.</li>
+                  <li type="circle"><b>Elizabeth A. López P.</b> Trabajo enfocado en la evaluación económica del
+                     proyecto y SCADA.</li>
+                  <li type="circle"><b>John Panche</b> Trabajo enfocado en el diseño y construcción de la celda de 
+                    manufactura robotizada, y su respectiva simulación en RobotStudio.</li>
+                  <li type="circle"><b>Ana Rodriguez</b> Trabajo enfocado en PLC, SCADA, despliegue en la nube, y 
+                    desarrollo web.</li>
+                  <li type="circle"><b>Camilo A. Zorro M.</b> Trabajo enfocado en la Gestión de Producción y 
+                    Automatización, sensores y actuadores.</li>             
+                </div>
+                  </div>
+                </div>
               </div>
-            </div>
+    
+            </section>
+    
+    <!-- Proceso de Aprendizaje -->
+            <section id="pAprendizaje" class="dark">
+              <header class="title">
+                <h2>Proceso de <span>Aprendizaje</span></h2>
+              </header>
+    
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+    
+                    <p>En esta sección se van a detallar los aportes y los procesos de aprendizaje de cada miembro del equipo.</p>
+                    <div>
+    
+                      <h4> Laura V. Garzón G. </h4>
+                      <ul >
+                        <li> Realicé el trabajo enfocado en los módulos de planeacion del proyecto, selección de actuadores
+                          y desarrollo de interfaces HMI en SCADA. </li>
+                        <li> Apoye con actividdes de organización de documentos e información para entregas del curso. </li>
+                        <li> Profundicé temáticas relacionadas con conexión en la nube a través de iniciativas académicas
+                          como la ofrecida por IBM. </li>
+                      </ul>
+                      <h4>Elizabeth A. López P.</h4>
+                      <ul >
+                        <li> Hice trabajo enfocado a módulos de SCADA, evaluación económica y estudio teórico del las tecnologías 4.0. </li>
+                        <li> Realicé deberes logísticos y mantenimiento de agendas de trabajo para las reuniones. </li>
+                        <li> Profundicé en los bueno hábitos de programación en Ladder y SCADA/HMI (gracias al hadbook y las clases de igual manera). </li>
+                      </ul>
+                      <h4>John S. Panche E.</h4>
+                      <ul >
+                        <li> Realicé el trabajo enfocado en el diseño, programación y simulación de la celda de manufactura robotizada junto con los entregables respectivos. </li>
+                        <li> Apoyé en actividades de elaboración de plantillas, imágenes, vídeos e información complementaria de los entregables del curso. </li>
+                        <li> Colaboré en la recopilación de modelos CAD complementarios al módulo de Digital Factory en NX. </li>
+           </ul>
+                      <h4>Ana M. Rodríguez R.</h4>
+                      <ul >
+                        <li> Implementé la lógica de los controladores y su respectiva verificación por simulación. </li>
+                        <li> Realicé el despliegue del SCADA Nube, su configuración y las conexiones necesarias con los nodos locales.</li>
+                        <li> Colaboré en la integración de módulos avanzados en el SCADA (informe, historico de tags) y en el desarrollo de la página. </li>
+                      </ul>
+                      <h4>Camilo A. Zorro M.</h4>
+                      <ul >
+                        <li> ... </li>
+                        <li> ... </li>
+                        <li> ... </li>
+                      </ul>
+                  </div>
+                </div>
+              </div>
+    
+              
+            </section>
+    
+            <!-- INFO -->
+    
+            <section id="info" class="dark">
+              <header class="title">
+                <h2>Nuestras <span>Habilidades</span></h2>
+                <!-- <p>Lorem ipsum Nulla in incididunt esse tempor dolore ad voluptate aliquip magna sed in.</p> -->
+              </header>
+    
+              <div class="container experties">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="skill">
+                      <ul class="skill-bar list-unstyled">
+                        <li><span class="percentage" data-value="50%"></span><em>Automatización</em></li>
+                        <li><span class="percentage" data-value="75%"></span><em>Control</em></li>
+                        <li><span class="percentage" data-value="52%"></span><em>Inteligencia Artificial </em></li>
+                      </ul>
+                    </div>
+                  </div>
+    
+                  <div class="col-md-6">
+                    <div class="skill">
+                      <ul class="skill-bar list-unstyled">
+                        <li><span class="percentage" data-value="63%"></span><em>Diseño Mecanico</em></li>
+                        <li><span class="percentage" data-value="80%"></span><em>Electrónica</em></li>
+                        <li><span class="percentage" data-value="65%"></span><em>Desarrollo de Software</em></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div> <!-- /.container -->
+            </section>
+    
+    <!-- RECOMENDACIONES -->
+            <section id="recomendaciones" class="light">
+              <header class="title">
+                <h2><span>Recomendaciones</span></h2>
+              </header>
+    
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12">
+    
+                    <p>Las recomendaciones de los miembros del equipo son:</p>
+                    <div>
+    
+                      <h4> Laura V. Garzón G. </h4>
+                      <ul >
+                        <li> Para futuros cursos relacionados con el desarrollo de un proyecto en ingeniería es importante
+                          hacer un poco más de énfasis en las metodologías de trabajo que se ven actualmente en el ambiente
+                          laboral como por ejemplo Scrum.
+                        </li>
+                        <li> Desde el inicio del curso es importante aprender a usar las herramientas necesarias para el desarrollo
+                          de la actividades así como también las herramientas para los entregables de las mismas como lo es Github </li>
+                        <li> ... </li>
+                      </ul>
+                      <h4>Elizabeth A. López P.</h4>
+                      <ul >
+                        <li> Es importante que al momento de realizar interfaces o SCADA, no importa el nivel, primero se diseñen mockups, sencillos y preferiblemente colaborativos si se va a trabajar en proyectos, debido a que con el diseño inicial se puede plantear un diseño mínimo antes de ir generando sobre la marcha, un enfoque en para este proyecto no funcionó.
+                          </li>
+                        <li> Familiarizarse con las herramientas de diseño previo a la aplicación de ellas proveerá un manejo rápido y eficiente a la hora de usarlas.  </li>
+                      </ul>
+                      <h4>John S. Panche E.</h4>
+                      <ul >
+                        <li> Para el diseño de Celdas de Manufactura Robotizadas, es recomendable seguir una hoja de ruta a modo de guía para tener la seguridad de contar con toda la información necesaria por parte del cliente y el proceso actual antes de comenzar a plantear un diseño preliminar. Mucha de la información que puede parecer de poca importancia a primera vista y obviarse, puede terminar significando grandes cambios en el diseño completo de la celda. </li>
+                        <li> El uso de herramientas de software para el diseño y simulación como lo es el entorno de RobotStudio resultan de gran utilidad para lograr un primer acercamiento a la implementación real de la celda de trabajo, sin embargo, se debe ser consciente que las definiciones de puntos y trayectorias pueden depender de múltiples variables, y esta simulación sólo nos dará una aproximación al comportamiento del manipulador en una determinada tarea, siempre dependiente del nivel de detalle con que se haya construido la solución. </li>
+                      </ul>
+                      <h4>Ana M. Rodríguez R.</h4>
+                      <ul >
+                        <li> En los casos de comunicaciones OPC UA de ser posible es mejor conectarse directamente con el servidor OPC UA que viene incluido en Ignition, de esta manera se evita tener que duplicar tags en el local y en la nube. </li>
+                        <li> Plantear desde el comienzo patrones para el nombramiento de tags que permitan su parametrización, ayuda a la creación de pantallas HMI reusables y expandibles por otros modulos.</li>
+                      </ul>
+                      <h4>Camilo A. Zorro M.</h4>
+                      <ul >
+                        <li> ... </li>
+                        <li> ... </li>
+                        <li> ... </li>
+                      </ul>
+                  </div>
+                </div>
+              </div>
+    
+            </section>
+    
+    
+            <!-- FOOTER CONTACT -->
+    
+            <section id="footer">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-12 text-center">
+                    <p> TecnoBikes - 2021</p>
+                  </div>
+                </div>
+              </div>
+            </section>
           </div>
-        </section>
-      </div>
-
-
-
-    </div>
-
-
-  </div><!-- /.container-fluid -->
-
-
-</body>
-
-</html>
+    
+    
+    
+        </div>
+    
+    
+      </div><!-- /.container-fluid -->
+    
+    
+    </body>
+    
+    </html>
+    
